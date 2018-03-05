@@ -1,0 +1,4 @@
+<map id="xgboost::common::ConfigReaderBase" name="xgboost::common::ConfigReaderBase">
+<area shape="rect" id="node2" href="$classxgboost_1_1common_1_1ConfigStreamReader.html" title="an iterator use stream base, allows use all types of istream " alt="" coords="20,204,232,325"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1common_1_1ConfigIterator.html" title="an iterator that iterates over a configure file and gets the configures " alt="" coords="21,373,231,465"/>
+</map>

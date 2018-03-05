@@ -1,0 +1,4 @@
+<map id="xgboost::RegTree" name="xgboost::RegTree">
+<area shape="rect" id="node2" href="$classxgboost_1_1TreeModel.html" title="{xgboost::TreeModel\l\&lt; bst_float, RTreeNodeStat \&gt;\n|# nodes\l# deleted_nodes\l# stats\l# leaf_vector\l|+ ChangeToLeaf()\l+ CollapseToLeaf()\l+ TreeModel()\l+ operator[]()\l+ operator[]()\l+ GetNodes()\l+ stat()\l+ stat()\l+ leafvec()\l+ leafvec()\land 9 more...\l# AllocNode()\l# DeleteNode()\l}" alt="" coords="27,375,218,687"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1TreeParam.html" title="meta parameters of the tree " alt="" coords="5,132,240,312"/>
+</map>

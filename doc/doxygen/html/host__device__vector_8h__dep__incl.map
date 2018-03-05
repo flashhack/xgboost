@@ -1,0 +1,7 @@
+<map id="src/common/host_device_vector.h" name="src/common/host_device_vector.h">
+<area shape="rect" id="node2" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="107,102,286,129"/>
+<area shape="rect" id="node3" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="5,184,159,211"/>
+<area shape="rect" id="node5" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="310,102,489,129"/>
+<area shape="rect" id="node6" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="513,95,651,136"/>
+<area shape="rect" id="node4" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="56,259,223,285"/>
+</map>

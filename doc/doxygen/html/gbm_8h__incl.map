@@ -1,0 +1,7 @@
+<map id="include/xgboost/gbm.h" name="include/xgboost/gbm.h">
+<area shape="rect" id="node8" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="175,244,244,271"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="413,162,480,189"/>
+<area shape="rect" id="node16" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="333,80,424,107"/>
+<area shape="rect" id="node17" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="555,155,701,196"/>
+<area shape="rect" id="node20" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="877,162,989,189"/>
+</map>

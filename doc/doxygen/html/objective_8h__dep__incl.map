@@ -1,0 +1,4 @@
+<map id="include/xgboost/objective.h" name="include/xgboost/objective.h">
+<area shape="rect" id="node2" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node3" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="56,155,223,181"/>
+</map>

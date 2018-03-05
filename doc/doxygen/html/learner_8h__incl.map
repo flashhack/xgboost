@@ -1,0 +1,9 @@
+<map id="include/xgboost/learner.h" name="include/xgboost/learner.h">
+<area shape="rect" id="node6" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="1363,319,1433,345"/>
+<area shape="rect" id="node11" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="659,80,726,107"/>
+<area shape="rect" id="node18" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="755,155,846,181"/>
+<area shape="rect" id="node24" href="$metric_8h.html" title="interface of evaluation metric function supported in xgboost. " alt="" coords="1015,155,1093,181"/>
+<area shape="rect" id="node15" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="1193,237,1259,263"/>
+<area shape="rect" id="node19" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="382,229,529,271"/>
+<area shape="rect" id="node22" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="169,237,281,263"/>
+</map>

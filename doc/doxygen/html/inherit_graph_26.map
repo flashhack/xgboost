@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classxgboost_1_1common_1_1QuantileSketchTemplate.html" title="xgboost::common::Quantile\lSketchTemplate\&lt; DType,\l RType, WQSummary\&lt; DType,\l RType \&gt; \&gt;" alt="" coords="5,5,208,76"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1common_1_1WQuantileSketch.html" title="Quantile sketch use WQSummary. " alt="" coords="256,20,451,61"/>
+</map>

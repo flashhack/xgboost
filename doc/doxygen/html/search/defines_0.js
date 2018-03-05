@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['xgb_5fdll',['XGB_DLL',['../c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb',1,'c_api.h']]],
+  ['xgb_5fextern_5fc',['XGB_EXTERN_C',['../c__api_8h.html#a248de8cfec7adffba2cd10131c7b60db',1,'c_api.h']]],
+  ['xgboost_5falignas',['XGBOOST_ALIGNAS',['../base_8h.html#a455230ce10c8848604d32ac8f0d0394f',1,'base.h']]],
+  ['xgboost_5fcustomize_5fglobal_5fprng',['XGBOOST_CUSTOMIZE_GLOBAL_PRNG',['../base_8h.html#a0fd55d35d4be165cfd7e1e5522af18d7',1,'base.h']]],
+  ['xgboost_5fcustomize_5flogger',['XGBOOST_CUSTOMIZE_LOGGER',['../base_8h.html#a44398b6e3831360e01aef3792e53065a',1,'base.h']]],
+  ['xgboost_5fdevice',['XGBOOST_DEVICE',['../base_8h.html#aa33073da721ea3d200c808d1bf4b6099',1,'base.h']]],
+  ['xgboost_5flog_5fwith_5ftime',['XGBOOST_LOG_WITH_TIME',['../base_8h.html#a67f23a1f12343c36c685671aaec729d9',1,'base.h']]],
+  ['xgboost_5fparallel_5fsort',['XGBOOST_PARALLEL_SORT',['../base_8h.html#acaec540cedf0b2a0e1bddaab340557b5',1,'base.h']]],
+  ['xgboost_5fparallel_5fstable_5fsort',['XGBOOST_PARALLEL_STABLE_SORT',['../base_8h.html#a92d5e887aa3c2128c121e36c863d663a',1,'base.h']]],
+  ['xgboost_5fregister_5fgbm',['XGBOOST_REGISTER_GBM',['../gbm_8h.html#a9db692c93b2359817a1e0a787476a7c3',1,'gbm.h']]],
+  ['xgboost_5fregister_5flinear_5fupdater',['XGBOOST_REGISTER_LINEAR_UPDATER',['../linear__updater_8h.html#aabcddb06b5aade2ebbc594e2ea3c1e73',1,'linear_updater.h']]],
+  ['xgboost_5fregister_5fmetric',['XGBOOST_REGISTER_METRIC',['../metric_8h.html#a8b4d51cda0a3c27fc0fb65de36eaace3',1,'metric.h']]],
+  ['xgboost_5fregister_5fobjective',['XGBOOST_REGISTER_OBJECTIVE',['../objective_8h.html#a285f7f37a54f2ccd8539e4abc2b0da30',1,'objective.h']]],
+  ['xgboost_5fregister_5fpredictor',['XGBOOST_REGISTER_PREDICTOR',['../predictor_8h.html#aad03ca2db04c4125a673b4a6783f0b44',1,'predictor.h']]],
+  ['xgboost_5fregister_5ftree_5fupdater',['XGBOOST_REGISTER_TREE_UPDATER',['../tree__updater_8h.html#a88be05f0acfc0dcd0b73ccf01117fc6a',1,'tree_updater.h']]],
+  ['xgboost_5fstrict_5fr_5fmode',['XGBOOST_STRICT_R_MODE',['../base_8h.html#ae71e501c433e43c3015ab31a6bbc1942',1,'base.h']]],
+  ['xgboost_5ftype_5fswitch',['XGBOOST_TYPE_SWITCH',['../column__matrix_8h.html#a59b9ed4f69245858f1c5ffa696bff9a8',1,'column_matrix.h']]]
+];

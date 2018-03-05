@@ -1,0 +1,7 @@
+<map id="include/xgboost/tree_updater.h" name="include/xgboost/tree_updater.h">
+<area shape="rect" id="node7" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="461,259,530,285"/>
+<area shape="rect" id="node12" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="277,184,343,211"/>
+<area shape="rect" id="node16" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="808,102,913,129"/>
+<area shape="rect" id="node25" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="1465,95,1611,136"/>
+<area shape="rect" id="node24" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="1074,184,1186,211"/>
+</map>

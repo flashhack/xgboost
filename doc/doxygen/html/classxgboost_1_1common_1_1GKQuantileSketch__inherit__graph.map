@@ -1,0 +1,3 @@
+<map id="xgboost::common::GKQuantileSketch&lt; DType, RType &gt;" name="xgboost::common::GKQuantileSketch&lt; DType, RType &gt;">
+<area shape="rect" id="node2" href="$classxgboost_1_1common_1_1QuantileSketchTemplate.html" title="{xgboost::common::Quantile\lSketchTemplate\&lt; DType,\l RType, GKSummary\&lt; DType,\l RType \&gt; \&gt;\n|+ inqueue\l+ nlevel\l+ limit_size\l+ level\l+ data\l+ temp\l|+ Init()\l+ Push()\l+ PushTemp()\l+ GetSummary()\l+ CheckValid()\l+ InitLevel()\l}" alt="" coords="7,5,205,273"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classxgboost_1_1common_1_1ConfigReaderBase.html" title="base implementation of config reader " alt="" coords="5,13,247,39"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1common_1_1ConfigStreamReader.html" title="an iterator use stream base, allows use all types of istream " alt="" coords="295,5,507,47"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1common_1_1ConfigIterator.html" title="an iterator that iterates over a configure file and gets the configures " alt="" coords="555,13,765,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="xgboost::common::WQuantileSketch&lt; DType, RType &gt;" name="xgboost::common::WQuantileSketch&lt; DType, RType &gt;">
+<area shape="rect" id="node2" href="$classxgboost_1_1common_1_1QuantileSketchTemplate.html" title="{xgboost::common::Quantile\lSketchTemplate\&lt; DType,\l RType, WQSummary\&lt; DType,\l RType \&gt; \&gt;\n|+ inqueue\l+ nlevel\l+ limit_size\l+ level\l+ data\l|+ Init()\l+ Push()\l+ PushTemp()\l+ GetSummary()\l+ CheckValid()\l+ InitLevel()\l}" alt="" coords="37,404,239,657"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1common_1_1QuantileSketchTemplate_1_1SummaryContainer.html" title="same as summary, but use STL to backup the space " alt="" coords="5,132,271,341"/>
+</map>

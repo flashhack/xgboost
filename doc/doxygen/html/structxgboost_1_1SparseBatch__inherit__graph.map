@@ -1,0 +1,4 @@
+<map id="xgboost::SparseBatch" name="xgboost::SparseBatch">
+<area shape="rect" id="node2" href="$structxgboost_1_1ColBatch.html" title="read&#45;only column batch, used to access columns, the columns are not required to be continuous ..." alt="" coords="5,138,135,230"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1RowBatch.html" title="read&#45;only row batch, used to access row continuously " alt="" coords="159,131,293,237"/>
+</map>
