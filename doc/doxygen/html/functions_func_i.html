@@ -124,7 +124,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>info()
-: <a class="el" href="classxgboost_1_1DMatrix.html#a67d38ad5818b1a667a03ae6db492362b">xgboost::DMatrix</a>
+: <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#abbcc4f6a496be7e0fd000d06e8011caf">xgboost::data::SimpleDMatrix</a>
+, <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a4c756f735a9f0f368f1ea2b486a548ad">xgboost::data::SparsePageDMatrix</a>
+, <a class="el" href="classxgboost_1_1DMatrix.html#a8839f31db8a7401fdaffc95da180a770">xgboost::DMatrix</a>
 </li>
 <li>Init()
 : <a class="el" href="classxgboost_1_1common_1_1ColumnMatrix.html#a8a10cbcbddcf3dc3a6958e233d624fe6">xgboost::common::ColumnMatrix</a>
@@ -137,16 +139,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="structxgboost_1_1common_1_1Monitor.html#a50fc94b2e0a88bca00c79a7c02908fd1">xgboost::common::Monitor</a>
 , <a class="el" href="classxgboost_1_1common_1_1QuantileSketchTemplate.html#a59385272dc39df8a70fcac3ba48a7c7d">xgboost::common::QuantileSketchTemplate&lt; DType, RType, TSummary &gt;</a>
 , <a class="el" href="classxgboost_1_1common_1_1RowSetCollection.html#ab5a9ac5f947ee51578b42b4b18ec0f46">xgboost::common::RowSetCollection</a>
+, <a class="el" href="classxgboost_1_1linear_1_1CoordinateUpdater.html#a4c4589c6b35b6d8153df1ceb42c767be">xgboost::linear::CoordinateUpdater</a>
+, <a class="el" href="classxgboost_1_1linear_1_1ShotgunUpdater.html#a60c21fd86aad6052a1efc27bfc66eeb8">xgboost::linear::ShotgunUpdater</a>
 , <a class="el" href="classxgboost_1_1LinearUpdater.html#a375017bba4c961559070e69dd81f3465">xgboost::LinearUpdater</a>
 , <a class="el" href="classxgboost_1_1Predictor.html#a3102ac4ed183764ff0ea53d039a89f66">xgboost::Predictor</a>
 , <a class="el" href="structxgboost_1_1RegTree_1_1FVec.html#a912e3bfbbc0e80a0381babb503f4e4ce">xgboost::RegTree::FVec</a>
+, <a class="el" href="classxgboost_1_1tree_1_1BaseMaker.html#ae9c92e454be561627fe46feccefbdacb">xgboost::tree::BaseMaker</a>
+, <a class="el" href="structxgboost_1_1tree_1_1BaseMaker_1_1SketchEntry.html#afed5bc96b9d4d095d3616f5d8b64d1dc">xgboost::tree::BaseMaker::SketchEntry</a>
+, <a class="el" href="classxgboost_1_1tree_1_1ColMaker.html#a9b2cec09ca273c007bf7ff4b48bdb760">xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;</a>
+, <a class="el" href="classxgboost_1_1tree_1_1DistColMaker.html#a6f4e2c50a7c37919ad8cc33c97c2004e">xgboost::tree::DistColMaker&lt; TStats, TConstraint &gt;</a>
+, <a class="el" href="classxgboost_1_1tree_1_1FastHistMaker.html#aec4cadbd3bc2667fc1a41575c0db7bd6">xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;</a>
+, <a class="el" href="structxgboost_1_1tree_1_1HistMaker_1_1ThreadWSpace.html#a53d53462a85fe60c2073feb059b12f97">xgboost::tree::HistMaker&lt; TStats &gt;::ThreadWSpace</a>
+, <a class="el" href="structxgboost_1_1tree_1_1NoConstraint.html#a27adf8622461a186396bb97f9d57d31c">xgboost::tree::NoConstraint</a>
+, <a class="el" href="classxgboost_1_1tree_1_1TreePruner.html#a2670f8acb72292b7e7139eba2bf2f221">xgboost::tree::TreePruner</a>
+, <a class="el" href="classxgboost_1_1tree_1_1TreeRefresher.html#a5d434382705e027fee25debf7e1e0501">xgboost::tree::TreeRefresher&lt; TStats &gt;</a>
+, <a class="el" href="classxgboost_1_1tree_1_1TreeSyncher.html#a25051e8fa91a5d7e4c96ad6080a9ae76">xgboost::tree::TreeSyncher</a>
+, <a class="el" href="classxgboost_1_1tree_1_1TreeUpdaterSwitch.html#aa5bedb5002e3a38cee1d15b23a2753c3">xgboost::tree::TreeUpdaterSwitch</a>
+, <a class="el" href="structxgboost_1_1tree_1_1ValueConstraint.html#a572d6c21a1b55b0d6eb509cb2457a8af">xgboost::tree::ValueConstraint</a>
 , <a class="el" href="classxgboost_1_1TreeUpdater.html#a5c0beefdea4b0f6706ec18a39684b8e7">xgboost::TreeUpdater</a>
 </li>
 <li>InitBudget()
 : <a class="el" href="structxgboost_1_1common_1_1ParallelGroupBuilder.html#a58882696092b18e49b8ed236bb9e1703">xgboost::common::ParallelGroupBuilder&lt; ValueType, SizeType &gt;</a>
 </li>
+<li>InitByCol()
+: <a class="el" href="structxgboost_1_1tree_1_1BaseMaker_1_1FMetaHelper.html#ab030978f0f0ab78382b1fda36de73e85">xgboost::tree::BaseMaker::FMetaHelper</a>
+</li>
+<li>InitCache()
+: <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a0e3eb2ff6eb36fd222602041cbf7b28f">xgboost::gbm::GBTree</a>
+</li>
 <li>InitColAccess()
-: <a class="el" href="classxgboost_1_1DMatrix.html#a58adac2ef52986296ed24ff0419a4305">xgboost::DMatrix</a>
+: <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#aac6fa1662a282755fd88e9874b54c8c7">xgboost::data::SimpleDMatrix</a>
+, <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a366753d607206aa8eab0f3061ae70fdd">xgboost::data::SparsePageDMatrix</a>
+, <a class="el" href="classxgboost_1_1DMatrix.html#a58adac2ef52986296ed24ff0419a4305">xgboost::DMatrix</a>
+</li>
+<li>InitData()
+: <a class="el" href="classxgboost_1_1tree_1_1BaseMaker.html#ab357abe6dbea699c341426bb98f42c77">xgboost::tree::BaseMaker</a>
+, <a class="el" href="structxgboost_1_1tree_1_1ColMaker_1_1Builder.html#a7637ee9152deda7d3896ce70e2ff416b">xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;::Builder</a>
+, <a class="el" href="structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#aab459a5790be6ed7243dfa12b8495002">xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;::Builder</a>
 </li>
 <li>InitFromBool()
 : <a class="el" href="structxgboost_1_1common_1_1BitMap.html#a060cdef2e9a12c7d99591183c7fbcf90">xgboost::common::BitMap</a>
@@ -156,7 +185,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>InitModel()
 : <a class="el" href="classxgboost_1_1Learner.html#a5187fe57a9dae50c02d33dd0e89f7892">xgboost::Learner</a>
+, <a class="el" href="classxgboost_1_1LearnerImpl.html#a2069402fcb99ceafd4d6391bf069d512">xgboost::LearnerImpl</a>
 , <a class="el" href="classxgboost_1_1TreeModel.html#af7142c5d57edc498566e1cbf80b49070">xgboost::TreeModel&lt; TSplitCond, TNodeStat &gt;</a>
+</li>
+<li>InitNewNode()
+: <a class="el" href="structxgboost_1_1tree_1_1ColMaker_1_1Builder.html#a0022d9e3b8834fc71dcdad4e2ad678f0">xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;::Builder</a>
+, <a class="el" href="structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#a9142f528d1a1a557baba77f7443d5ac1">xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;::Builder</a>
+</li>
+<li>InitOutPredictions()
+: <a class="el" href="classxgboost_1_1predictor_1_1CPUPredictor.html#ad4598497213d43942cb85eb4c123dbc7">xgboost::predictor::CPUPredictor</a>
 </li>
 <li>InitPosition()
 : <a class="el" href="classxgboost_1_1common_1_1Base64InStream.html#a578142892667366b5ce41a0e6c62dded">xgboost::common::Base64InStream</a>
@@ -164,8 +201,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>InitStorage()
 : <a class="el" href="structxgboost_1_1common_1_1ParallelGroupBuilder.html#a297cd2728166e3b9d79965e2244e63f8">xgboost::common::ParallelGroupBuilder&lt; ValueType, SizeType &gt;</a>
 </li>
+<li>InitThreadTemp()
+: <a class="el" href="classxgboost_1_1gbm_1_1Dart.html#aa1aa12126e73010271aa6de148e82109">xgboost::gbm::Dart</a>
+, <a class="el" href="classxgboost_1_1predictor_1_1CPUPredictor.html#a906d14315fc65d44971142bdbe2828c3">xgboost::predictor::CPUPredictor</a>
+</li>
+<li>InitTreesToUpdate()
+: <a class="el" href="structxgboost_1_1gbm_1_1GBTreeModel.html#ac3da25c4d70f25dec935ef10e07c2380">xgboost::gbm::GBTreeModel</a>
+</li>
+<li>InitUpdater()
+: <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#ae3a7f81678c5a067e02ac0e402b571ec">xgboost::gbm::GBTree</a>
+</li>
+<li>InitWorkSet()
+: <a class="el" href="classxgboost_1_1tree_1_1CQHistMaker.html#aff94c3db0deadac86a3833d21096fb6d">xgboost::tree::CQHistMaker&lt; TStats &gt;</a>
+, <a class="el" href="classxgboost_1_1tree_1_1HistMaker.html#ad6a402bd6b66ea8e73a3ba792e44bd9a">xgboost::tree::HistMaker&lt; TStats &gt;</a>
+</li>
 <li>Inst()
-: <a class="el" href="structxgboost_1_1SparseBatch_1_1Inst.html#ae9d172b6a31eb6ff5914f6c0c4ae99c2">xgboost::SparseBatch::Inst</a>
+: <a class="el" href="structxgboost_1_1SparseBatch_1_1Inst.html#ae68ab2f8949abdea72404c824916f4ad">xgboost::SparseBatch::Inst</a>
 </li>
 <li>is_deleted()
 : <a class="el" href="classxgboost_1_1TreeModel_1_1Node.html#ad6ba45609aa7222d74fe78dafd1b14f0">xgboost::TreeModel&lt; TSplitCond, TNodeStat &gt;::Node</a>
@@ -193,7 +244,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 5 2018 16:09:19 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 6 2018 15:06:50 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

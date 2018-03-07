@@ -1,6 +1,20 @@
 var searchData=
 [
-  ['max_5fdepth',['max_depth',['../structxgboost_1_1TreeParam.html#a749288eca976c47fb1bee908aa8e1eb0',1,'xgboost::TreeParam']]],
-  ['metrics_5f',['metrics_',['../classxgboost_1_1Learner.html#a1fa43f44388d57b79617ae9d3c3338eb',1,'xgboost::Learner']]],
-  ['min_5fval',['min_val',['../structxgboost_1_1common_1_1HistCutMatrix.html#a2ab76c2ac3fc75b3fa72cb6aeb021a2b',1,'xgboost::common::HistCutMatrix']]]
+  ['label',['label',['../structXGBoostBatchCSR.html#a03112d2712e7478f5447d7c6b8c8accb',1,'XGBoostBatchCSR::label()'],['../structxgboost_1_1common_1_1Monitor.html#a9247ef94f424fafaec39fd8eb4a822ac',1,'xgboost::common::Monitor::label()'],['../structxgboost_1_1obj_1_1LambdaRankObj_1_1ListEntry.html#a0b1426635580463bca34b4a665774cad',1,'xgboost::obj::LambdaRankObj::ListEntry::label()']]],
+  ['labels',['labels',['../structxgboost_1_1MetaInfo.html#af6c22dcaec34c5fdfcbac9f1d1bc441d',1,'xgboost::MetaInfo']]],
+  ['labels_5fchecked',['labels_checked',['../classxgboost_1_1obj_1_1RegLossObj.html#aed9517fe4c90ae02cc1dc9cd1155f764',1,'xgboost::obj::RegLossObj']]],
+  ['last_5ferror',['last_error',['../structXGBAPIErrorEntry.html#af6a3107f4303754615791e8fc1ff984e',1,'XGBAPIErrorEntry']]],
+  ['last_5ffvalue',['last_fvalue',['../structxgboost_1_1tree_1_1BaseMaker_1_1SketchEntry.html#ab0ee304b46280cf18a34b18f7a6384cf',1,'xgboost::tree::BaseMaker::SketchEntry::last_fvalue()'],['../structxgboost_1_1tree_1_1ColMaker_1_1ThreadEntry.html#ac4b43d7821a73e2e854a18282eb3f21c',1,'xgboost::tree::ColMaker::ThreadEntry::last_fvalue()']]],
+  ['leaf_5fchild_5fcnt',['leaf_child_cnt',['../structxgboost_1_1RTreeNodeStat.html#a6ce56174181a72bfc639e3278f6128c4',1,'xgboost::RTreeNodeStat']]],
+  ['leaf_5fvalue_5fcache_5f',['leaf_value_cache_',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#aac7b2af4a5a76fd6f2f15bf5f02012e1',1,'xgboost::tree::FastHistMaker::Builder']]],
+  ['leaf_5fvector',['leaf_vector',['../classxgboost_1_1TreeModel.html#a9f7fed706b389f2f9059acf8183b3e9b',1,'xgboost::TreeModel']]],
+  ['learner_5f',['learner_',['../classxgboost_1_1Booster.html#a263d535736d56dee9e9df92accfa4537',1,'xgboost::Booster']]],
+  ['learning_5frate',['learning_rate',['../structxgboost_1_1gbm_1_1DartTrainParam.html#a6dd6f540c5a5e65fcb66fbd84765a8c7',1,'xgboost::gbm::DartTrainParam::learning_rate()'],['../structxgboost_1_1linear_1_1CoordinateTrainParam.html#a9ea0589a3a1fecd5adbc4de2f4180ca3',1,'xgboost::linear::CoordinateTrainParam::learning_rate()'],['../structxgboost_1_1linear_1_1ShotgunTrainParam.html#ac16efcb32f57ed835c13938a4ca2517c',1,'xgboost::linear::ShotgunTrainParam::learning_rate()'],['../structxgboost_1_1tree_1_1TrainParam.html#a43bf7805205da35cd0a0366d47dc11f6',1,'xgboost::tree::TrainParam::learning_rate()']]],
+  ['left',['left',['../structxgboost_1_1common_1_1RowSetCollection_1_1Split.html#a3a6cad18fc37dd8a9262b3f4f13b0b05',1,'xgboost::common::RowSetCollection::Split']]],
+  ['len',['len',['../classxgboost_1_1common_1_1Column.html#ab55037794cfbe1adf52280ff47fe5c3c',1,'xgboost::common::Column']]],
+  ['length',['length',['../structxgboost_1_1SparseBatch_1_1Inst.html#ad43ac3aed7602ed8d1392d2eec57e8d6',1,'xgboost::SparseBatch::Inst']]],
+  ['level',['level',['../classxgboost_1_1common_1_1QuantileSketchTemplate.html#aee15fb7719f18108f37b02ddefe73680',1,'xgboost::common::QuantileSketchTemplate']]],
+  ['limit_5fsize',['limit_size',['../classxgboost_1_1common_1_1QuantileSketchTemplate.html#a9269ef441aff289ed78f1f61a8d9eefe',1,'xgboost::common::QuantileSketchTemplate']]],
+  ['loss_5fchg',['loss_chg',['../structxgboost_1_1RTreeNodeStat.html#a2a0a58fc51332d5e34fe79a57221c3d5',1,'xgboost::RTreeNodeStat::loss_chg()'],['../structxgboost_1_1tree_1_1SplitEntry.html#aece3d92f4e6320f23ad9b2802538c6e3',1,'xgboost::tree::SplitEntry::loss_chg()'],['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder_1_1ExpandEntry.html#a2a61634d045184ce7fb0f71a67f7eed3',1,'xgboost::tree::FastHistMaker::Builder::ExpandEntry::loss_chg()']]],
+  ['lower_5fbound',['lower_bound',['../structxgboost_1_1tree_1_1ValueConstraint.html#a8f856c023a43e0d8f466c667f31c30f4',1,'xgboost::tree::ValueConstraint']]]
 ];

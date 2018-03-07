@@ -1,5 +1,6 @@
 <map id="src/common/hist_util.h" name="src/common/hist_util.h">
 <area shape="rect" id="node2" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="303,155,411,181"/>
 <area shape="rect" id="node14" href="$row__set_8h.html" title="Quick Utility to compute subset of rows. " alt="" coords="503,80,581,107"/>
+<area shape="rect" id="node16" href="$fast__hist__param_8h.html" title="../tree/fast_hist_param.h" alt="" coords="683,80,846,107"/>
 <area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="322,229,391,256"/>
 </map>

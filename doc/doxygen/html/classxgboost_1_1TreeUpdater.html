@@ -101,6 +101,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><code>#include &lt;<a class="el" href="tree__updater_8h_source.html">tree_updater.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for xgboost::TreeUpdater:</div>
+<div class="dyncontent">
+<div class="center"><img src="classxgboost_1_1TreeUpdater__inherit__graph.png" border="0" usemap="#xgboost_1_1TreeUpdater_inherit__map" alt="Inheritance graph"/></div>
+<map name="xgboost_1_1TreeUpdater_inherit__map" id="xgboost_1_1TreeUpdater_inherit__map">
+<area shape="rect" id="node2" href="classxgboost_1_1tree_1_1BaseMaker.html" title="base tree maker class that defines common operation needed in tree making " alt="" coords="313,189,503,487"/><area shape="rect" id="node8" href="classxgboost_1_1tree_1_1ColMaker.html" title="column&#45;wise update to construct a tree " alt="" coords="531,285,693,391"/><area shape="rect" id="node10" href="classxgboost_1_1tree_1_1FastHistMaker.html" title="construct a tree using quantized feature values " alt="" coords="717,219,907,457"/><area shape="rect" id="node11" href="classxgboost_1_1tree_1_1TreePruner.html" title="pruner that prunes a tree after growing finishes " alt="" coords="931,285,1101,391"/><area shape="rect" id="node12" href="classxgboost_1_1tree_1_1TreeRefresher.html" title="pruner that prunes a tree after growing finishs " alt="" coords="1125,285,1312,391"/><area shape="rect" id="node13" href="classxgboost_1_1tree_1_1TreeSyncher.html" title="syncher that synchronize the tree in all distributed nodes can implement various strategies, so far it is always set to node 0&#39;s tree " alt="" coords="1336,292,1515,384"/><area shape="rect" id="node14" href="classxgboost_1_1tree_1_1TreeUpdaterSwitch.html" title="{xgboost::tree::TreeUpdater\lSwitch\n||+ TreeUpdaterSwitch()\l+ Init()\l+ Update()\l}" alt="" coords="1539,277,1715,399"/><area shape="rect" id="node3" href="classxgboost_1_1tree_1_1HistMaker.html" title="{xgboost::tree::HistMaker\l\&lt; TStats \&gt;\n|# wspace\l# histred\l# fwork_set\l|+ Update()\l# Update()\l# ResetPosAndPropose()\l# InitWorkSet()\l# ResetPositionAfterSplit()\l# CreateHist()\l}" alt="" coords="118,535,293,729"/><area shape="rect" id="node7" href="classxgboost_1_1tree_1_1SketchMaker.html" title="{xgboost::tree::SketchMaker\n||+ Update()\l# Update()\l}" alt="" coords="317,586,499,678"/><area shape="rect" id="node4" href="classxgboost_1_1tree_1_1CQHistMaker.html" title="{xgboost::tree::CQHistMaker\l\&lt; TStats \&gt;\n|# cache_dmatrix_\l# feat_helper\l# feat2workindex\l# work_set\l# fsplit_set\l# thread_sketch\l# thread_stats\l# thread_hist\l# node_stats\l# summary_array\l# sreducer\l# sketchs\l|+ CQHistMaker()\l# InitWorkSet()\l# CreateHist()\l# ResetPositionAfterSplit()\l# ResetPosAndPropose()\l# UpdateHistCol()\l# UpdateSketchCol()\l}" alt="" coords="11,777,195,1119"/><area shape="rect" id="node6" href="classxgboost_1_1tree_1_1QuantileHistMaker.html" title="{xgboost::tree::QuantileHist\lMaker\&lt; TStats \&gt;\n||# ResetPosAndPropose()\l}" alt="" coords="219,902,397,994"/><area shape="rect" id="node5" href="classxgboost_1_1tree_1_1GlobalProposalHistMaker.html" title="{xgboost::tree::GlobalProposal\lHistMaker\&lt; TStats \&gt;\n|# cached_rptr_\l# cached_cut_\l|# ResetPosAndPropose()\l# CreateHist()\l}" alt="" coords="5,1167,200,1288"/><area shape="rect" id="node9" href="classxgboost_1_1tree_1_1DistColMaker.html" title="{xgboost::tree::DistColMaker\l\&lt; TStats, TConstraint \&gt;\n||+ DistColMaker()\l+ Init()\l+ Update()\l}" alt="" coords="524,571,708,693"/></map>
+</div>
+<div class="dynheader">
 Collaboration diagram for xgboost::TreeUpdater:</div>
 <div class="dyncontent">
 <div class="center"><img src="classxgboost_1_1TreeUpdater__coll__graph.png" border="0" usemap="#xgboost_1_1TreeUpdater_coll__map" alt="Collaboration graph"/></div>
@@ -125,9 +132,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af1f1968432795e76b63ba72a617638ab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1TreeUpdater.html">TreeUpdater</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1TreeUpdater.html#af1f1968432795e76b63ba72a617638ab">Create</a> (const std::string &amp;name)</td></tr>
-<tr class="memdesc:af1f1968432795e76b63ba72a617638ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a tree updater given name.  <a href="#af1f1968432795e76b63ba72a617638ab">More...</a><br /></td></tr>
-<tr class="separator:af1f1968432795e76b63ba72a617638ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e68b17bf945bae6878059600f35920c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1TreeUpdater.html">TreeUpdater</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1TreeUpdater.html#a2e68b17bf945bae6878059600f35920c">Create</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a2e68b17bf945bae6878059600f35920c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a tree updater given name.  <a href="#a2e68b17bf945bae6878059600f35920c">More...</a><br /></td></tr>
+<tr class="separator:a2e68b17bf945bae6878059600f35920c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>interface of tree update module, that performs update of a tree. </p>
@@ -158,7 +165,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af1f1968432795e76b63ba72a617638ab"></a>
+<a class="anchor" id="a2e68b17bf945bae6878059600f35920c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -166,7 +173,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classxgboost_1_1TreeUpdater.html">TreeUpdater</a>* xgboost::TreeUpdater::Create </td>
+          <td class="memname"><a class="el" href="classxgboost_1_1TreeUpdater.html">TreeUpdater</a> * xgboost::TreeUpdater::Create </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -220,6 +227,8 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1tree_1_1TreeUpdaterSwitch.html#aa5bedb5002e3a38cee1d15b23a2753c3">xgboost::tree::TreeUpdaterSwitch</a>, <a class="el" href="classxgboost_1_1tree_1_1DistColMaker.html#a6f4e2c50a7c37919ad8cc33c97c2004e">xgboost::tree::DistColMaker&lt; TStats, TConstraint &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1FastHistMaker.html#aec4cadbd3bc2667fc1a41575c0db7bd6">xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1BaseMaker.html#ae9c92e454be561627fe46feccefbdacb">xgboost::tree::BaseMaker</a>, <a class="el" href="classxgboost_1_1tree_1_1TreePruner.html#a2670f8acb72292b7e7139eba2bf2f221">xgboost::tree::TreePruner</a>, <a class="el" href="classxgboost_1_1tree_1_1ColMaker.html#a9b2cec09ca273c007bf7ff4b48bdb760">xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1TreeRefresher.html#a5d434382705e027fee25debf7e1e0501">xgboost::tree::TreeRefresher&lt; TStats &gt;</a>, and <a class="el" href="classxgboost_1_1tree_1_1TreeSyncher.html#a25051e8fa91a5d7e4c96ad6080a9ae76">xgboost::tree::TreeSyncher</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8b9d04e0272d24af0535525eba60c5ab"></a>
@@ -270,6 +279,8 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1tree_1_1TreeUpdaterSwitch.html#afc324426dab072f99ea1d6c9ea2a7228">xgboost::tree::TreeUpdaterSwitch</a>, <a class="el" href="classxgboost_1_1tree_1_1DistColMaker.html#af9f80e9f90595eb587f63fd1112bcfdf">xgboost::tree::DistColMaker&lt; TStats, TConstraint &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1FastHistMaker.html#a1663537fed3a394db5262a0ec8d31667">xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1TreePruner.html#ae918bd6627a1c7280d46fb001c119bdc">xgboost::tree::TreePruner</a>, <a class="el" href="classxgboost_1_1tree_1_1ColMaker.html#a936907b47f38a52c6cecfcbc2314fe18">xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1TreeRefresher.html#abee6597a68e17faa142e716c1a236a5d">xgboost::tree::TreeRefresher&lt; TStats &gt;</a>, <a class="el" href="classxgboost_1_1tree_1_1TreeSyncher.html#a811f0d38dd0e0308d263c1c79ae8abfd">xgboost::tree::TreeSyncher</a>, <a class="el" href="classxgboost_1_1tree_1_1SketchMaker.html#ae7d4f2a68c11dcf9f67a81f6ee6c5692">xgboost::tree::SketchMaker</a>, and <a class="el" href="classxgboost_1_1tree_1_1HistMaker.html#aca14454c2388ad528dec79f013a39e5f">xgboost::tree::HistMaker&lt; TStats &gt;</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aab5f4c8bf6af56f8f7da229942e65dbe"></a>
@@ -314,15 +325,18 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean indicating whether updater has capability to update the prediction cache. If true, the prediction cache will have been updated by the time this function returns. </dd></dl>
 
+<p>Reimplemented in <a class="el" href="classxgboost_1_1tree_1_1FastHistMaker.html#a7bfa985d1a4a1ac73c3b803fb01c9b71">xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;</a>.</p>
+
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/xgboost/<a class="el" href="tree__updater_8h_source.html">tree_updater.h</a></li>
+<li>src/tree/<a class="el" href="tree__updater_8cc.html">tree_updater.cc</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 5 2018 16:09:19 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 6 2018 15:06:48 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

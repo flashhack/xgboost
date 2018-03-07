@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['treemodel_3c_20tsplitcond_2c_20tnodestat_20_3e',['TreeModel&lt; TSplitCond, TNodeStat &gt;',['../classxgboost_1_1TreeModel_1_1Node.html#aa3c5ce8aef794cacbc8067646c12e397',1,'xgboost::TreeModel::Node']]]
+  ['operator_3c_3c',['operator&lt;&lt;',['../classxgboost_1_1detail_1_1bst__gpair__internal.html#af463f0c6c42a314cf07a9b2687e1841e',1,'xgboost::detail::bst_gpair_internal']]]
 ];

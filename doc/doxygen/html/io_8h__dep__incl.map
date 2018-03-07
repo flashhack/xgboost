@@ -1,3 +1,11 @@
 <map id="src/common/io.h" name="src/common/io.h">
-<area shape="rect" id="node2" href="$base64_8h.html" title="data stream support to input and output from/to base64 stream base64 is easier to store and pass as t..." alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node2" href="$base64_8h.html" title="data stream support to input and output from/to base64 stream base64 is easier to store and pass as t..." alt="" coords="5,87,156,114"/>
+<area shape="rect" id="node3" href="$data_8cc.html" title="src/data/data.cc" alt="" coords="180,87,296,114"/>
+<area shape="rect" id="node4" href="$learner_8cc.html" title="Implementation of learning algorithm. " alt="" coords="321,87,422,114"/>
+<area shape="rect" id="node5" href="$updater__basemaker-inl_8h.html" title="implement a common tree constructor " alt="" coords="446,80,630,121"/>
+<area shape="rect" id="node8" href="$updater__prune_8cc.html" title="prune a tree given the statistics " alt="" coords="654,87,825,114"/>
+<area shape="rect" id="node9" href="$updater__refresh_8cc.html" title="refresh the statistics and leaf value on the tree on the dataset " alt="" coords="849,87,1027,114"/>
+<area shape="rect" id="node10" href="$updater__sync_8cc.html" title="synchronize the tree in all distributed nodes " alt="" coords="1051,87,1217,114"/>
+<area shape="rect" id="node6" href="$updater__histmaker_8cc.html" title="use histogram counting to construct a tree " alt="" coords="333,169,527,196"/>
+<area shape="rect" id="node7" href="$updater__skmaker_8cc.html" title="use approximation sketch to construct a tree, a refresh is needed to make the statistics exactly corr..." alt="" coords="552,169,740,196"/>
 </map>

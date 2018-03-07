@@ -1,13 +1,23 @@
 var searchData=
 [
+  ['kdefault',['kDefault',['../namespacexgboost_1_1gbm.html#a2bb715af5c2b02199e29c730179fab46ac2e56480fd8ba33ab8fc30036b0b60ed',1,'xgboost::gbm']]],
   ['kdensecolumn',['kDenseColumn',['../namespacexgboost_1_1common.html#a19cf94427c02d638e1475c55c91b2337a341dd18c23c17c7c9ea5fa78d7f6d876',1,'xgboost::common']]],
+  ['kdensedataonebased',['kDenseDataOneBased',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#aa02a807c280642c64178e7bd0cd63376ad664d0e901da535a76d5b2d3050c027c',1,'xgboost::tree::FastHistMaker::Builder']]],
+  ['kdensedatazerobased',['kDenseDataZeroBased',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#aa02a807c280642c64178e7bd0cd63376a64b6859da7b687b901ea44650b931372',1,'xgboost::tree::FastHistMaker::Builder']]],
+  ['kdepthwise',['kDepthWise',['../structxgboost_1_1tree_1_1TrainParam.html#a71d252bf4d50243918bf9335ee2d08e3aa6e06a0169d5993fe2d76ec89b3d2fc2',1,'xgboost::tree::TrainParam']]],
   ['kdouble',['kDouble',['../namespacexgboost.html#a52a00c8ce754affe0df6e4b8e4e858a1a4e59730f782b8c56d7fc77cbbad82ae8',1,'xgboost']]],
+  ['kdumpmodel',['kDumpModel',['../namespacexgboost.html#a5f5c92845b34f16eda84aeca7bee8f27aa6e96614d4183b307bab42b77da04f0a',1,'xgboost']]],
   ['kfloat',['kFloat',['../classxgboost_1_1FeatureMap.html#a3b531c2db313055b34a3ddd40d8a35f3a66cc64f34b8513a6f779506c1d88fbb7',1,'xgboost::FeatureMap']]],
   ['kfloat32',['kFloat32',['../namespacexgboost.html#a52a00c8ce754affe0df6e4b8e4e858a1a1a2c2f87b2a7ba73207fade6b363afc5',1,'xgboost']]],
   ['kindicator',['kIndicator',['../classxgboost_1_1FeatureMap.html#a3b531c2db313055b34a3ddd40d8a35f3a70776fb5d3686d2bd92d25400166a27c',1,'xgboost::FeatureMap']]],
   ['kinteger',['kInteger',['../classxgboost_1_1FeatureMap.html#a3b531c2db313055b34a3ddd40d8a35f3ac95c8f7dbdbb2a5a06a95f27d118480d',1,'xgboost::FeatureMap']]],
+  ['klossguide',['kLossGuide',['../structxgboost_1_1tree_1_1TrainParam.html#a71d252bf4d50243918bf9335ee2d08e3aa70455ede7dfc417d0ccea31719842e8',1,'xgboost::tree::TrainParam']]],
+  ['kpredict',['kPredict',['../namespacexgboost.html#a5f5c92845b34f16eda84aeca7bee8f27a9ff7d8e1004ec74865550eba579c709a',1,'xgboost']]],
   ['kquantitive',['kQuantitive',['../classxgboost_1_1FeatureMap.html#a3b531c2db313055b34a3ddd40d8a35f3a6599fca4c0f5039be3d11ca8cbbac4eb',1,'xgboost::FeatureMap']]],
   ['ksparsecolumn',['kSparseColumn',['../namespacexgboost_1_1common.html#a19cf94427c02d638e1475c55c91b2337a256979ebe4922f110e78f1baf76241e5',1,'xgboost::common']]],
+  ['ksparsedata',['kSparseData',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#aa02a807c280642c64178e7bd0cd63376a83b7ba283da3890c09ece14d8b8fe1c8',1,'xgboost::tree::FastHistMaker::Builder']]],
+  ['ktrain',['kTrain',['../namespacexgboost.html#a5f5c92845b34f16eda84aeca7bee8f27aa41dae7b06e5bc3ecfc5dcf36b63114d',1,'xgboost']]],
   ['kuint32',['kUInt32',['../namespacexgboost.html#a52a00c8ce754affe0df6e4b8e4e858a1afac80770f24b6e7d694b1b99ba476c71',1,'xgboost']]],
-  ['kuint64',['kUInt64',['../namespacexgboost.html#a52a00c8ce754affe0df6e4b8e4e858a1aaddc8abb634f2b178ad94bbee75e503f',1,'xgboost']]]
+  ['kuint64',['kUInt64',['../namespacexgboost.html#a52a00c8ce754affe0df6e4b8e4e858a1aaddc8abb634f2b178ad94bbee75e503f',1,'xgboost']]],
+  ['kupdate',['kUpdate',['../namespacexgboost_1_1gbm.html#a2bb715af5c2b02199e29c730179fab46a31a91fa8c1bb00aaf853b3a1265b0bd8',1,'xgboost::gbm']]]
 ];

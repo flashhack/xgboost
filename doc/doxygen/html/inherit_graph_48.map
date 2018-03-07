@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classxgboost_1_1LinearUpdater.html" title="interface of linear updater " alt="" coords="5,5,161,32"/>
+<area shape="rect" id="node1" href="$classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D..." alt="" coords="5,35,127,61"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1data_1_1SimpleDMatrix.html" title="xgboost::data::SimpleDMatrix" alt="" coords="175,5,369,32"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1data_1_1SparsePageDMatrix.html" title="xgboost::data::SparsePage\lDMatrix" alt="" coords="182,57,362,98"/>
 </map>

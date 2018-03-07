@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" href="$classxgboost_1_1LinearUpdater.html" title="interface of linear updater " alt="" coords="5,46,161,73"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1linear_1_1CoordinateUpdater.html" title="Coordinate descent algorithm that updates one feature per iteration. " alt="" coords="209,5,387,47"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1linear_1_1ShotgunUpdater.html" title="xgboost::linear::Shotgun\lUpdater" alt="" coords="217,71,379,112"/>
 </map>

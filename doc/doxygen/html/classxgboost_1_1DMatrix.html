@@ -102,6 +102,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><code>#include &lt;<a class="el" href="data_8h_source.html">data.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for xgboost::DMatrix:</div>
+<div class="dyncontent">
+<div class="center"><img src="classxgboost_1_1DMatrix__inherit__graph.png" border="0" usemap="#xgboost_1_1DMatrix_inherit__map" alt="Inheritance graph"/></div>
+<map name="xgboost_1_1DMatrix_inherit__map" id="xgboost_1_1DMatrix_inherit__map">
+<area shape="rect" id="node2" href="classxgboost_1_1data_1_1SimpleDMatrix.html" title="{xgboost::data::SimpleDMatrix\n||+ SimpleDMatrix()\l+ info()\l+ info()\l+ RowIterator()\l+ HaveColAccess()\l+ buffered_rowset()\l+ GetColSize()\l+ GetColDensity()\l+ ColIterator()\l+ ColIterator()\l+ InitColAccess()\l+ SingleColBlock()\l}" alt="" coords="5,380,200,619"/><area shape="rect" id="node3" href="classxgboost_1_1data_1_1SparsePageDMatrix.html" title="{xgboost::data::SparsePage\lDMatrix\n|+ kPageSize\l+ kMaxRowPerBatch\l|+ SparsePageDMatrix()\l+ info()\l+ info()\l+ RowIterator()\l+ HaveColAccess()\l+ buffered_rowset()\l+ GetColSize()\l+ GetColDensity()\l+ SingleColBlock()\l+ ColIterator()\l+ ColIterator()\l+ InitColAccess()\l}" alt="" coords="225,365,405,633"/></map>
+</div>
+<div class="dynheader">
 Collaboration diagram for xgboost::DMatrix:</div>
 <div class="dyncontent">
 <div class="center"><img src="classxgboost_1_1DMatrix__coll__graph.png" border="0" usemap="#xgboost_1_1DMatrix_coll__map" alt="Collaboration graph"/></div>
@@ -147,21 +154,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60b86e97f1a246c797b12f31a3e022c2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a60b86e97f1a246c797b12f31a3e022c2">~DMatrix</a> ()</td></tr>
 <tr class="memdesc:a60b86e97f1a246c797b12f31a3e022c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual destructor  <a href="#a60b86e97f1a246c797b12f31a3e022c2">More...</a><br /></td></tr>
 <tr class="separator:a60b86e97f1a246c797b12f31a3e022c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b1ea1423d6fc0a9ba20aedda084673"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#ae4b1ea1423d6fc0a9ba20aedda084673">SaveToLocalFile</a> (const std::string &amp;fname)</td></tr>
-<tr class="memdesc:ae4b1ea1423d6fc0a9ba20aedda084673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> to local file. The saved file only works for non-sharded dataset(single machine training). This API is deprecated and dis-encouraged to use.  <a href="#ae4b1ea1423d6fc0a9ba20aedda084673">More...</a><br /></td></tr>
-<tr class="separator:ae4b1ea1423d6fc0a9ba20aedda084673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562d53fe946e33d747f91f676bfa1daa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a562d53fe946e33d747f91f676bfa1daa">SaveToLocalFile</a> (const std::string &amp;fname)</td></tr>
+<tr class="memdesc:a562d53fe946e33d747f91f676bfa1daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> to local file. The saved file only works for non-sharded dataset(single machine training). This API is deprecated and dis-encouraged to use.  <a href="#a562d53fe946e33d747f91f676bfa1daa">More...</a><br /></td></tr>
+<tr class="separator:a562d53fe946e33d747f91f676bfa1daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a43749cde190ccc6248bcb6afc239d9bb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a43749cde190ccc6248bcb6afc239d9bb">Load</a> (const std::string &amp;uri, bool silent, bool load_row_split, const std::string &amp;file_format=&quot;auto&quot;)</td></tr>
-<tr class="memdesc:a43749cde190ccc6248bcb6afc239d9bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> from URI.  <a href="#a43749cde190ccc6248bcb6afc239d9bb">More...</a><br /></td></tr>
-<tr class="separator:a43749cde190ccc6248bcb6afc239d9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95bf8529d3d565e1fae294e94ac99409"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a95bf8529d3d565e1fae294e94ac99409">Create</a> (std::unique_ptr&lt; <a class="el" href="classxgboost_1_1DataSource.html">DataSource</a> &gt; &amp;&amp;source, const std::string &amp;cache_prefix=&quot;&quot;)</td></tr>
-<tr class="memdesc:a95bf8529d3d565e1fae294e94ac99409"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a>, by wrapping a row_iterator, and meta info.  <a href="#a95bf8529d3d565e1fae294e94ac99409">More...</a><br /></td></tr>
-<tr class="separator:a95bf8529d3d565e1fae294e94ac99409"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a1fa8fe67cf129e486c9918e37ca4e5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a6a1fa8fe67cf129e486c9918e37ca4e5">Create</a> (dmlc::Parser&lt; uint32_t &gt; *parser, const std::string &amp;cache_prefix=&quot;&quot;)</td></tr>
-<tr class="memdesc:a6a1fa8fe67cf129e486c9918e37ca4e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> by loading data from parser. Parser can later be deleted after the <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> i created.  <a href="#a6a1fa8fe67cf129e486c9918e37ca4e5">More...</a><br /></td></tr>
-<tr class="separator:a6a1fa8fe67cf129e486c9918e37ca4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f681cd0ec33f8777d90f2a175214528"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a0f681cd0ec33f8777d90f2a175214528">Load</a> (const std::string &amp;uri, bool silent, bool load_row_split, const std::string &amp;file_format=&quot;auto&quot;)</td></tr>
+<tr class="memdesc:a0f681cd0ec33f8777d90f2a175214528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> from URI.  <a href="#a0f681cd0ec33f8777d90f2a175214528">More...</a><br /></td></tr>
+<tr class="separator:a0f681cd0ec33f8777d90f2a175214528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94439533d93da2c7c32301cb56901d88"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a94439533d93da2c7c32301cb56901d88">Create</a> (std::unique_ptr&lt; <a class="el" href="classxgboost_1_1DataSource.html">DataSource</a> &gt; &amp;&amp;source, const std::string &amp;cache_prefix=&quot;&quot;)</td></tr>
+<tr class="memdesc:a94439533d93da2c7c32301cb56901d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a>, by wrapping a row_iterator, and meta info.  <a href="#a94439533d93da2c7c32301cb56901d88">More...</a><br /></td></tr>
+<tr class="separator:a94439533d93da2c7c32301cb56901d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123fcca635e590477e2df6f958de8b14"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1DMatrix.html#a123fcca635e590477e2df6f958de8b14">Create</a> (dmlc::Parser&lt; uint32_t &gt; *parser, const std::string &amp;cache_prefix=&quot;&quot;)</td></tr>
+<tr class="memdesc:a123fcca635e590477e2df6f958de8b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> by loading data from parser. Parser can later be deleted after the <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> i created.  <a href="#a123fcca635e590477e2df6f958de8b14">More...</a><br /></td></tr>
+<tr class="separator:a123fcca635e590477e2df6f958de8b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -171,12 +178,12 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Internal data structured used by XGBoost during training. There are two ways to create a customized <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a> that reads in user defined-format. </p>
 <ul>
-<li>Provide a dmlc::Parser and pass into the <a class="el" href="classxgboost_1_1DMatrix.html#a95bf8529d3d565e1fae294e94ac99409" title="create a new DMatrix, by wrapping a row_iterator, and meta info. ">DMatrix::Create</a></li>
+<li>Provide a dmlc::Parser and pass into the <a class="el" href="classxgboost_1_1DMatrix.html#a94439533d93da2c7c32301cb56901d88" title="create a new DMatrix, by wrapping a row_iterator, and meta info. ">DMatrix::Create</a></li>
 <li>Alternatively, if data can be represented by an URL, define a new dmlc::Parser and register by DMLC_REGISTER_DATA_PARSER;<ul>
 <li>This works best for user defined data input source, such as data-base, filesystem.</li>
 </ul>
 </li>
-<li>Provide a <a class="el" href="classxgboost_1_1DataSource.html" title="This is data structure that user can pass to DMatrix::Create to create a DMatrix for training...">DataSource</a>, that can be passed to <a class="el" href="classxgboost_1_1DMatrix.html#a95bf8529d3d565e1fae294e94ac99409" title="create a new DMatrix, by wrapping a row_iterator, and meta info. ">DMatrix::Create</a> This can be used to re-use inmemory data structure into <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a>. </li>
+<li>Provide a <a class="el" href="classxgboost_1_1DataSource.html" title="This is data structure that user can pass to DMatrix::Create to create a DMatrix for training...">DataSource</a>, that can be passed to <a class="el" href="classxgboost_1_1DMatrix.html#a94439533d93da2c7c32301cb56901d88" title="create a new DMatrix, by wrapping a row_iterator, and meta info. ">DMatrix::Create</a> This can be used to re-use inmemory data structure into <a class="el" href="classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D...">DMatrix</a>. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a141706cd9a196f37b270b59b2a64ec13"></a>
@@ -252,6 +259,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>reference of buffered rowset, in column access </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a06f631ab284a319e78d213586d2a306e">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a33579b94db4ec44a674a94c42202e702">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a729ce496e2f026323b4685bf0a738db7"></a>
@@ -276,6 +285,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get column iterator, reset to the beginning position </p>
+
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a6e928655c51b7bcb79216cf6e65d0c74">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#ab113397339763d2c7135a784a1d3479d">xgboost::data::SimpleDMatrix</a>.</p>
 
 </div>
 </div>
@@ -310,9 +321,11 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the column iterator, initialized so that it reads the elements in fset </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a2b8d55a18e12b4a7f17e3aaf728018da">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a69b95b47f9acba323f0caee7714076ec">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a95bf8529d3d565e1fae294e94ac99409"></a>
+<a class="anchor" id="a94439533d93da2c7c32301cb56901d88"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -320,7 +333,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a>* xgboost::DMatrix::Create </td>
+          <td class="memname"><a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> * xgboost::DMatrix::Create </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classxgboost_1_1DataSource.html">DataSource</a> &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>
@@ -356,7 +369,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6a1fa8fe67cf129e486c9918e37ca4e5"></a>
+<a class="anchor" id="a123fcca635e590477e2df6f958de8b14"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -364,7 +377,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a>* xgboost::DMatrix::Create </td>
+          <td class="memname"><a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> * xgboost::DMatrix::Create </td>
           <td>(</td>
           <td class="paramtype">dmlc::Parser&lt; uint32_t &gt; *&#160;</td>
           <td class="paramname"><em>parser</em>, </td>
@@ -426,6 +439,8 @@ Friends</h2></td></tr>
 
 <p>get column density </p>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a66610a87f2b1f2ca29633121cafca180">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a725b02375f3ea8ad4cf0bf5b1c4a51ab">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aac20a76f969f262eef19fa6f46c2ef02"></a>
@@ -452,6 +467,8 @@ Friends</h2></td></tr>
 
 <p>get number of non-missing entries in column </p>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#aa26088e8f78e84d053042921e6454304">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a5a7eea25d9de1387cabe1b06c50649a6">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ad1b6fb996dc88b47281076fe258e72d4"></a>
@@ -476,6 +493,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>whether column access is enabled </dd></dl>
+
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#ad719809608fc4dad72697f2c80a5b99b">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a9b9ae21232013760f0ff877c68f906b5">xgboost::data::SimpleDMatrix</a>.</p>
 
 </div>
 </div>
@@ -502,6 +521,8 @@ Friends</h2></td></tr>
 
 <p>meta information of the dataset </p>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a4c756f735a9f0f368f1ea2b486a548ad">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#abbcc4f6a496be7e0fd000d06e8011caf">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8839f31db8a7401fdaffc95da180a770"></a>
@@ -526,6 +547,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>meta information of the dataset </p>
+
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#aac07a3c02373b28c54a58a253f2f1037">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a7987f1daea50095b9314759747eeb03a">xgboost::data::SimpleDMatrix</a>.</p>
 
 </div>
 </div>
@@ -585,9 +608,11 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of column blocks in the column access. </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a366753d607206aa8eab0f3061ae70fdd">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#aac6fa1662a282755fd88e9874b54c8c7">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a43749cde190ccc6248bcb6afc239d9bb"></a>
+<a class="anchor" id="a0f681cd0ec33f8777d90f2a175214528"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -595,7 +620,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a>* xgboost::DMatrix::Load </td>
+          <td class="memname"><a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> * xgboost::DMatrix::Load </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>uri</em>, </td>
@@ -669,9 +694,11 @@ Friends</h2></td></tr>
 <p>get the row iterator, reset to beginning position </p>
 <dl class="section note"><dt>Note</dt><dd>Only either RowIterator or column Iterator can be active. </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a9e8eef113e0112c2ee0388b5c675ea3a">xgboost::data::SparsePageDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a3d48b1e8f9a99a24f24287da243d029d">xgboost::data::SimpleDMatrix</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="ae4b1ea1423d6fc0a9ba20aedda084673"></a>
+<a class="anchor" id="a562d53fe946e33d747f91f676bfa1daa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -679,7 +706,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void xgboost::DMatrix::SaveToLocalFile </td>
+          <td class="memname">void xgboost::DMatrix::SaveToLocalFile </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>fname</em></td><td>)</td>
@@ -726,6 +753,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Whether the data columns single column block. </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1data_1_1SimpleDMatrix.html#a9e297c333aa8a3db4de9f40928cff773">xgboost::data::SimpleDMatrix</a>, and <a class="el" href="classxgboost_1_1data_1_1SparsePageDMatrix.html#a0c90ea4dd6ff89b29db56ddc6fa27242">xgboost::data::SparsePageDMatrix</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -737,7 +766,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class LearnerImpl</td>
+          <td class="memname">friend class <a class="el" href="classxgboost_1_1LearnerImpl.html">LearnerImpl</a></td>
         </tr>
       </table>
   </td>
@@ -749,13 +778,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/xgboost/<a class="el" href="data_8h_source.html">data.h</a></li>
+<li>src/data/<a class="el" href="data_8cc.html">data.cc</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 5 2018 16:09:18 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 6 2018 15:06:48 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

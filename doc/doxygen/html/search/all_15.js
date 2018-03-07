@@ -1,14 +1,9 @@
 var searchData=
 [
-  ['weight',['weight',['../structXGBoostBatchCSR.html#aaa52c1649126c8b2d39340829014c1c6',1,'XGBoostBatchCSR::weight()'],['../structxgboost_1_1common_1_1WQSummary_1_1Queue_1_1QEntry.html#af6482f77607b57f01ac55ab6d891e59a',1,'xgboost::common::WQSummary::Queue::QEntry::weight()']]],
-  ['weights',['weights',['../structxgboost_1_1MetaInfo.html#a6e06bd3543591ef4e155093a0da6c7d0',1,'xgboost::MetaInfo']]],
-  ['wmin',['wmin',['../structxgboost_1_1common_1_1WQSummary_1_1Entry.html#a08d5b4a4432d58aaee2e24ee0fc12fec',1,'xgboost::common::WQSummary::Entry']]],
-  ['wqsummary',['WQSummary',['../structxgboost_1_1common_1_1WQSummary.html',1,'xgboost::common']]],
-  ['wqsummary',['WQSummary',['../structxgboost_1_1common_1_1WQSummary.html#a27b57e7e3fcfab91f6268ec3439068f4',1,'xgboost::common::WQSummary']]],
-  ['wquantilesketch',['WQuantileSketch',['../classxgboost_1_1common_1_1WQuantileSketch.html',1,'xgboost::common']]],
-  ['write',['Write',['../classxgboost_1_1common_1_1Base64InStream.html#a288414314c991da36ad102f7f53fd1cf',1,'xgboost::common::Base64InStream::Write()'],['../classxgboost_1_1common_1_1Base64OutStream.html#a522e3bb53adf0361b8e85a7eaab139f3',1,'xgboost::common::Base64OutStream::Write()'],['../classxgboost_1_1common_1_1CompressedBufferWriter.html#abbf9fe3d4cc27ecb073ecfd7f0b5d4e0',1,'xgboost::common::CompressedBufferWriter::Write()'],['../classxgboost_1_1common_1_1PeekableInStream.html#a24a5fdc09528568aa6cd796e3640d0a2',1,'xgboost::common::PeekableInStream::Write()']]],
-  ['writesymbol',['WriteSymbol',['../classxgboost_1_1common_1_1CompressedBufferWriter.html#a5a9d988717584dafac305cb363f6d456',1,'xgboost::common::CompressedBufferWriter']]],
-  ['wxqsummary',['WXQSummary',['../structxgboost_1_1common_1_1WXQSummary.html#afa7b341b7d871dc6db61f713e5d64c5d',1,'xgboost::common::WXQSummary']]],
-  ['wxqsummary',['WXQSummary',['../structxgboost_1_1common_1_1WXQSummary.html',1,'xgboost::common']]],
-  ['wxquantilesketch',['WXQuantileSketch',['../classxgboost_1_1common_1_1WXQuantileSketch.html',1,'xgboost::common']]]
+  ['val',['val',['../classxgboost_1_1common_1_1ConfigReaderBase.html#abfad5a3af48a2b0bd5856bd0156dd996',1,'xgboost::common::ConfigReaderBase']]],
+  ['value',['Value',['../classxgboost_1_1NativeDataIter.html#a83828d0ceba00ffc8e2f74de6f35c42a',1,'xgboost::NativeDataIter::Value()'],['../structXGBoostBatchCSR.html#a6e23628646a6f353152ba7145eaaf2cb',1,'XGBoostBatchCSR::value()'],['../structxgboost_1_1common_1_1WQSummary_1_1Entry.html#a023b9604606ac8f86f6f3ac9f655e583',1,'xgboost::common::WQSummary::Entry::value()'],['../structxgboost_1_1common_1_1WQSummary_1_1Queue_1_1QEntry.html#acbce7f465d7aeb01d74a94f55148394b',1,'xgboost::common::WQSummary::Queue::QEntry::value()'],['../structxgboost_1_1common_1_1GKSummary_1_1Entry.html#a6cbe74f37d75b7e27a94827c2f4a63bf',1,'xgboost::common::GKSummary::Entry::value()']]],
+  ['value_5ft',['value_t',['../classxgboost_1_1detail_1_1bst__gpair__internal.html#aaa8f94788c51e951ceafc0860cde0381',1,'xgboost::detail::bst_gpair_internal']]],
+  ['value_5ftype',['value_type',['../classxgboost_1_1common_1_1CompressedIterator.html#a2bdb37458aa39e8fa42f93017c43564a',1,'xgboost::common::CompressedIterator']]],
+  ['valueconstraint',['ValueConstraint',['../structxgboost_1_1tree_1_1ValueConstraint.html#a46fa269b044685ccf6f84cc0582da653',1,'xgboost::tree::ValueConstraint']]],
+  ['valueconstraint',['ValueConstraint',['../structxgboost_1_1tree_1_1ValueConstraint.html',1,'xgboost::tree']]]
 ];

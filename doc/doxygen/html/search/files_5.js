@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['gbm_2eh',['gbm.h',['../gbm_8h.html',1,'']]],
-  ['group_5fdata_2eh',['group_data.h',['../group__data_8h.html',1,'']]]
+  ['fast_5fhist_5fparam_2eh',['fast_hist_param.h',['../fast__hist__param_8h.html',1,'']]],
+  ['feature_5fmap_2eh',['feature_map.h',['../feature__map_8h.html',1,'']]]
 ];

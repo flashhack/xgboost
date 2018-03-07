@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structxgboost_1_1HostDeviceVectorImpl.html" title="xgboost::HostDeviceVector\lImpl\&lt; bst_float \&gt;" alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node2" href="$structxgboost_1_1data_1_1SparsePageFormatReg.html" title="Registry entry for sparse page format. " alt="" coords="216,5,396,47"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1GradientBoosterReg.html" title="Registry entry for tree updater. " alt="" coords="209,71,403,98"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1LinearUpdaterReg.html" title="Registry entry for linear updater. " alt="" coords="217,122,395,149"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1MetricReg.html" title="Registry entry for Metric factory functions. The additional parameter const char* param gives the val..." alt="" coords="239,173,373,199"/>
+<area shape="rect" id="node6" href="$structxgboost_1_1ObjFunctionReg.html" title="Registry entry for objective factory functions. " alt="" coords="221,223,391,250"/>
+<area shape="rect" id="node7" href="$structxgboost_1_1PredictorReg.html" title="Registry entry for predictor. " alt="" coords="231,274,381,301"/>
+<area shape="rect" id="node8" href="$structxgboost_1_1TreeUpdaterReg.html" title="Registry entry for tree updater. " alt="" coords="221,325,391,351"/>
 </map>

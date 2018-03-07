@@ -1,3 +1,9 @@
 <map id="include/xgboost/gbm.h" name="include/xgboost/gbm.h">
-<area shape="rect" id="node2" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node2" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="130,80,297,107"/>
+<area shape="rect" id="node6" href="$gblinear_8cc.html" title="Implementation of Linear booster, with L1/L2 regularization: Elastic Net the update rule is parallel ..." alt="" coords="321,80,457,107"/>
+<area shape="rect" id="node7" href="$gbm_8cc.html" title="Registry of gradient boosters. " alt="" coords="482,80,598,107"/>
+<area shape="rect" id="node8" href="$gbtree_8cc.html" title="gradient boosted tree implementation. " alt="" coords="622,80,749,107"/>
+<area shape="rect" id="node3" href="$c__api_8cc.html" title="src/c_api/c_api.cc" alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node4" href="$cli__main_8cc.html" title="The command line interface program of xgboost. This file is not included in dynamic library..." alt="" coords="158,155,269,181"/>
+<area shape="rect" id="node5" href="$learner_8cc.html" title="Implementation of learning algorithm. " alt="" coords="293,155,395,181"/>
 </map>

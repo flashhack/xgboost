@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['ind_5fptr',['ind_ptr',['../structxgboost_1_1RowBatch.html#a2c7379b602d62d09e5fc4d6122cf53ed',1,'xgboost::RowBatch']]],
-  ['index',['index',['../structXGBoostBatchCSR.html#a199443508faccdf6158e37a8c42ffa16',1,'XGBoostBatchCSR::index()'],['../structxgboost_1_1SparseBatch_1_1Entry.html#a6fd795448a691c8b06cb792d0e8b9637',1,'xgboost::SparseBatch::Entry::index()'],['../classxgboost_1_1common_1_1Column.html#a0cbf2ce7f59337431990faa928f84627',1,'xgboost::common::Column::index()'],['../structxgboost_1_1common_1_1GHistIndexRow.html#a194be06bd9cc502a4823c395b1180af3',1,'xgboost::common::GHistIndexRow::index()'],['../structxgboost_1_1common_1_1GHistIndexMatrix.html#a097038d28158cc33650dd665d6028126',1,'xgboost::common::GHistIndexMatrix::index()'],['../structxgboost_1_1common_1_1GHistIndexBlock.html#af99705e71f4f6a8908f698130bf877bf',1,'xgboost::common::GHistIndexBlock::index()']]],
-  ['index_5fbase',['index_base',['../classxgboost_1_1common_1_1Column.html#a00853176c1bb5e8917083035569f58d1',1,'xgboost::common::Column']]],
-  ['info',['info',['../classxgboost_1_1DataSource.html#a3ae7590f2c00671c350bf15d55878ed5',1,'xgboost::DataSource']]],
-  ['inqueue',['inqueue',['../classxgboost_1_1common_1_1QuantileSketchTemplate.html#a6a227eed779297edcf780eed2bdf90b1',1,'xgboost::common::QuantileSketchTemplate']]]
+  ['hist',['hist',['../structxgboost_1_1tree_1_1CQHistMaker_1_1HistEntry.html#a4f15c9692d1618c1e9c3d356b2e4f2b6',1,'xgboost::tree::CQHistMaker::HistEntry']]],
+  ['hist_5f',['hist_',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#a3af40acf71f1c25c819082b208744c01',1,'xgboost::tree::FastHistMaker::Builder']]],
+  ['hist_5fbuilder_5f',['hist_builder_',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#ae0dec18a955d4c959a4fa08d55624a50',1,'xgboost::tree::FastHistMaker::Builder']]],
+  ['histred',['histred',['../classxgboost_1_1tree_1_1HistMaker.html#a41d909d7ae81acbf43be52e2f170a6f1',1,'xgboost::tree::HistMaker']]],
+  ['hit_5fcount',['hit_count',['../structxgboost_1_1common_1_1GHistIndexMatrix.html#a45dcf6ee0e026e34ffc98847307a73ce',1,'xgboost::common::GHistIndexMatrix']]],
+  ['hits',['hits',['../structxgboost_1_1obj_1_1LambdaRankObjMAP_1_1MAPStats.html#aa9aa8f241315d0997c744e60d1341136',1,'xgboost::obj::LambdaRankObjMAP::MAPStats']]],
+  ['hmat_5f',['hmat_',['../classxgboost_1_1tree_1_1FastHistMaker.html#acfccb14c7ad640236fa1e4e1ebd8442e',1,'xgboost::tree::FastHistMaker']]],
+  ['hset',['hset',['../structxgboost_1_1tree_1_1HistMaker_1_1ThreadWSpace.html#a1edfc4d2e97985145b534939989244ec',1,'xgboost::tree::HistMaker::ThreadWSpace']]]
 ];

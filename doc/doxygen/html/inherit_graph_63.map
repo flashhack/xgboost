@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classxgboost_1_1TreeModel_1_1Node.html" title="tree node " alt="" coords="5,5,172,61"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1Learner.html" title="Learner class that does training and prediction. This is the user facing module of xgboost training..." alt="" coords="143,5,261,32"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1LearnerImpl.html" title="learner that performs gradient boosting for a specific objective function. It does training and predi..." alt="" coords="309,5,452,32"/>
 </map>

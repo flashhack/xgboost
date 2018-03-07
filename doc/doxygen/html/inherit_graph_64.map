@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$structxgboost_1_1TreeParam.html" title="meta parameters of the tree " alt="" coords="136,5,275,32"/>
+<area shape="rect" id="node1" href="$classxgboost_1_1linear_1_1FeatureSelector.html" title="Abstract class for stateful feature selection in coordinate descent algorithms. " alt="" coords="5,71,164,112"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1linear_1_1CyclicFeatureSelector.html" title="Deterministic selection by cycling through coordinates one at a time. " alt="" coords="218,5,413,47"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1linear_1_1GreedyFeatureSelector.html" title="Select coordinate with the greatest gradient magnitude. " alt="" coords="215,71,416,112"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1linear_1_1RandomFeatureSelector.html" title="A random coordinate selector. " alt="" coords="212,136,419,177"/>
 </map>

@@ -1,5 +1,8 @@
 <map id="include/xgboost/predictor.h" name="include/xgboost/predictor.h">
-<area shape="rect" id="node2" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="190,169,301,196"/>
-<area shape="rect" id="node7" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="475,87,583,114"/>
-<area shape="rect" id="node19" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="781,80,928,121"/>
+<area shape="rect" id="node2" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="99,319,210,345"/>
+<area shape="rect" id="node7" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="245,244,353,271"/>
+<area shape="rect" id="node15" href="$gbtree__model_8h.html" title="../../src/gbm/gbtree\l_model.h" alt="" coords="761,80,895,121"/>
+<area shape="rect" id="node25" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="1403,80,1549,121"/>
+<area shape="rect" id="node18" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="755,169,901,196"/>
+<area shape="rect" id="node24" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="529,244,641,271"/>
 </map>

@@ -1,7 +1,19 @@
 var searchData=
 [
+  ['shotguntrainparam',['ShotgunTrainParam',['../structxgboost_1_1linear_1_1ShotgunTrainParam.html',1,'xgboost::linear']]],
+  ['shotgunupdater',['ShotgunUpdater',['../classxgboost_1_1linear_1_1ShotgunUpdater.html',1,'xgboost::linear']]],
+  ['simpledmatrix',['SimpleDMatrix',['../classxgboost_1_1data_1_1SimpleDMatrix.html',1,'xgboost::data']]],
+  ['sketchentry',['SketchEntry',['../structxgboost_1_1tree_1_1BaseMaker_1_1SketchEntry.html',1,'xgboost::tree::BaseMaker']]],
+  ['sketchmaker',['SketchMaker',['../classxgboost_1_1tree_1_1SketchMaker.html',1,'xgboost::tree']]],
+  ['softmaxmulticlassobj',['SoftmaxMultiClassObj',['../classxgboost_1_1obj_1_1SoftmaxMultiClassObj.html',1,'xgboost::obj']]],
+  ['softmaxmulticlassparam',['SoftmaxMultiClassParam',['../structxgboost_1_1obj_1_1SoftmaxMultiClassParam.html',1,'xgboost::obj']]],
   ['sparsebatch',['SparseBatch',['../structxgboost_1_1SparseBatch.html',1,'xgboost']]],
+  ['sparsepage',['SparsePage',['../classxgboost_1_1data_1_1SparsePage.html',1,'xgboost::data']]],
+  ['sparsepagedmatrix',['SparsePageDMatrix',['../classxgboost_1_1data_1_1SparsePageDMatrix.html',1,'xgboost::data']]],
+  ['sparsepageformatreg',['SparsePageFormatReg',['../structxgboost_1_1data_1_1SparsePageFormatReg.html',1,'xgboost::data']]],
+  ['sparsepagerawformat',['SparsePageRawFormat',['../classxgboost_1_1data_1_1SparsePageRawFormat.html',1,'xgboost::data']]],
   ['split',['Split',['../structxgboost_1_1common_1_1RowSetCollection_1_1Split.html',1,'xgboost::common::RowSetCollection']]],
+  ['splitentry',['SplitEntry',['../structxgboost_1_1tree_1_1SplitEntry.html',1,'xgboost::tree']]],
   ['streambufferreader',['StreamBufferReader',['../classxgboost_1_1common_1_1StreamBufferReader.html',1,'xgboost::common']]],
   ['summarycontainer',['SummaryContainer',['../structxgboost_1_1common_1_1QuantileSketchTemplate_1_1SummaryContainer.html',1,'xgboost::common::QuantileSketchTemplate']]]
 ];

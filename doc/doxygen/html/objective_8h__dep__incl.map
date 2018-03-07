@@ -1,4 +1,14 @@
 <map id="include/xgboost/objective.h" name="include/xgboost/objective.h">
-<area shape="rect" id="node2" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="56,155,223,181"/>
+<area shape="rect" id="node2" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="313,87,466,114"/>
+<area shape="rect" id="node3" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="130,169,297,196"/>
+<area shape="rect" id="node10" href="$multiclass__obj_8cc.html" title="src/objective/multiclass\l_obj.cc" alt="" coords="491,80,648,121"/>
+<area shape="rect" id="node11" href="$objective_8cc.html" title="Registry of all objective functions. " alt="" coords="673,87,839,114"/>
+<area shape="rect" id="node12" href="$rank__obj_8cc.html" title="src/objective/rank\l_obj.cc" alt="" coords="864,80,987,121"/>
+<area shape="rect" id="node13" href="$regression__obj_8cc.html" title="Definition of single&#45;value regression and classification objectives. " alt="" coords="1011,80,1170,121"/>
+<area shape="rect" id="node7" href="$gblinear_8cc.html" title="Implementation of Linear booster, with L1/L2 regularization: Elastic Net the update rule is parallel ..." alt="" coords="321,169,457,196"/>
+<area shape="rect" id="node8" href="$gbm_8cc.html" title="Registry of gradient boosters. " alt="" coords="482,169,598,196"/>
+<area shape="rect" id="node9" href="$gbtree_8cc.html" title="gradient boosted tree implementation. " alt="" coords="622,169,749,196"/>
+<area shape="rect" id="node4" href="$c__api_8cc.html" title="src/c_api/c_api.cc" alt="" coords="5,244,133,271"/>
+<area shape="rect" id="node5" href="$cli__main_8cc.html" title="The command line interface program of xgboost. This file is not included in dynamic library..." alt="" coords="158,244,269,271"/>
+<area shape="rect" id="node6" href="$learner_8cc.html" title="Implementation of learning algorithm. " alt="" coords="293,244,395,271"/>
 </map>

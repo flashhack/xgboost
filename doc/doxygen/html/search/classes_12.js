@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['xgboostbatchcsr',['XGBoostBatchCSR',['../structXGBoostBatchCSR.html',1,'']]]
+  ['wqsummary',['WQSummary',['../structxgboost_1_1common_1_1WQSummary.html',1,'xgboost::common']]],
+  ['wquantilesketch',['WQuantileSketch',['../classxgboost_1_1common_1_1WQuantileSketch.html',1,'xgboost::common']]],
+  ['wxqsummary',['WXQSummary',['../structxgboost_1_1common_1_1WXQSummary.html',1,'xgboost::common']]],
+  ['wxquantilesketch',['WXQuantileSketch',['../classxgboost_1_1common_1_1WXQuantileSketch.html',1,'xgboost::common']]],
+  ['wxquantilesketch_3c_20bst_5ffloat_2c_20bst_5ffloat_20_3e',['WXQuantileSketch&lt; bst_float, bst_float &gt;',['../classxgboost_1_1common_1_1WXQuantileSketch.html',1,'xgboost::common']]]
 ];

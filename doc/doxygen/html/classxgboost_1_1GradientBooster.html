@@ -101,6 +101,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><code>#include &lt;<a class="el" href="gbm_8h_source.html">gbm.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for xgboost::GradientBooster:</div>
+<div class="dyncontent">
+<div class="center"><img src="classxgboost_1_1GradientBooster__inherit__graph.png" border="0" usemap="#xgboost_1_1GradientBooster_inherit__map" alt="Inheritance graph"/></div>
+<map name="xgboost_1_1GradientBooster_inherit__map" id="xgboost_1_1GradientBooster_inherit__map">
+<area shape="rect" id="node2" href="classxgboost_1_1gbm_1_1GBLinear.html" title="gradient boosted linear model " alt="" coords="5,321,224,751"/><area shape="rect" id="node3" href="classxgboost_1_1gbm_1_1GBTree.html" title="{xgboost::gbm::GBTree\n|# model_\l# tparam\l# cfg\l# updaters\l# cache_\l# predictor\l# monitor\l|+ GBTree()\l+ InitCache()\l+ Configure()\l+ Load()\l+ Save()\l+ AllowLazyCheckPoint()\l+ DoBoost()\l+ PredictBatch()\l+ PredictInstance()\l+ PredictLeaf()\l+ PredictContribution()\l+ PredictInteractionContributions()\l+ DumpModel()\l# InitUpdater()\l# BoostNewTrees()\l# CommitModel()\l}" alt="" coords="248,343,467,729"/><area shape="rect" id="node4" href="classxgboost_1_1gbm_1_1Dart.html" title="{xgboost::gbm::Dart\n|# dparam\l# weight_drop\l# idx_drop\l# thread_temp\l|+ Dart()\l+ Configure()\l+ Load()\l+ Save()\l+ PredictBatch()\l+ PredictInstance()\l# PredLoopInternal()\l# PredLoopSpecalize()\l# CommitModel()\l# PredValue()\l# DropTrees()\l# NormalizeTrees()\l# InitThreadTemp()\l}" alt="" coords="281,799,434,1096"/></map>
+</div>
+<div class="dynheader">
 Collaboration diagram for xgboost::GradientBooster:</div>
 <div class="dyncontent">
 <div class="center"><img src="classxgboost_1_1GradientBooster__coll__graph.png" border="0" usemap="#xgboost_1_1GradientBooster_coll__map" alt="Collaboration graph"/></div>
@@ -152,9 +159,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a9834480b06c208d989dc92b0f309f8cc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1GradientBooster.html">GradientBooster</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1GradientBooster.html#a9834480b06c208d989dc92b0f309f8cc">Create</a> (const std::string &amp;name, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> &gt; &gt; &amp;cache_mats, <a class="el" href="namespacexgboost.html#ac403ef2a7055a243cf8896d62d580bd5">bst_float</a> base_margin)</td></tr>
-<tr class="memdesc:a9834480b06c208d989dc92b0f309f8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a gradient booster from given name  <a href="#a9834480b06c208d989dc92b0f309f8cc">More...</a><br /></td></tr>
-<tr class="separator:a9834480b06c208d989dc92b0f309f8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563ba1cd68be728f22bc870551c45b40"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classxgboost_1_1GradientBooster.html">GradientBooster</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1GradientBooster.html#a563ba1cd68be728f22bc870551c45b40">Create</a> (const std::string &amp;name, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classxgboost_1_1DMatrix.html">DMatrix</a> &gt; &gt; &amp;cache_mats, <a class="el" href="namespacexgboost.html#ac403ef2a7055a243cf8896d62d580bd5">bst_float</a> base_margin)</td></tr>
+<tr class="memdesc:a563ba1cd68be728f22bc870551c45b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a gradient booster from given name  <a href="#a563ba1cd68be728f22bc870551c45b40">More...</a><br /></td></tr>
+<tr class="separator:a563ba1cd68be728f22bc870551c45b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>interface of gradient boosting model. </p>
@@ -207,6 +214,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>whether the model allow lazy checkpoint return true if model is only updated in DoBoost after all Allreduce calls </p>
+
+<p>Reimplemented in <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#aa5ed350c96c6ccc1dd391cca0109fbe3">xgboost::gbm::GBTree</a>.</p>
 
 </div>
 </div>
@@ -291,9 +300,11 @@ template&lt;typename PairIter &gt; </div>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1Dart.html#a54cfeacf140868005397397b96c2b7c5">xgboost::gbm::Dart</a>, <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#ac0c028d50ca9dfed704fe336093a74be">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a4e823f26c3b45fea004fc5b192993739">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a9834480b06c208d989dc92b0f309f8cc"></a>
+<a class="anchor" id="a563ba1cd68be728f22bc870551c45b40"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -301,7 +312,7 @@ template&lt;typename PairIter &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classxgboost_1_1GradientBooster.html">GradientBooster</a>* xgboost::GradientBooster::Create </td>
+          <td class="memname"><a class="el" href="classxgboost_1_1GradientBooster.html">GradientBooster</a> * xgboost::GradientBooster::Create </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -335,7 +346,7 @@ template&lt;typename PairIter &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>name of gradient booster </td></tr>
-    <tr><td class="paramname">cache_mats</td><td>The cache data matrix of the Booster. </td></tr>
+    <tr><td class="paramname">cache_mats</td><td>The cache data matrix of the <a class="el" href="classxgboost_1_1Booster.html">Booster</a>. </td></tr>
     <tr><td class="paramname">base_margin</td><td>The base margin of prediction. </td></tr>
   </table>
   </dd>
@@ -392,6 +403,8 @@ template&lt;typename PairIter &gt; </div>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a0b8d6bf504add14dd65ea886be9de0db">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a1410a3793525b4981051c6b604a3e6f2">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a48561d614d6f2fae76bef07337ddda88"></a>
@@ -443,6 +456,8 @@ template&lt;typename PairIter &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a vector of dump for boosters. </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a12fb517d3e5857d873a89572e60ec313">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a5b40710683061d1bccaf7713bd67e5af">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a158939c148d3269998b655474cc74b08"></a>
@@ -474,6 +489,8 @@ template&lt;typename PairIter &gt; </div>
   </table>
   </dd>
 </dl>
+
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1Dart.html#a9d883a215ebb9f7754790c64191e63f5">xgboost::gbm::Dart</a>, <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a6d916d693069eac892c2b4e3b6a599d3">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a813cc89399da514c335f65170a09f1f2">xgboost::gbm::GBLinear</a>.</p>
 
 </div>
 </div>
@@ -524,6 +541,8 @@ template&lt;typename PairIter &gt; </div>
   </table>
   </dd>
 </dl>
+
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1Dart.html#a1093fdf0e927bb0a2de905a7e50e9e42">xgboost::gbm::Dart</a>, <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a3ffe49725902ec4ccf0764d2de61c050">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a11d6b7d2702496d9319fcbd8904dd098">xgboost::gbm::GBLinear</a>.</p>
 
 </div>
 </div>
@@ -596,6 +615,8 @@ template&lt;typename PairIter &gt; </div>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a17a431ec0d62396209363bb28af1178b">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a07b2b412d2005d135da7ab642298bb35">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a952d5bb0dc3d57573acd715e55620c39"></a>
@@ -654,6 +675,8 @@ template&lt;typename PairIter &gt; </div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd>Predict </dd></dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1Dart.html#a9f91b421d21683a45e5e6a8c2a88cdb1">xgboost::gbm::Dart</a>, <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#abd2c53ef2aec593e5721976f6686c8c6">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#ad32beb0c8be684fd8648adfe7e1cd724">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a177e24015105f46616690314c06026d2"></a>
@@ -699,6 +722,8 @@ template&lt;typename PairIter &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#ab1b3f91486197540876d740ceff2b9d5">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a4f98273512a10e7bf39acd0df7a67bd7">xgboost::gbm::GBLinear</a>.</p>
 
 </div>
 </div>
@@ -750,6 +775,8 @@ template&lt;typename PairIter &gt; </div>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#abdcbf5731ffa6ff6911a9cd6ff8c3a52">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#a2eeb5c0a0f4a2309b11846c3205fbb76">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa2a01495ff3a9e1c5ee0bdbddaddf9cd"></a>
@@ -782,15 +809,18 @@ template&lt;typename PairIter &gt; </div>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="classxgboost_1_1gbm_1_1Dart.html#aebdbd0bc5ace3db9e02fca715b3f1995">xgboost::gbm::Dart</a>, <a class="el" href="classxgboost_1_1gbm_1_1GBTree.html#a82d0bac2d319be0f2d9f33b680815b00">xgboost::gbm::GBTree</a>, and <a class="el" href="classxgboost_1_1gbm_1_1GBLinear.html#af5e5c374073c34fae14f244716da89f8">xgboost::gbm::GBLinear</a>.</p>
+
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/xgboost/<a class="el" href="gbm_8h_source.html">gbm.h</a></li>
+<li>src/gbm/<a class="el" href="gbm_8cc.html">gbm.cc</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 5 2018 16:09:18 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 6 2018 15:06:48 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

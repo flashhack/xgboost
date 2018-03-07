@@ -1,11 +1,20 @@
 var searchData=
 [
+  ['cacheentry',['CacheEntry',['../structxgboost_1_1gbm_1_1CacheEntry.html',1,'xgboost::gbm']]],
+  ['cliparam',['CLIParam',['../structxgboost_1_1CLIParam.html',1,'xgboost']]],
   ['colbatch',['ColBatch',['../structxgboost_1_1ColBatch.html',1,'xgboost']]],
+  ['colmaker',['ColMaker',['../classxgboost_1_1tree_1_1ColMaker.html',1,'xgboost::tree']]],
   ['column',['Column',['../classxgboost_1_1common_1_1Column.html',1,'xgboost::common']]],
   ['columnmatrix',['ColumnMatrix',['../classxgboost_1_1common_1_1ColumnMatrix.html',1,'xgboost::common']]],
   ['compressedbufferwriter',['CompressedBufferWriter',['../classxgboost_1_1common_1_1CompressedBufferWriter.html',1,'xgboost::common']]],
   ['compressediterator',['CompressedIterator',['../classxgboost_1_1common_1_1CompressedIterator.html',1,'xgboost::common']]],
   ['configiterator',['ConfigIterator',['../classxgboost_1_1common_1_1ConfigIterator.html',1,'xgboost::common']]],
   ['configreaderbase',['ConfigReaderBase',['../classxgboost_1_1common_1_1ConfigReaderBase.html',1,'xgboost::common']]],
-  ['configstreamreader',['ConfigStreamReader',['../classxgboost_1_1common_1_1ConfigStreamReader.html',1,'xgboost::common']]]
+  ['configstreamreader',['ConfigStreamReader',['../classxgboost_1_1common_1_1ConfigStreamReader.html',1,'xgboost::common']]],
+  ['coordinatetrainparam',['CoordinateTrainParam',['../structxgboost_1_1linear_1_1CoordinateTrainParam.html',1,'xgboost::linear']]],
+  ['coordinateupdater',['CoordinateUpdater',['../classxgboost_1_1linear_1_1CoordinateUpdater.html',1,'xgboost::linear']]],
+  ['coxregression',['CoxRegression',['../classxgboost_1_1obj_1_1CoxRegression.html',1,'xgboost::obj']]],
+  ['cpupredictor',['CPUPredictor',['../classxgboost_1_1predictor_1_1CPUPredictor.html',1,'xgboost::predictor']]],
+  ['cqhistmaker',['CQHistMaker',['../classxgboost_1_1tree_1_1CQHistMaker.html',1,'xgboost::tree']]],
+  ['cyclicfeatureselector',['CyclicFeatureSelector',['../classxgboost_1_1linear_1_1CyclicFeatureSelector.html',1,'xgboost::linear']]]
 ];

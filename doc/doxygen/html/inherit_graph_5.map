@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classxgboost_1_1common_1_1CompressedBufferWriter.html" title="Writes bit compressed symbols to a memory buffer. Use CompressedIterator to read symbols back from bu..." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1common_1_1Base64InStream.html" title="the stream that reads from base64, note we take from file pointers " alt="" coords="123,5,311,47"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1common_1_1Base64OutStream.html" title="the stream that write to base64, note we take from file pointers " alt="" coords="117,71,316,112"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1common_1_1PeekableInStream.html" title="Input stream that support additional PeekRead operation, besides read. " alt="" coords="123,136,311,177"/>
 </map>

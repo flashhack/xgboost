@@ -2,6 +2,8 @@ var searchData=
 [
   ['_7econfigiterator',['~ConfigIterator',['../classxgboost_1_1common_1_1ConfigIterator.html#a6cfc01b917034455bd2fd64045488d29',1,'xgboost::common::ConfigIterator']]],
   ['_7edmatrix',['~DMatrix',['../classxgboost_1_1DMatrix.html#a60b86e97f1a246c797b12f31a3e022c2',1,'xgboost::DMatrix']]],
+  ['_7efeatureselector',['~FeatureSelector',['../classxgboost_1_1linear_1_1FeatureSelector.html#a699b90108ad5f86a5b0ce2ff18e89c9b',1,'xgboost::linear::FeatureSelector']]],
+  ['_7eformat',['~Format',['../classxgboost_1_1data_1_1SparsePage_1_1Format.html#adca042b1314a359f34a809c2c2170e63',1,'xgboost::data::SparsePage::Format']]],
   ['_7egradientbooster',['~GradientBooster',['../classxgboost_1_1GradientBooster.html#a9a64eb40b87e07362af16f396251146a',1,'xgboost::GradientBooster']]],
   ['_7ehostdevicevector',['~HostDeviceVector',['../classxgboost_1_1HostDeviceVector.html#a6e71312c174218ddbf50c32cf42e0512',1,'xgboost::HostDeviceVector']]],
   ['_7elearner',['~Learner',['../classxgboost_1_1Learner.html#a7e36db9c64969bec5743b5578488e46c',1,'xgboost::Learner']]],

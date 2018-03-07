@@ -1,4 +1,25 @@
 var searchData=
 [
-  ['value',['value',['../structXGBoostBatchCSR.html#a6e23628646a6f353152ba7145eaaf2cb',1,'XGBoostBatchCSR::value()'],['../structxgboost_1_1common_1_1WQSummary_1_1Entry.html#a023b9604606ac8f86f6f3ac9f655e583',1,'xgboost::common::WQSummary::Entry::value()'],['../structxgboost_1_1common_1_1WQSummary_1_1Queue_1_1QEntry.html#acbce7f465d7aeb01d74a94f55148394b',1,'xgboost::common::WQSummary::Queue::QEntry::value()'],['../structxgboost_1_1common_1_1GKSummary_1_1Entry.html#a6cbe74f37d75b7e27a94827c2f4a63bf',1,'xgboost::common::GKSummary::Entry::value()']]]
+  ['task',['task',['../structxgboost_1_1CLIParam.html#ad97229ad8768ec4063440917bc9e7690',1,'xgboost::CLIParam']]],
+  ['temp',['temp',['../classxgboost_1_1common_1_1QuantileSketchTemplate.html#a0c76cbc71a3a92feee5cedb9281e5ea8',1,'xgboost::common::QuantileSketchTemplate']]],
+  ['test_5fflag',['test_flag',['../structxgboost_1_1LearnerTrainParam.html#a1e867381dd1c14bafce550666a0d26f0',1,'xgboost::LearnerTrainParam']]],
+  ['test_5fpath',['test_path',['../structxgboost_1_1CLIParam.html#a5cdfb285422808036575fb95ca8428f9',1,'xgboost::CLIParam']]],
+  ['thread_5fhist',['thread_hist',['../classxgboost_1_1tree_1_1CQHistMaker.html#acc8fa6129e8b3a8e9571fc7e24ff7663',1,'xgboost::tree::CQHistMaker']]],
+  ['thread_5fsketch',['thread_sketch',['../classxgboost_1_1tree_1_1CQHistMaker.html#a91b2bcf505316827775445b76639d03d',1,'xgboost::tree::CQHistMaker']]],
+  ['thread_5fstats',['thread_stats',['../classxgboost_1_1tree_1_1CQHistMaker.html#a30499b850f13d62fbd94e6e3c9ec8993',1,'xgboost::tree::CQHistMaker']]],
+  ['thread_5ftemp',['thread_temp',['../classxgboost_1_1gbm_1_1Dart.html#a2d6810b86b53f13ccbd21a0c883299b3',1,'xgboost::gbm::Dart::thread_temp()'],['../classxgboost_1_1predictor_1_1CPUPredictor.html#ab45d2a8831ecbcdc3d65de1f812f5c7b',1,'xgboost::predictor::CPUPredictor::thread_temp()']]],
+  ['threshold_5f',['threshold_',['../structxgboost_1_1metric_1_1EvalError.html#a6a2f99655eb0d810ec7eea1b41bcf1ea',1,'xgboost::metric::EvalError']]],
+  ['timer_5fmap',['timer_map',['../structxgboost_1_1common_1_1Monitor.html#a158c2e4f4e7d8eecfabb7f5c93b4ab14',1,'xgboost::common::Monitor']]],
+  ['timestamp',['timestamp',['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder_1_1ExpandEntry.html#af219ef60e7521f900bc743a360669ecd',1,'xgboost::tree::FastHistMaker::Builder::ExpandEntry']]],
+  ['tmp_5fgpair',['tmp_gpair',['../structXGBAPIThreadLocalEntry.html#abe19d00ccc7d288fac29f37b809a1208',1,'XGBAPIThreadLocalEntry']]],
+  ['tolerance',['tolerance',['../structxgboost_1_1gbm_1_1GBLinearTrainParam.html#a85a67ed247a0c86d89020d3d95f5062f',1,'xgboost::gbm::GBLinearTrainParam']]],
+  ['topn_5f',['topn_',['../structxgboost_1_1metric_1_1EvalRankList.html#ade7a0de47e9e6e307b1a3db8707aba31',1,'xgboost::metric::EvalRankList']]],
+  ['tparam',['tparam',['../classxgboost_1_1gbm_1_1GBTree.html#acada3155c4a4d464bfe839b86ebb097f',1,'xgboost::gbm::GBTree::tparam()'],['../classxgboost_1_1LearnerImpl.html#a68a56b3b85929d7f2151831188214914',1,'xgboost::LearnerImpl::tparam()']]],
+  ['train_5fpath',['train_path',['../structxgboost_1_1CLIParam.html#aa3d23dc3b01f2a687f0f0e7e111723d6',1,'xgboost::CLIParam']]],
+  ['tree_5finfo',['tree_info',['../structxgboost_1_1gbm_1_1GBTreeModel.html#a6c086795af0d4e9473531cd4b252709d',1,'xgboost::gbm::GBTreeModel']]],
+  ['tree_5fmethod',['tree_method',['../structxgboost_1_1LearnerTrainParam.html#a524a1ec9230a9a6f20c0ab64005ffac8',1,'xgboost::LearnerTrainParam']]],
+  ['trees',['trees',['../structxgboost_1_1gbm_1_1GBTreeModel.html#afb0fe7cf0016cae938dbc37c2de0d0f4',1,'xgboost::gbm::GBTreeModel']]],
+  ['trees_5fto_5fupdate',['trees_to_update',['../structxgboost_1_1gbm_1_1GBTreeModel.html#ac8f1c8396f4c34bbb23ae3db6c747a46',1,'xgboost::gbm::GBTreeModel']]],
+  ['tweedie_5fvariance_5fpower',['tweedie_variance_power',['../structxgboost_1_1obj_1_1TweedieRegressionParam.html#a7f281d9fdb9d66b5c0777468ea363722',1,'xgboost::obj::TweedieRegressionParam']]],
+  ['type',['type',['../classxgboost_1_1common_1_1Column.html#a843e4ed18aa80b5b980ea8a7607dce02',1,'xgboost::common::Column']]]
 ];

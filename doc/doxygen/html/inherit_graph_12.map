@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structxgboost_1_1common_1_1GHistIndexMatrix.html" title="preprocessed global index matrix, in CSR format Transform floating values to integer index in histogr..." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node1" href="$classxgboost_1_1common_1_1GHistBuilder.html" title="builder for histograms of gradient statistics " alt="" coords="5,5,212,32"/>
 </map>

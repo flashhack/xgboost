@@ -1,5 +1,14 @@
 var searchData=
 [
+  ['gammaregression',['GammaRegression',['../classxgboost_1_1obj_1_1GammaRegression.html',1,'xgboost::obj']]],
+  ['gblinear',['GBLinear',['../classxgboost_1_1gbm_1_1GBLinear.html',1,'xgboost::gbm']]],
+  ['gblinearmodel',['GBLinearModel',['../classxgboost_1_1gbm_1_1GBLinearModel.html',1,'xgboost::gbm']]],
+  ['gblinearmodelparam',['GBLinearModelParam',['../structxgboost_1_1gbm_1_1GBLinearModelParam.html',1,'xgboost::gbm']]],
+  ['gblineartrainparam',['GBLinearTrainParam',['../structxgboost_1_1gbm_1_1GBLinearTrainParam.html',1,'xgboost::gbm']]],
+  ['gbtree',['GBTree',['../classxgboost_1_1gbm_1_1GBTree.html',1,'xgboost::gbm']]],
+  ['gbtreemodel',['GBTreeModel',['../structxgboost_1_1gbm_1_1GBTreeModel.html',1,'xgboost::gbm']]],
+  ['gbtreemodelparam',['GBTreeModelParam',['../structxgboost_1_1gbm_1_1GBTreeModelParam.html',1,'xgboost::gbm']]],
+  ['gbtreetrainparam',['GBTreeTrainParam',['../structxgboost_1_1gbm_1_1GBTreeTrainParam.html',1,'xgboost::gbm']]],
   ['ghistbuilder',['GHistBuilder',['../classxgboost_1_1common_1_1GHistBuilder.html',1,'xgboost::common']]],
   ['ghistentry',['GHistEntry',['../structxgboost_1_1common_1_1GHistEntry.html',1,'xgboost::common']]],
   ['ghistindexblock',['GHistIndexBlock',['../structxgboost_1_1common_1_1GHistIndexBlock.html',1,'xgboost::common']]],
@@ -9,6 +18,8 @@ var searchData=
   ['ghistrow',['GHistRow',['../structxgboost_1_1common_1_1GHistRow.html',1,'xgboost::common']]],
   ['gkquantilesketch',['GKQuantileSketch',['../classxgboost_1_1common_1_1GKQuantileSketch.html',1,'xgboost::common']]],
   ['gksummary',['GKSummary',['../structxgboost_1_1common_1_1GKSummary.html',1,'xgboost::common']]],
+  ['globalproposalhistmaker',['GlobalProposalHistMaker',['../classxgboost_1_1tree_1_1GlobalProposalHistMaker.html',1,'xgboost::tree']]],
   ['gradientbooster',['GradientBooster',['../classxgboost_1_1GradientBooster.html',1,'xgboost']]],
-  ['gradientboosterreg',['GradientBoosterReg',['../structxgboost_1_1GradientBoosterReg.html',1,'xgboost']]]
+  ['gradientboosterreg',['GradientBoosterReg',['../structxgboost_1_1GradientBoosterReg.html',1,'xgboost']]],
+  ['greedyfeatureselector',['GreedyFeatureSelector',['../classxgboost_1_1linear_1_1GreedyFeatureSelector.html',1,'xgboost::linear']]]
 ];

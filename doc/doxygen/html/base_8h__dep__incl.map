@@ -1,17 +1,51 @@
 <map id="include/xgboost/base.h" name="include/xgboost/base.h">
-<area shape="rect" id="node2" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="591,87,744,114"/>
-<area shape="rect" id="node3" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="167,266,320,293"/>
-<area shape="rect" id="node4" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="218,348,384,375"/>
-<area shape="rect" id="node5" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="212,177,390,203"/>
-<area shape="rect" id="node6" href="$metric_8h.html" title="interface of evaluation metric function supported in xgboost. " alt="" coords="415,177,579,203"/>
-<area shape="rect" id="node7" href="$linear__updater_8h.html" title="include/xgboost/linear\l_updater.h" alt="" coords="39,169,187,211"/>
-<area shape="rect" id="node8" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="1097,177,1276,203"/>
-<area shape="rect" id="node9" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="934,169,1073,211"/>
-<area shape="rect" id="node10" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="934,259,1073,300"/>
-<area shape="rect" id="node14" href="$avx__helpers_8h.html" title="src/common/avx_helpers.h" alt="" coords="1351,87,1528,114"/>
-<area shape="rect" id="node16" href="$compressed__iterator_8h.html" title="src/common/compressed\l_iterator.h" alt="" coords="1552,80,1722,121"/>
-<area shape="rect" id="node11" href="$hist__util_8h.html" title="Utility for fast histogram aggregation. " alt="" coords="648,266,802,293"/>
-<area shape="rect" id="node13" href="$row__set_8h.html" title="Quick Utility to compute subset of rows. " alt="" coords="705,177,860,203"/>
-<area shape="rect" id="node12" href="$column__matrix_8h.html" title="Utility for fast column&#45;wise access. " alt="" coords="628,348,822,375"/>
-<area shape="rect" id="node15" href="$math_8h.html" title="additional math utils " alt="" coords="1370,177,1509,203"/>
+<area shape="rect" id="node2" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="2972,87,3125,114"/>
+<area shape="rect" id="node3" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="781,266,934,293"/>
+<area shape="rect" id="node4" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="1558,355,1725,382"/>
+<area shape="rect" id="node11" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="594,177,772,203"/>
+<area shape="rect" id="node16" href="$metric_8h.html" title="interface of evaluation metric function supported in xgboost. " alt="" coords="1481,177,1645,203"/>
+<area shape="rect" id="node21" href="$linear__updater_8h.html" title="include/xgboost/linear\l_updater.h" alt="" coords="2074,169,2222,211"/>
+<area shape="rect" id="node25" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="2348,355,2527,382"/>
+<area shape="rect" id="node28" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="2502,169,2640,211"/>
+<area shape="rect" id="node30" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="4191,259,4330,300"/>
+<area shape="rect" id="node32" href="$updater__basemaker-inl_8h.html" title="implement a common tree constructor " alt="" coords="4308,348,4492,389"/>
+<area shape="rect" id="node33" href="$updater__histmaker_8cc.html" title="use histogram counting to construct a tree " alt="" coords="4500,437,4695,464"/>
+<area shape="rect" id="node34" href="$updater__skmaker_8cc.html" title="use approximation sketch to construct a tree, a refresh is needed to make the statistics exactly corr..." alt="" coords="4288,437,4476,464"/>
+<area shape="rect" id="node36" href="$simple__csr__source_8h.html" title="The simplest form of data source, can be used to create DMatrix. This is an in&#45;memory data structure ..." alt="" coords="4051,169,4187,211"/>
+<area shape="rect" id="node41" href="$simple__dmatrix_8h.html" title="In&#45;memory version of DMatrix. " alt="" coords="3722,266,3894,293"/>
+<area shape="rect" id="node43" href="$sparse__page__dmatrix_8h.html" title="External&#45;memory version of DMatrix. " alt="" coords="3330,259,3476,300"/>
+<area shape="rect" id="node45" href="$sparse__page__source_8h.html" title="src/data/sparse_page\l_source.h" alt="" coords="3551,259,3698,300"/>
+<area shape="rect" id="node46" href="$sparse__page__writer_8cc.html" title="src/data/sparse_page\l_writer.cc" alt="" coords="3919,259,4066,300"/>
+<area shape="rect" id="node48" href="$avx__helpers_8h.html" title="src/common/avx_helpers.h" alt="" coords="341,87,518,114"/>
+<area shape="rect" id="node49" href="$compressed__iterator_8h.html" title="src/common/compressed\l_iterator.h" alt="" coords="4669,80,4838,121"/>
+<area shape="rect" id="node50" href="$host__device__vector_8cc.html" title="src/common/host_device\l_vector.cc" alt="" coords="4862,80,5029,121"/>
+<area shape="rect" id="node5" href="$c__api_8cc.html" title="src/c_api/c_api.cc" alt="" coords="2956,437,3084,464"/>
+<area shape="rect" id="node6" href="$cli__main_8cc.html" title="The command line interface program of xgboost. This file is not included in dynamic library..." alt="" coords="1916,437,2026,464"/>
+<area shape="rect" id="node37" href="$data_8cc.html" title="src/data/data.cc" alt="" coords="3517,355,3633,382"/>
+<area shape="rect" id="node38" href="$hist__util_8h.html" title="Utilities to store histograms. " alt="" coords="2828,266,2983,293"/>
+<area shape="rect" id="node39" href="$row__set_8h.html" title="Quick Utility to compute subset of rows. " alt="" coords="2715,177,2870,203"/>
+<area shape="rect" id="node40" href="$sparse__batch__page_8h.html" title="src/data/sparse_batch\l_page.h" alt="" coords="3437,169,3588,211"/>
+<area shape="rect" id="node42" href="$simple__dmatrix_8cc.html" title="the input data structure for gradient boosting " alt="" coords="3719,355,3898,382"/>
+<area shape="rect" id="node44" href="$sparse__page__raw__format_8cc.html" title="src/data/sparse_page\l_raw_format.cc" alt="" coords="3159,259,3306,300"/>
+<area shape="rect" id="node47" href="$param_8h.html" title="training parameters, statistics used to support tree construction. " alt="" coords="2894,177,3011,203"/>
+<area shape="rect" id="node8" href="$gblinear_8cc.html" title="Implementation of Linear booster, with L1/L2 regularization: Elastic Net the update rule is parallel ..." alt="" coords="1750,355,1886,382"/>
+<area shape="rect" id="node9" href="$gbm_8cc.html" title="Registry of gradient boosters. " alt="" coords="800,355,916,382"/>
+<area shape="rect" id="node10" href="$gbtree_8cc.html" title="gradient boosted tree implementation. " alt="" coords="2438,437,2565,464"/>
+<area shape="rect" id="node7" href="$learner_8cc.html" title="Implementation of learning algorithm. " alt="" coords="1591,437,1692,464"/>
+<area shape="rect" id="node12" href="$multiclass__obj_8cc.html" title="src/objective/multiclass\l_obj.cc" alt="" coords="356,259,514,300"/>
+<area shape="rect" id="node13" href="$objective_8cc.html" title="Registry of all objective functions. " alt="" coords="538,266,705,293"/>
+<area shape="rect" id="node14" href="$rank__obj_8cc.html" title="src/objective/rank\l_obj.cc" alt="" coords="210,259,332,300"/>
+<area shape="rect" id="node15" href="$regression__obj_8cc.html" title="Definition of single&#45;value regression and classification objectives. " alt="" coords="26,259,185,300"/>
+<area shape="rect" id="node17" href="$elementwise__metric_8cc.html" title="evaluation metrics for elementwise binary or regression. " alt="" coords="1485,259,1641,300"/>
+<area shape="rect" id="node18" href="$metric_8cc.html" title="src/metric/metric.cc" alt="" coords="959,266,1098,293"/>
+<area shape="rect" id="node19" href="$multiclass__metric_8cc.html" title="evaluation metrics for multiclass classification. " alt="" coords="1122,259,1265,300"/>
+<area shape="rect" id="node20" href="$rank__metric_8cc.html" title="prediction rank based metrics. " alt="" coords="1290,266,1460,293"/>
+<area shape="rect" id="node22" href="$linear__updater_8cc.html" title="src/linear/linear_updater.cc" alt="" coords="1818,266,1996,293"/>
+<area shape="rect" id="node23" href="$updater__coordinate_8cc.html" title="src/linear/updater\l_coordinate.cc" alt="" coords="2020,259,2143,300"/>
+<area shape="rect" id="node24" href="$updater__shotgun_8cc.html" title="src/linear/updater\l_shotgun.cc" alt="" coords="2167,259,2290,300"/>
+<area shape="rect" id="node26" href="$cpu__predictor_8cc.html" title="src/predictor/cpu_predictor.cc" alt="" coords="2590,437,2784,464"/>
+<area shape="rect" id="node27" href="$predictor_8cc.html" title="src/predictor/predictor.cc" alt="" coords="2248,437,2414,464"/>
+<area shape="rect" id="node29" href="$gbtree__model_8h.html" title="src/gbm/gbtree_model.h" alt="" coords="2415,266,2578,293"/>
+<area shape="rect" id="node35" href="$tree__model_8cc.html" title="model structure for tree " alt="" coords="2652,266,2804,293"/>
+<area shape="rect" id="node31" href="$tree__updater_8cc.html" title="Registry of tree updaters. " alt="" coords="4023,355,4183,382"/>
 </map>

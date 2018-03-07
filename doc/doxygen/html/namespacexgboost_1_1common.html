@@ -182,6 +182,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1common_1_1QuantileSketchTemplate.html">QuantileSketchTemplate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">template for all quantile sketch algorithm that uses merge/prune scheme  <a href="classxgboost_1_1common_1_1QuantileSketchTemplate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxgboost_1_1common_1_1RandomThreadLocalEntry.html">RandomThreadLocalEntry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">thread local entry for random.  <a href="structxgboost_1_1common_1_1RandomThreadLocalEntry.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxgboost_1_1common_1_1RowSetCollection.html">RowSetCollection</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">collection of rowset  <a href="classxgboost_1_1common_1_1RowSetCollection.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +208,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a04db308ad554151c2cf6b35ec5823a59"><td class="memItemLeft" align="right" valign="top">typedef dmlc::ThreadLocalStore&lt; <a class="el" href="structxgboost_1_1common_1_1RandomThreadLocalEntry.html">RandomThreadLocalEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a04db308ad554151c2cf6b35ec5823a59">RandomThreadLocalStore</a></td></tr>
+<tr class="separator:a04db308ad554151c2cf6b35ec5823a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d87649c15bfe11a708593c7178d183c"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a5d87649c15bfe11a708593c7178d183c">compressed_byte_t</a></td></tr>
 <tr class="separator:a5d87649c15bfe11a708593c7178d183c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac819f2a7107c3968c726e637367890c5"><td class="memItemLeft" align="right" valign="top">typedef rabit::utils::MemoryFixSizeBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#ac819f2a7107c3968c726e637367890c5">MemoryFixSizeBuffer</a></td></tr>
@@ -234,12 +239,25 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae8668b306379889914ec947beeb35d24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacexgboost_1_1common.html#a659d2e20f1db9b6ff911739494c2982b">GlobalRandomEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#ae8668b306379889914ec947beeb35d24">GlobalRandom</a> ()</td></tr>
+<tr class="memdesc:ae8668b306379889914ec947beeb35d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">global singleton of a random engine. This random engine is thread-local and only visible to current thread.  <a href="#ae8668b306379889914ec947beeb35d24">More...</a><br /></td></tr>
+<tr class="separator:ae8668b306379889914ec947beeb35d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac257cbd9d09dfd1678034549f37262b4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#ac257cbd9d09dfd1678034549f37262b4">Split</a> (const std::string &amp;s, char delim)</td></tr>
 <tr class="memdesc:ac257cbd9d09dfd1678034549f37262b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a string by delimiter.  <a href="#ac257cbd9d09dfd1678034549f37262b4">More...</a><br /></td></tr>
 <tr class="separator:ac257cbd9d09dfd1678034549f37262b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fd64822794f737a2401b75113c3a9da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1fd64822794f737a2401b75113c3a9da"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a1fd64822794f737a2401b75113c3a9da">ToString</a> (const T &amp;data)</td></tr>
 <tr class="separator:a1fd64822794f737a2401b75113c3a9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70148233ac66cd50438e8b094d7d8dca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a70148233ac66cd50438e8b094d7d8dca"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a70148233ac66cd50438e8b094d7d8dca">MarkUsed</a> (std::vector&lt; bool &gt; *p_mark, const <a class="el" href="classxgboost_1_1common_1_1Column.html">Column</a>&lt; T &gt; &amp;column)</td></tr>
+<tr class="separator:a70148233ac66cd50438e8b094d7d8dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d9141bfcdda2b0b46b56bc1f817733"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab9d9141bfcdda2b0b46b56bc1f817733"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; unsigned &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#ab9d9141bfcdda2b0b46b56bc1f817733">FindGroups_</a> (const std::vector&lt; unsigned &gt; &amp;feature_list, const std::vector&lt; size_t &gt; &amp;feature_nnz, const <a class="el" href="classxgboost_1_1common_1_1ColumnMatrix.html">ColumnMatrix</a> &amp;colmat, size_t nrow, const <a class="el" href="structxgboost_1_1tree_1_1FastHistParam.html">FastHistParam</a> &amp;param)</td></tr>
+<tr class="separator:ab9d9141bfcdda2b0b46b56bc1f817733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4987c0915d46688806961bd908996588"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; unsigned &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a4987c0915d46688806961bd908996588">FindGroups</a> (const std::vector&lt; unsigned &gt; &amp;feature_list, const std::vector&lt; size_t &gt; &amp;feature_nnz, const <a class="el" href="classxgboost_1_1common_1_1ColumnMatrix.html">ColumnMatrix</a> &amp;colmat, size_t nrow, const <a class="el" href="structxgboost_1_1tree_1_1FastHistParam.html">FastHistParam</a> &amp;param)</td></tr>
+<tr class="separator:a4987c0915d46688806961bd908996588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a5c6225ad73e7bac6cf96d481d0e753"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; unsigned &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a0a5c6225ad73e7bac6cf96d481d0e753">FastFeatureGrouping</a> (const <a class="el" href="structxgboost_1_1common_1_1GHistIndexMatrix.html">GHistIndexMatrix</a> &amp;gmat, const <a class="el" href="classxgboost_1_1common_1_1ColumnMatrix.html">ColumnMatrix</a> &amp;colmat, const <a class="el" href="structxgboost_1_1tree_1_1FastHistParam.html">FastHistParam</a> &amp;param)</td></tr>
+<tr class="separator:a0a5c6225ad73e7bac6cf96d481d0e753"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a045b0f4b7472eebfa4bf8087b3212f0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="base_8h.html#aa33073da721ea3d200c808d1bf4b6099">XGBOOST_DEVICE</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a045b0f4b7472eebfa4bf8087b3212f0f">Sigmoid</a> (float x)</td></tr>
 <tr class="memdesc:a045b0f4b7472eebfa4bf8087b3212f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the sigmoid of the input.  <a href="#a045b0f4b7472eebfa4bf8087b3212f0f">More...</a><br /></td></tr>
 <tr class="separator:a045b0f4b7472eebfa4bf8087b3212f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,9 +283,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a34ac9718cb2bf9aaa95d0f060d68e374"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a34ac9718cb2bf9aaa95d0f060d68e374"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a34ac9718cb2bf9aaa95d0f060d68e374">LogGamma</a> (T v)</td></tr>
 <tr class="separator:a34ac9718cb2bf9aaa95d0f060d68e374"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87dfea521a07d8f86f332c4a3d445456"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacexgboost_1_1common.html#a659d2e20f1db9b6ff911739494c2982b">GlobalRandomEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexgboost_1_1common.html#a87dfea521a07d8f86f332c4a3d445456">GlobalRandom</a> ()</td></tr>
-<tr class="memdesc:a87dfea521a07d8f86f332c4a3d445456"><td class="mdescLeft">&#160;</td><td class="mdescRight">global singleton of a random engine. This random engine is thread-local and only visible to current thread.  <a href="#a87dfea521a07d8f86f332c4a3d445456">More...</a><br /></td></tr>
-<tr class="separator:a87dfea521a07d8f86f332c4a3d445456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a5d87649c15bfe11a708593c7178d183c"></a>
@@ -331,6 +346,18 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Define mt19937 as default type Random Engine. </p>
+
+</div>
+</div>
+<a class="anchor" id="a04db308ad554151c2cf6b35ec5823a59"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef dmlc::ThreadLocalStore&lt;<a class="el" href="structxgboost_1_1common_1_1RandomThreadLocalEntry.html">RandomThreadLocalEntry</a>&gt; <a class="el" href="namespacexgboost_1_1common.html#a04db308ad554151c2cf6b35ec5823a59">xgboost::common::RandomThreadLocalStore</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -404,6 +431,152 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a0a5c6225ad73e7bac6cf96d481d0e753"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;unsigned&gt; &gt; xgboost::common::FastFeatureGrouping </td>
+          <td>(</td>
+          <td class="paramtype">const GHistIndexMatrix &amp;&#160;</td>
+          <td class="paramname"><em>gmat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ColumnMatrix &amp;&#160;</td>
+          <td class="paramname"><em>colmat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structxgboost_1_1tree_1_1FastHistParam.html">FastHistParam</a> &amp;&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4987c0915d46688806961bd908996588"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;unsigned&gt; &gt; xgboost::common::FindGroups </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; unsigned &gt; &amp;&#160;</td>
+          <td class="paramname"><em>feature_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>feature_nnz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ColumnMatrix &amp;&#160;</td>
+          <td class="paramname"><em>colmat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nrow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structxgboost_1_1tree_1_1FastHistParam.html">FastHistParam</a> &amp;&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab9d9141bfcdda2b0b46b56bc1f817733"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;unsigned&gt; &gt; xgboost::common::FindGroups_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; unsigned &gt; &amp;&#160;</td>
+          <td class="paramname"><em>feature_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>feature_nnz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ColumnMatrix &amp;&#160;</td>
+          <td class="paramname"><em>colmat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nrow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structxgboost_1_1tree_1_1FastHistParam.html">FastHistParam</a> &amp;&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aeed6995bce8e5181c07b062fb730737a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -456,12 +629,12 @@ template&lt;typename Iterator &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a87dfea521a07d8f86f332c4a3d445456"></a>
+<a class="anchor" id="ae8668b306379889914ec947beeb35d24"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacexgboost_1_1common.html#a659d2e20f1db9b6ff911739494c2982b">GlobalRandomEngine</a>&amp; xgboost::common::GlobalRandom </td>
+          <td class="memname"><a class="el" href="namespacexgboost_1_1common.html#a659d2e20f1db9b6ff911739494c2982b">GlobalRandomEngine</a> &amp; xgboost::common::GlobalRandom </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -592,6 +765,42 @@ template&lt;typename Iterator &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a70148233ac66cd50438e8b094d7d8dca"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void xgboost::common::MarkUsed </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; bool &gt; *&#160;</td>
+          <td class="paramname"><em>p_mark</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Column&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>column</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -756,7 +965,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 5 2018 16:09:19 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 6 2018 15:06:48 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

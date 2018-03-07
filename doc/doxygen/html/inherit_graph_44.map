@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classxgboost_1_1HostDeviceVector.html" title="xgboost::HostDeviceVector\&lt; T \&gt;" alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node1" href="$classxgboost_1_1data_1_1SparsePage_1_1Format.html" title="Format specification of SparsePage. " alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1data_1_1SparsePageRawFormat.html" title="xgboost::data::SparsePage\lRawFormat" alt="" coords="233,5,413,47"/>
 </map>

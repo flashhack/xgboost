@@ -107,6 +107,13 @@ Include dependency graph for c_api.h:</div>
 <map name="include_2xgboost_2c__api_8h" id="include_2xgboost_2c__api_8h">
 </map>
 </div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="c__api_8h__dep__incl.png" border="0" usemap="#include_2xgboost_2c__api_8hdep" alt=""/></div>
+<map name="include_2xgboost_2c__api_8hdep" id="include_2xgboost_2c__api_8hdep">
+<area shape="rect" id="node2" href="c__api_8cc.html" title="src/c_api/c_api.cc" alt="" coords="5,155,133,181"/><area shape="rect" id="node3" href="c__api__error_8h.html" title="Error handling for C API. " alt="" coords="107,80,261,107"/><area shape="rect" id="node4" href="c__api__error_8cc.html" title="C error handling. " alt="" coords="158,155,319,181"/></map>
+</div>
 </div>
 <p><a href="c__api_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -160,22 +167,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a91d3ab5fa109f418a368d66ad2b99d3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a91d3ab5fa109f418a368d66ad2b99d3c">XGDMatrixCreateFromCSREx</a> (const size_t *indptr, const unsigned *indices, const float *data, size_t nindptr, size_t nelem, size_t num_col, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
 <tr class="memdesc:a91d3ab5fa109f418a368d66ad2b99d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a matrix content from CSR format  <a href="#a91d3ab5fa109f418a368d66ad2b99d3c">More...</a><br /></td></tr>
 <tr class="separator:a91d3ab5fa109f418a368d66ad2b99d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ba5eae115b1007ca3b230cd6deeeb9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a0ba5eae115b1007ca3b230cd6deeeb9c">XGDMatrixCreateFromCSR</a> (const <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *indptr, const unsigned *indices, const float *data, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> nindptr, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> nelem, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
+<tr class="memitem:a0ba5eae115b1007ca3b230cd6deeeb9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a0ba5eae115b1007ca3b230cd6deeeb9c">XGDMatrixCreateFromCSR</a> (const <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *indptr, const unsigned *indices, const float *data, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> nindptr, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> nelem, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
 <tr class="memdesc:a0ba5eae115b1007ca3b230cd6deeeb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a matrix content from CSR format  <a href="#a0ba5eae115b1007ca3b230cd6deeeb9c">More...</a><br /></td></tr>
 <tr class="separator:a0ba5eae115b1007ca3b230cd6deeeb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab56255281d1cc0dfb48e975522fdf01e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ab56255281d1cc0dfb48e975522fdf01e">XGDMatrixCreateFromCSCEx</a> (const size_t *col_ptr, const unsigned *indices, const float *data, size_t nindptr, size_t nelem, size_t num_row, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
 <tr class="memdesc:ab56255281d1cc0dfb48e975522fdf01e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a matrix content from CSC format  <a href="#ab56255281d1cc0dfb48e975522fdf01e">More...</a><br /></td></tr>
 <tr class="separator:ab56255281d1cc0dfb48e975522fdf01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaf2eca43ae4c85f67a1ee2477323ff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#afaf2eca43ae4c85f67a1ee2477323ff9">XGDMatrixCreateFromCSC</a> (const <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *col_ptr, const unsigned *indices, const float *data, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> nindptr, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> nelem, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
+<tr class="memitem:afaf2eca43ae4c85f67a1ee2477323ff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#afaf2eca43ae4c85f67a1ee2477323ff9">XGDMatrixCreateFromCSC</a> (const <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *col_ptr, const unsigned *indices, const float *data, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> nindptr, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> nelem, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
 <tr class="memdesc:afaf2eca43ae4c85f67a1ee2477323ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a matrix content from CSC format  <a href="#afaf2eca43ae4c85f67a1ee2477323ff9">More...</a><br /></td></tr>
 <tr class="separator:afaf2eca43ae4c85f67a1ee2477323ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a079f830cb972df70c7f50fb91678d62f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a079f830cb972df70c7f50fb91678d62f">XGDMatrixCreateFromMat</a> (const float *data, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> nrow, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> ncol, float missing, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
+<tr class="memitem:a079f830cb972df70c7f50fb91678d62f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a079f830cb972df70c7f50fb91678d62f">XGDMatrixCreateFromMat</a> (const float *data, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> nrow, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> ncol, float missing, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
 <tr class="memdesc:a079f830cb972df70c7f50fb91678d62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">create matrix content from dense matrix  <a href="#a079f830cb972df70c7f50fb91678d62f">More...</a><br /></td></tr>
 <tr class="separator:a079f830cb972df70c7f50fb91678d62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac918f9a190f29c48cd93b1493228e3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ac918f9a190f29c48cd93b1493228e3e2">XGDMatrixCreateFromMat_omp</a> (const float *data, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> nrow, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> ncol, float missing, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out, int nthread)</td></tr>
+<tr class="memitem:ac918f9a190f29c48cd93b1493228e3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ac918f9a190f29c48cd93b1493228e3e2">XGDMatrixCreateFromMat_omp</a> (const float *data, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> nrow, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> ncol, float missing, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out, int nthread)</td></tr>
 <tr class="memdesc:ac918f9a190f29c48cd93b1493228e3e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">create matrix content from dense matrix  <a href="#ac918f9a190f29c48cd93b1493228e3e2">More...</a><br /></td></tr>
 <tr class="separator:ac918f9a190f29c48cd93b1493228e3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6644c59c0f6ac4d95d02f55ec2e1d50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ad6644c59c0f6ac4d95d02f55ec2e1d50">XGDMatrixSliceDMatrix</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const int *idxset, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
+<tr class="memitem:ad6644c59c0f6ac4d95d02f55ec2e1d50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ad6644c59c0f6ac4d95d02f55ec2e1d50">XGDMatrixSliceDMatrix</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const int *idxset, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> *out)</td></tr>
 <tr class="memdesc:ad6644c59c0f6ac4d95d02f55ec2e1d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a new dmatrix from sliced content of existing matrix  <a href="#ad6644c59c0f6ac4d95d02f55ec2e1d50">More...</a><br /></td></tr>
 <tr class="separator:ad6644c59c0f6ac4d95d02f55ec2e1d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06a15433b01e3b8297930a38155e05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#af06a15433b01e3b8297930a38155e05d">XGDMatrixFree</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle)</td></tr>
@@ -184,28 +191,28 @@ Functions</h2></td></tr>
 <tr class="memitem:afa597c57c70bb96cbdbd801ec118e559"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#afa597c57c70bb96cbdbd801ec118e559">XGDMatrixSaveBinary</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *fname, int silent)</td></tr>
 <tr class="memdesc:afa597c57c70bb96cbdbd801ec118e559"><td class="mdescLeft">&#160;</td><td class="mdescRight">load a data matrix into binary file  <a href="#afa597c57c70bb96cbdbd801ec118e559">More...</a><br /></td></tr>
 <tr class="separator:afa597c57c70bb96cbdbd801ec118e559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef75cda93db3ae9af89e465ae7e9cbe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#aef75cda93db3ae9af89e465ae7e9cbe3">XGDMatrixSetFloatInfo</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, const float *array, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len)</td></tr>
+<tr class="memitem:aef75cda93db3ae9af89e465ae7e9cbe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#aef75cda93db3ae9af89e465ae7e9cbe3">XGDMatrixSetFloatInfo</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, const float *array, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len)</td></tr>
 <tr class="memdesc:aef75cda93db3ae9af89e465ae7e9cbe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set float vector to a content in info  <a href="#aef75cda93db3ae9af89e465ae7e9cbe3">More...</a><br /></td></tr>
 <tr class="separator:aef75cda93db3ae9af89e465ae7e9cbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77946329a69f160981e2fa20c9f71f1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a77946329a69f160981e2fa20c9f71f1b">XGDMatrixSetUIntInfo</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, const unsigned *array, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len)</td></tr>
+<tr class="memitem:a77946329a69f160981e2fa20c9f71f1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a77946329a69f160981e2fa20c9f71f1b">XGDMatrixSetUIntInfo</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, const unsigned *array, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len)</td></tr>
 <tr class="memdesc:a77946329a69f160981e2fa20c9f71f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set uint32 vector to a content in info  <a href="#a77946329a69f160981e2fa20c9f71f1b">More...</a><br /></td></tr>
 <tr class="separator:a77946329a69f160981e2fa20c9f71f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e42c7eb38906d21d6b81a23d86d5ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a1e42c7eb38906d21d6b81a23d86d5ae2">XGDMatrixSetGroup</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const unsigned *group, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len)</td></tr>
+<tr class="memitem:a1e42c7eb38906d21d6b81a23d86d5ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a1e42c7eb38906d21d6b81a23d86d5ae2">XGDMatrixSetGroup</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const unsigned *group, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len)</td></tr>
 <tr class="memdesc:a1e42c7eb38906d21d6b81a23d86d5ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set label of the training matrix  <a href="#a1e42c7eb38906d21d6b81a23d86d5ae2">More...</a><br /></td></tr>
 <tr class="separator:a1e42c7eb38906d21d6b81a23d86d5ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0ee317539a1fb1ce2b5f249e8c768f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ab0ee317539a1fb1ce2b5f249e8c768f6">XGDMatrixGetFloatInfo</a> (const <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const float **out_dptr)</td></tr>
+<tr class="memitem:ab0ee317539a1fb1ce2b5f249e8c768f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ab0ee317539a1fb1ce2b5f249e8c768f6">XGDMatrixGetFloatInfo</a> (const <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const float **out_dptr)</td></tr>
 <tr class="memdesc:ab0ee317539a1fb1ce2b5f249e8c768f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get float info vector from matrix  <a href="#ab0ee317539a1fb1ce2b5f249e8c768f6">More...</a><br /></td></tr>
 <tr class="separator:ab0ee317539a1fb1ce2b5f249e8c768f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada22558c862cb894df0926503ac0deb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ada22558c862cb894df0926503ac0deb7">XGDMatrixGetUIntInfo</a> (const <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const unsigned **out_dptr)</td></tr>
+<tr class="memitem:ada22558c862cb894df0926503ac0deb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ada22558c862cb894df0926503ac0deb7">XGDMatrixGetUIntInfo</a> (const <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, const char *field, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const unsigned **out_dptr)</td></tr>
 <tr class="memdesc:ada22558c862cb894df0926503ac0deb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get uint32 info vector from matrix  <a href="#ada22558c862cb894df0926503ac0deb7">More...</a><br /></td></tr>
 <tr class="separator:ada22558c862cb894df0926503ac0deb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e83e2de0e47c3f95962bd6ed32ee275"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a9e83e2de0e47c3f95962bd6ed32ee275">XGDMatrixNumRow</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out)</td></tr>
+<tr class="memitem:a9e83e2de0e47c3f95962bd6ed32ee275"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a9e83e2de0e47c3f95962bd6ed32ee275">XGDMatrixNumRow</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out)</td></tr>
 <tr class="memdesc:a9e83e2de0e47c3f95962bd6ed32ee275"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of rows.  <a href="#a9e83e2de0e47c3f95962bd6ed32ee275">More...</a><br /></td></tr>
 <tr class="separator:a9e83e2de0e47c3f95962bd6ed32ee275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20679db4b5ac28cb846d17389f4c720b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a20679db4b5ac28cb846d17389f4c720b">XGDMatrixNumCol</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out)</td></tr>
+<tr class="memitem:a20679db4b5ac28cb846d17389f4c720b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a20679db4b5ac28cb846d17389f4c720b">XGDMatrixNumCol</a> (<a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> handle, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out)</td></tr>
 <tr class="memdesc:a20679db4b5ac28cb846d17389f4c720b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get number of columns  <a href="#a20679db4b5ac28cb846d17389f4c720b">More...</a><br /></td></tr>
 <tr class="separator:a20679db4b5ac28cb846d17389f4c720b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9fe6f8c8c4901db1c7581a96a21f9ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ad9fe6f8c8c4901db1c7581a96a21f9ae">XGBoosterCreate</a> (const <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dmats[], <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len, <a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> *out)</td></tr>
+<tr class="memitem:ad9fe6f8c8c4901db1c7581a96a21f9ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ad9fe6f8c8c4901db1c7581a96a21f9ae">XGBoosterCreate</a> (const <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dmats[], <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len, <a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> *out)</td></tr>
 <tr class="memdesc:ad9fe6f8c8c4901db1c7581a96a21f9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">create xgboost learner  <a href="#ad9fe6f8c8c4901db1c7581a96a21f9ae">More...</a><br /></td></tr>
 <tr class="separator:ad9fe6f8c8c4901db1c7581a96a21f9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d816936b005a103f0deabf287a6a5da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a5d816936b005a103f0deabf287a6a5da">XGBoosterFree</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle)</td></tr>
@@ -217,13 +224,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a13594d68b27327db290ec5e0a0ac92ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a13594d68b27327db290ec5e0a0ac92ae">XGBoosterUpdateOneIter</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int iter, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dtrain)</td></tr>
 <tr class="memdesc:a13594d68b27327db290ec5e0a0ac92ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the model in one round using dtrain  <a href="#a13594d68b27327db290ec5e0a0ac92ae">More...</a><br /></td></tr>
 <tr class="separator:a13594d68b27327db290ec5e0a0ac92ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd4a42c38cfb16d2cf2a9cf5daba4e83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#afd4a42c38cfb16d2cf2a9cf5daba4e83">XGBoosterBoostOneIter</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dtrain, float *grad, float *hess, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len)</td></tr>
+<tr class="memitem:afd4a42c38cfb16d2cf2a9cf5daba4e83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#afd4a42c38cfb16d2cf2a9cf5daba4e83">XGBoosterBoostOneIter</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dtrain, float *grad, float *hess, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len)</td></tr>
 <tr class="memdesc:afd4a42c38cfb16d2cf2a9cf5daba4e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the model, by directly specify gradient and second order gradient, this can be used to replace UpdateOneIter, to support customized loss function  <a href="#afd4a42c38cfb16d2cf2a9cf5daba4e83">More...</a><br /></td></tr>
 <tr class="separator:afd4a42c38cfb16d2cf2a9cf5daba4e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a201b53edb9cc52e9def1ccea951d18fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a201b53edb9cc52e9def1ccea951d18fe">XGBoosterEvalOneIter</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int iter, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dmats[], const char *evnames[], <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len, const char **out_result)</td></tr>
+<tr class="memitem:a201b53edb9cc52e9def1ccea951d18fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a201b53edb9cc52e9def1ccea951d18fe">XGBoosterEvalOneIter</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int iter, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dmats[], const char *evnames[], <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len, const char **out_result)</td></tr>
 <tr class="memdesc:a201b53edb9cc52e9def1ccea951d18fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">get evaluation statistics for xgboost  <a href="#a201b53edb9cc52e9def1ccea951d18fe">More...</a><br /></td></tr>
 <tr class="separator:a201b53edb9cc52e9def1ccea951d18fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4988b95763f2ea3087b428b4d70ed3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a4988b95763f2ea3087b428b4d70ed3ac">XGBoosterPredict</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dmat, int option_mask, unsigned ntree_limit, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const float **out_result)</td></tr>
+<tr class="memitem:a4988b95763f2ea3087b428b4d70ed3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a4988b95763f2ea3087b428b4d70ed3ac">XGBoosterPredict</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="c__api_8h.html#a79787d32dbf589626a850cd9cd34dbe6">DMatrixHandle</a> dmat, int option_mask, unsigned ntree_limit, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const float **out_result)</td></tr>
 <tr class="memdesc:a4988b95763f2ea3087b428b4d70ed3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">make prediction based on dmat  <a href="#a4988b95763f2ea3087b428b4d70ed3ac">More...</a><br /></td></tr>
 <tr class="separator:a4988b95763f2ea3087b428b4d70ed3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a054571e6364f9a1cbf6b6b4fd2f156d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a054571e6364f9a1cbf6b6b4fd2f156d6">XGBoosterLoadModel</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *fname)</td></tr>
@@ -232,22 +239,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a197d1b017fe9e62785b82397eb6bb17c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a197d1b017fe9e62785b82397eb6bb17c">XGBoosterSaveModel</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *fname)</td></tr>
 <tr class="memdesc:a197d1b017fe9e62785b82397eb6bb17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">save model into existing file  <a href="#a197d1b017fe9e62785b82397eb6bb17c">More...</a><br /></td></tr>
 <tr class="separator:a197d1b017fe9e62785b82397eb6bb17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dd5bc1ae79d76cd6f14b48e5fc38ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a7dd5bc1ae79d76cd6f14b48e5fc38ad7">XGBoosterLoadModelFromBuffer</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const void *buf, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> len)</td></tr>
+<tr class="memitem:a7dd5bc1ae79d76cd6f14b48e5fc38ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a7dd5bc1ae79d76cd6f14b48e5fc38ad7">XGBoosterLoadModelFromBuffer</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const void *buf, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> len)</td></tr>
 <tr class="memdesc:a7dd5bc1ae79d76cd6f14b48e5fc38ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">load model from in memory buffer  <a href="#a7dd5bc1ae79d76cd6f14b48e5fc38ad7">More...</a><br /></td></tr>
 <tr class="separator:a7dd5bc1ae79d76cd6f14b48e5fc38ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a58a67fb98f55e8fb339e62ae748cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a9a58a67fb98f55e8fb339e62ae748cb2">XGBoosterGetModelRaw</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const char **out_dptr)</td></tr>
+<tr class="memitem:a9a58a67fb98f55e8fb339e62ae748cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a9a58a67fb98f55e8fb339e62ae748cb2">XGBoosterGetModelRaw</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const char **out_dptr)</td></tr>
 <tr class="memdesc:a9a58a67fb98f55e8fb339e62ae748cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">save model into binary raw bytes, return header of the array user must copy the result out, before next xgboost call  <a href="#a9a58a67fb98f55e8fb339e62ae748cb2">More...</a><br /></td></tr>
 <tr class="separator:a9a58a67fb98f55e8fb339e62ae748cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aade7f339255f6d859f5a005e13618861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#aade7f339255f6d859f5a005e13618861">XGBoosterDumpModel</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *fmap, int with_stats, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const char ***out_dump_array)</td></tr>
+<tr class="memitem:aade7f339255f6d859f5a005e13618861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#aade7f339255f6d859f5a005e13618861">XGBoosterDumpModel</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *fmap, int with_stats, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const char ***out_dump_array)</td></tr>
 <tr class="memdesc:aade7f339255f6d859f5a005e13618861"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump model, return array of strings representing model dump  <a href="#aade7f339255f6d859f5a005e13618861">More...</a><br /></td></tr>
 <tr class="separator:aade7f339255f6d859f5a005e13618861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac907db6f877984eaaaf2a2b783059288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ac907db6f877984eaaaf2a2b783059288">XGBoosterDumpModelEx</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *fmap, int with_stats, const char *format, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const char ***out_dump_array)</td></tr>
+<tr class="memitem:ac907db6f877984eaaaf2a2b783059288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ac907db6f877984eaaaf2a2b783059288">XGBoosterDumpModelEx</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *fmap, int with_stats, const char *format, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const char ***out_dump_array)</td></tr>
 <tr class="memdesc:ac907db6f877984eaaaf2a2b783059288"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump model, return array of strings representing model dump  <a href="#ac907db6f877984eaaaf2a2b783059288">More...</a><br /></td></tr>
 <tr class="separator:ac907db6f877984eaaaf2a2b783059288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c214d1afe52318d19abdf402b47285b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a7c214d1afe52318d19abdf402b47285b">XGBoosterDumpModelWithFeatures</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int fnum, const char **fname, const char **ftype, int with_stats, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const char ***out_models)</td></tr>
+<tr class="memitem:a7c214d1afe52318d19abdf402b47285b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a7c214d1afe52318d19abdf402b47285b">XGBoosterDumpModelWithFeatures</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int fnum, const char **fname, const char **ftype, int with_stats, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const char ***out_models)</td></tr>
 <tr class="memdesc:a7c214d1afe52318d19abdf402b47285b"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump model, return array of strings representing model dump  <a href="#a7c214d1afe52318d19abdf402b47285b">More...</a><br /></td></tr>
 <tr class="separator:a7c214d1afe52318d19abdf402b47285b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e033eb420efe78caa864fdfd7d766e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a8e033eb420efe78caa864fdfd7d766e0">XGBoosterDumpModelExWithFeatures</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int fnum, const char **fname, const char **ftype, int with_stats, const char *format, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const char ***out_models)</td></tr>
+<tr class="memitem:a8e033eb420efe78caa864fdfd7d766e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a8e033eb420efe78caa864fdfd7d766e0">XGBoosterDumpModelExWithFeatures</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int fnum, const char **fname, const char **ftype, int with_stats, const char *format, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const char ***out_models)</td></tr>
 <tr class="memdesc:a8e033eb420efe78caa864fdfd7d766e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump model, return array of strings representing model dump  <a href="#a8e033eb420efe78caa864fdfd7d766e0">More...</a><br /></td></tr>
 <tr class="separator:a8e033eb420efe78caa864fdfd7d766e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3cd08553c90cc445ff5f9ac1449ba31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#af3cd08553c90cc445ff5f9ac1449ba31">XGBoosterGetAttr</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *key, const char **out, int *success)</td></tr>
@@ -256,7 +263,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a41c3736c7badb3b663b8cc9a74778f48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a41c3736c7badb3b663b8cc9a74778f48">XGBoosterSetAttr</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, const char *key, const char *value)</td></tr>
 <tr class="memdesc:a41c3736c7badb3b663b8cc9a74778f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set or delete string attribute.  <a href="#a41c3736c7badb3b663b8cc9a74778f48">More...</a><br /></td></tr>
 <tr class="separator:a41c3736c7badb3b663b8cc9a74778f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3551f9e7712ab493a5020bd3b7fdf08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ad3551f9e7712ab493a5020bd3b7fdf08">XGBoosterGetAttrNames</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *out_len, const char ***out)</td></tr>
+<tr class="memitem:ad3551f9e7712ab493a5020bd3b7fdf08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#ad3551f9e7712ab493a5020bd3b7fdf08">XGBoosterGetAttrNames</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *out_len, const char ***out)</td></tr>
 <tr class="memdesc:ad3551f9e7712ab493a5020bd3b7fdf08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the names of all attribute from Booster.  <a href="#ad3551f9e7712ab493a5020bd3b7fdf08">More...</a><br /></td></tr>
 <tr class="separator:ad3551f9e7712ab493a5020bd3b7fdf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b998fef8c05fa4a1927a90398d35ea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__api_8h.html#a3b998fef8c05fa4a1927a90398d35ea7">XGBoosterLoadRabitCheckpoint</a> (<a class="el" href="c__api_8h.html#a1fc3d1f8c36fc9697960f27623139b7c">BoosterHandle</a> handle, int *version)</td></tr>
@@ -494,7 +501,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -533,7 +540,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>, </td>
         </tr>
         <tr>
@@ -588,7 +595,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -651,7 +658,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -727,7 +734,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -799,7 +806,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -864,7 +871,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>, </td>
         </tr>
         <tr>
@@ -985,7 +992,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -1028,7 +1035,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -1113,7 +1120,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -1204,7 +1211,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -1434,7 +1441,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int XGDMatrixCreateFromCSC </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>col_ptr</em>, </td>
         </tr>
         <tr>
@@ -1452,13 +1459,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>nindptr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>nelem</em>, </td>
         </tr>
         <tr>
@@ -1570,7 +1577,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="c__api_8h.html#a870e7e5793a32cdbe253c0849e125cbb">XGB_DLL</a> int XGDMatrixCreateFromCSR </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>indptr</em>, </td>
         </tr>
         <tr>
@@ -1588,13 +1595,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>nindptr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>nelem</em>, </td>
         </tr>
         <tr>
@@ -1805,13 +1812,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>nrow</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>ncol</em>, </td>
         </tr>
         <tr>
@@ -1862,13 +1869,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>nrow</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>ncol</em>, </td>
         </tr>
         <tr>
@@ -1951,7 +1958,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -2001,7 +2008,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out_len</em>, </td>
         </tr>
         <tr>
@@ -2045,7 +2052,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>
@@ -2081,7 +2088,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a> *&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>
@@ -2172,7 +2179,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -2216,7 +2223,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -2265,7 +2272,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -2309,7 +2316,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="c__api_8h.html#af2ebafb444c1efd63a2eae055aff9676">bst_ulong</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacexgboost.html#a11c5a4b35107cdad24b3d7488a071cc2">bst_ulong</a>&#160;</td>
           <td class="paramname"><em>len</em>, </td>
         </tr>
         <tr>
@@ -2343,7 +2350,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 5 2018 16:09:18 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 6 2018 15:06:48 for xgboost by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

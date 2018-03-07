@@ -1,9 +1,21 @@
 var searchData=
 [
-  ['data',['data',['../structxgboost_1_1SparseBatch_1_1Inst.html#a65a5f1e1c17661f83ea06ddee14adfeb',1,'xgboost::SparseBatch::Inst::data()'],['../structxgboost_1_1Predictor_1_1PredictionCacheEntry.html#a32026280a9071c2c3c9ade382f32f5e6',1,'xgboost::Predictor::PredictionCacheEntry::data()'],['../structxgboost_1_1common_1_1BitMap.html#a12b37502318e7a6cc1b7deb6e9c74a33',1,'xgboost::common::BitMap::data()'],['../structxgboost_1_1common_1_1WQSummary.html#a0aa73b87af9d7b7e1d17cf40e11f2231',1,'xgboost::common::WQSummary::data()'],['../structxgboost_1_1common_1_1GKSummary.html#aee6ca16887bfa5bfbe2e183c1703a993',1,'xgboost::common::GKSummary::data()'],['../classxgboost_1_1common_1_1QuantileSketchTemplate.html#aa4157533c7ec61664ba67fdd136e5d9e',1,'xgboost::common::QuantileSketchTemplate::data()']]],
-  ['data_5fptr',['data_ptr',['../structxgboost_1_1RowBatch.html#a02aeeeede0b716b860810998be0efd05',1,'xgboost::RowBatch']]],
-  ['debug_5fverbose',['debug_verbose',['../structxgboost_1_1common_1_1Monitor.html#a72f9e362d73d6a66dc73dec4c6797661',1,'xgboost::common::Monitor']]],
-  ['decodetable',['DecodeTable',['../namespacexgboost_1_1common_1_1base64.html#ab003b3a3f90e7d77a74ab735252b7216',1,'xgboost::common::base64']]],
-  ['deleted_5fnodes',['deleted_nodes',['../classxgboost_1_1TreeModel.html#a86a61d94ef8a444fca3d97932817b324',1,'xgboost::TreeModel']]],
-  ['dtype',['dtype',['../classxgboost_1_1common_1_1ColumnMatrix.html#a8d88e0d02cff957ae4cf75ea7239e6cb',1,'xgboost::common::ColumnMatrix']]]
+  ['cache_5f',['cache_',['../classxgboost_1_1Predictor.html#ab04f35888f6070131e8da4e521c51ce5',1,'xgboost::Predictor::cache_()'],['../classxgboost_1_1gbm_1_1GBLinear.html#ac8377149a9ff008b588eef0f2138604b',1,'xgboost::gbm::GBLinear::cache_()'],['../classxgboost_1_1gbm_1_1GBTree.html#a76a418916b9169ecb813f6f2b93a8ba4',1,'xgboost::gbm::GBTree::cache_()']]],
+  ['cache_5fdmatrix_5f',['cache_dmatrix_',['../classxgboost_1_1tree_1_1CQHistMaker.html#a62ad5c752cba4f22175432f788b856ce',1,'xgboost::tree::CQHistMaker']]],
+  ['cache_5fopt',['cache_opt',['../structxgboost_1_1tree_1_1TrainParam.html#aca6d3031920b1f014769b2f4df6d084c',1,'xgboost::tree::TrainParam']]],
+  ['cached_5fcut_5f',['cached_cut_',['../classxgboost_1_1tree_1_1GlobalProposalHistMaker.html#aae4ce0f368470373eb649d2e4ddf8368',1,'xgboost::tree::GlobalProposalHistMaker']]],
+  ['cached_5frptr_5f',['cached_rptr_',['../classxgboost_1_1tree_1_1GlobalProposalHistMaker.html#aba1558579f94b8184011cff712a0e04f',1,'xgboost::tree::GlobalProposalHistMaker']]],
+  ['cfg',['cfg',['../structxgboost_1_1CLIParam.html#a6a7da9866d6f7d7035e0701a540786a5',1,'xgboost::CLIParam::cfg()'],['../classxgboost_1_1gbm_1_1GBTree.html#a45f7ad4b51cd10aa4739b634d7f20329',1,'xgboost::gbm::GBTree::cfg()']]],
+  ['cfg_5f',['cfg_',['../classxgboost_1_1Booster.html#a841e8a7fbb3dd8c20b18c555cdfb8ac5',1,'xgboost::Booster::cfg_()'],['../classxgboost_1_1LearnerImpl.html#ac884392bf6e6cee59a2ed1eb5e5bbc42',1,'xgboost::LearnerImpl::cfg_()']]],
+  ['col_5fdata',['col_data',['../structxgboost_1_1ColBatch.html#a3ffd37fe2911822d488d096feb1d17f7',1,'xgboost::ColBatch']]],
+  ['col_5findex',['col_index',['../structxgboost_1_1ColBatch.html#ad7b8a7bfefbf29bccdb080c11cf94caf',1,'xgboost::ColBatch']]],
+  ['colmat_5fdtype',['colmat_dtype',['../structxgboost_1_1tree_1_1FastHistParam.html#a11154f11834793243f4b42816852c057',1,'xgboost::tree::FastHistParam']]],
+  ['colsample_5fbylevel',['colsample_bylevel',['../structxgboost_1_1tree_1_1TrainParam.html#adca6fb0ae8d5af861fb2c3cd55eeb331',1,'xgboost::tree::TrainParam']]],
+  ['colsample_5fbytree',['colsample_bytree',['../structxgboost_1_1tree_1_1TrainParam.html#acf3d367214dd514cc5b4ffdb72bb7dc0',1,'xgboost::tree::TrainParam']]],
+  ['column_5fmatrix_5f',['column_matrix_',['../classxgboost_1_1tree_1_1FastHistMaker.html#a245b68e685193f8d09c3f9f2c321842f',1,'xgboost::tree::FastHistMaker']]],
+  ['configured_5f',['configured_',['../classxgboost_1_1Booster.html#a1231bb174928421244abc33d9e845200',1,'xgboost::Booster']]],
+  ['constraints_5f',['constraints_',['../structxgboost_1_1tree_1_1ColMaker_1_1Builder.html#ae1b5c0a6c233ba2a6506a1a5acbc1b3d',1,'xgboost::tree::ColMaker::Builder::constraints_()'],['../structxgboost_1_1tree_1_1FastHistMaker_1_1Builder.html#a4c6df679ef04fd9d5198c1eaed08ace4',1,'xgboost::tree::FastHistMaker::Builder::constraints_()']]],
+  ['contain_5feval_5fmetrics',['contain_eval_metrics',['../structxgboost_1_1LearnerModelParam.html#a45b22415874507ff1e2774a2509187b2',1,'xgboost::LearnerModelParam']]],
+  ['contain_5fextra_5fattrs',['contain_extra_attrs',['../structxgboost_1_1LearnerModelParam.html#ac0532d2e614473080f59c0e11cac0cb7',1,'xgboost::LearnerModelParam']]],
+  ['cut',['cut',['../structxgboost_1_1common_1_1HistCutUnit.html#a18322cbac6048d0c4e437a8e5891023d',1,'xgboost::common::HistCutUnit::cut()'],['../structxgboost_1_1common_1_1HistCutMatrix.html#ace5a6958f15d851594f4f28d7300a66f',1,'xgboost::common::HistCutMatrix::cut()'],['../structxgboost_1_1common_1_1GHistIndexMatrix.html#a8fabcc483170d55112c5d254753661a3',1,'xgboost::common::GHistIndexMatrix::cut()'],['../structxgboost_1_1tree_1_1HistMaker_1_1HistUnit.html#a8bd7ce33f8fe174a1adacde5ecafd0fd',1,'xgboost::tree::HistMaker::HistUnit::cut()'],['../structxgboost_1_1tree_1_1HistMaker_1_1HistSet.html#a0573352e3a0eda3e77cdbffc580e0983',1,'xgboost::tree::HistMaker::HistSet::cut()'],['../structxgboost_1_1tree_1_1HistMaker_1_1ThreadWSpace.html#aef2804d50d6f7b51f0a7a09e0cb1fb18',1,'xgboost::tree::HistMaker::ThreadWSpace::cut()']]]
 ];
