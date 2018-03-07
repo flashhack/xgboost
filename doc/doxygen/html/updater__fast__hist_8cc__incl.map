@@ -1,0 +1,16 @@
+<map id="src/tree/updater_fast_hist.cc" name="src/tree/updater_fast_hist.cc">
+<area shape="rect" id="node3" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="587,169,742,196"/>
+<area shape="rect" id="node32" href="$param_8h.html" title="training parameters, statistics used to support tree construction. " alt="" coords="1159,251,1237,278"/>
+<area shape="rect" id="node33" href="$fast__hist__param_8h.html" title="./fast_hist_param.h" alt="" coords="1733,251,1866,278"/>
+<area shape="rect" id="node34" href="$random_8h.html" title="Utility related to random. " alt="" coords="1832,95,1975,121"/>
+<area shape="rect" id="node36" href="$bitmap_8h.html" title="a simple implement of bitmap NOTE: bitmap is only threadsafe per word access, remember this when usin..." alt="" coords="1733,333,1871,360"/>
+<area shape="rect" id="node37" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="2408,95,2535,121"/>
+<area shape="rect" id="node39" href="$hist__util_8h.html" title="Utilities to store histograms. " alt="" coords="1463,169,1607,196"/>
+<area shape="rect" id="node40" href="$row__set_8h.html" title="Quick Utility to compute subset of rows. " alt="" coords="1413,251,1492,278"/>
+<area shape="rect" id="node41" href="$column__matrix_8h.html" title="Utility for fast column&#45;wise access. " alt="" coords="1613,95,1797,121"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="871,408,941,435"/>
+<area shape="rect" id="node14" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="1061,333,1127,360"/>
+<area shape="rect" id="node18" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="424,251,529,278"/>
+<area shape="rect" id="node27" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="890,244,1037,285"/>
+<area shape="rect" id="node26" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="317,333,429,360"/>
+</map>

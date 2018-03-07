@@ -1,0 +1,6 @@
+<map id="xgboost::obj::LambdaRankObj" name="xgboost::obj::LambdaRankObj">
+<area shape="rect" id="node3" href="$classxgboost_1_1obj_1_1LambdaRankObjMAP.html" title="{xgboost::obj::LambdaRank\lObjMAP\n||# GetLambdaMAP()\l# GetMAPStats()\l# GetLambdaWeight()\l}" alt="" coords="5,417,183,539"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1obj_1_1LambdaRankObjNDCG.html" title="{xgboost::obj::LambdaRank\lObjNDCG\n||# GetLambdaWeight()\l# CalcDCG()\l}" alt="" coords="207,425,384,531"/>
+<area shape="rect" id="node5" href="$classxgboost_1_1obj_1_1PairwiseRankObj.html" title="{xgboost::obj::PairwiseRankObj\n||# GetLambdaWeight()\l}" alt="" coords="409,439,609,517"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1ObjFunction.html" title="interface of objective function " alt="" coords="222,5,369,200"/>
+</map>

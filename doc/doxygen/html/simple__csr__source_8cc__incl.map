@@ -1,0 +1,5 @@
+<map id="src/data/simple_csr_source.cc" name="src/data/simple_csr_source.cc">
+<area shape="rect" id="node4" href="$simple__csr__source_8h.html" title="The simplest form of data source, can be used to create DMatrix. This is an in&#45;memory data structure ..." alt="" coords="246,95,397,121"/>
+<area shape="rect" id="node5" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="471,244,582,271"/>
+<area shape="rect" id="node9" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="267,169,375,196"/>
+</map>

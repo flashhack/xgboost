@@ -1,0 +1,11 @@
+<map id="src/common/hist_util.cc" name="src/common/hist_util.cc">
+<area shape="rect" id="node5" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="138,80,207,107"/>
+<area shape="rect" id="node7" href="$random_8h.html" title="Utility related to random. " alt="" coords="267,80,351,107"/>
+<area shape="rect" id="node10" href="$column__matrix_8h.html" title="Utility for fast column&#45;wise access. " alt="" coords="444,80,571,107"/>
+<area shape="rect" id="node12" href="$hist__util_8h.html" title="Utilities to store histograms. " alt="" coords="397,155,476,181"/>
+<area shape="rect" id="node24" href="$quantile_8h.html" title="util to compute quantiles " alt="" coords="812,304,899,331"/>
+<area shape="rect" id="node23" href="$fast__hist__param_8h.html" title="../tree/fast_hist_param.h" alt="" coords="473,229,635,256"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="239,304,347,331"/>
+<area shape="rect" id="node21" href="$row__set_8h.html" title="Quick Utility to compute subset of rows. " alt="" coords="319,229,397,256"/>
+<area shape="rect" id="node18" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="475,379,545,405"/>
+</map>

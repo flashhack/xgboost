@@ -1,0 +1,8 @@
+<map id="src/tree/tree_updater.cc" name="src/tree/tree_updater.cc">
+<area shape="rect" id="node2" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="307,80,462,107"/>
+<area shape="rect" id="node26" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="1363,155,1510,196"/>
+<area shape="rect" id="node8" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="115,319,185,345"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="281,244,347,271"/>
+<area shape="rect" id="node17" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="589,162,695,189"/>
+<area shape="rect" id="node25" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="803,244,915,271"/>
+</map>

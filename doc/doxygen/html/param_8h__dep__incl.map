@@ -1,0 +1,10 @@
+<map id="src/tree/param.h" name="src/tree/param.h">
+<area shape="rect" id="node2" href="$tree__model_8cc.html" title="model structure for tree " alt="" coords="5,87,157,114"/>
+<area shape="rect" id="node3" href="$updater__basemaker-inl_8h.html" title="implement a common tree constructor " alt="" coords="181,80,365,121"/>
+<area shape="rect" id="node6" href="$updater__colmaker_8cc.html" title="use columnwise update to construct a tree " alt="" coords="390,87,581,114"/>
+<area shape="rect" id="node7" href="$updater__fast__hist_8cc.html" title="use quantized feature values to construct a tree " alt="" coords="605,80,747,121"/>
+<area shape="rect" id="node8" href="$updater__prune_8cc.html" title="prune a tree given the statistics " alt="" coords="771,87,941,114"/>
+<area shape="rect" id="node9" href="$updater__refresh_8cc.html" title="refresh the statistics and leaf value on the tree on the dataset " alt="" coords="966,87,1143,114"/>
+<area shape="rect" id="node4" href="$updater__histmaker_8cc.html" title="use histogram counting to construct a tree " alt="" coords="68,169,263,196"/>
+<area shape="rect" id="node5" href="$updater__skmaker_8cc.html" title="use approximation sketch to construct a tree, a refresh is needed to make the statistics exactly corr..." alt="" coords="287,169,475,196"/>
+</map>

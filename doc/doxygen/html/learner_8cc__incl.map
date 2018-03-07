@@ -1,0 +1,15 @@
+<map id="src/learner.cc" name="src/learner.cc">
+<area shape="rect" id="node4" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="1104,80,1227,107"/>
+<area shape="rect" id="node22" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="951,304,1097,345"/>
+<area shape="rect" id="node33" href="$common_8h.html" title="Common utilities. " alt="" coords="1259,80,1405,107"/>
+<area shape="rect" id="node34" href="$io_8h.html" title="general stream interface for serialization, I/O " alt="" coords="1847,80,1953,107"/>
+<area shape="rect" id="node36" href="$random_8h.html" title="Utility related to random. " alt="" coords="2129,80,2268,107"/>
+<area shape="rect" id="node38" href="$timer_8h.html" title="common/timer.h" alt="" coords="1853,311,1969,338"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="97,393,167,420"/>
+<area shape="rect" id="node14" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="800,155,867,181"/>
+<area shape="rect" id="node21" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="843,229,933,256"/>
+<area shape="rect" id="node27" href="$metric_8h.html" title="interface of evaluation metric function supported in xgboost. " alt="" coords="463,229,540,256"/>
+<area shape="rect" id="node18" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="220,311,287,338"/>
+<area shape="rect" id="node25" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="1172,311,1284,338"/>
+<area shape="rect" id="node35" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="1607,155,1676,181"/>
+</map>

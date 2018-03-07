@@ -1,0 +1,8 @@
+<map id="xgboost::gbm::GBLinear" name="xgboost::gbm::GBLinear">
+<area shape="rect" id="node2" href="$classxgboost_1_1GradientBooster.html" title="interface of gradient boosting model. " alt="" coords="5,375,224,643"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1gbm_1_1GBLinearModel.html" title="{xgboost::gbm::GBLinearModel\n|+ weight\l|+ LazyInitModel()\l+ Save()\l+ Load()\l+ bias()\l+ bias()\l+ operator[]()\l+ operator[]()\l}" alt="" coords="249,426,447,591"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1gbm_1_1GBLinearModelParam.html" title="{xgboost::gbm::GBLinearModel\lParam\n|+ num_feature\l+ num_output_group\l+ reserved\l|+ GBLinearModelParam()\l+ DMLC_DECLARE_PARAMETER()\l}" alt="" coords="221,161,456,297"/>
+<area shape="rect" id="node6" href="$structxgboost_1_1common_1_1Monitor.html" title="Timing utility used to measure total method execution time over the lifetime of the containing object..." alt="" coords="471,411,649,606"/>
+<area shape="rect" id="node7" href="$structxgboost_1_1common_1_1Timer.html" title="{xgboost::common::Timer\n|+ start\l+ elapsed\l|+ Timer()\l+ Reset()\l+ Start()\l+ Stop()\l+ ElapsedSeconds()\l+ PrintElapsed()\l}" alt="" coords="481,147,647,312"/>
+<area shape="rect" id="node8" href="$structxgboost_1_1gbm_1_1GBLinearTrainParam.html" title="{xgboost::gbm::GBLinearTrain\lParam\n|+ updater\l+ debug_verbose\l+ tolerance\l|+ DMLC_DECLARE_PARAMETER()\l}" alt="" coords="673,448,908,569"/>
+</map>

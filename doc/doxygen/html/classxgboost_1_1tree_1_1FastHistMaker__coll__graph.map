@@ -1,0 +1,9 @@
+<map id="xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;" name="xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;">
+<area shape="rect" id="node2" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="5,285,184,421"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1common_1_1ColumnMatrix.html" title="a collection of columns, with support for construction from GHistIndexMatrix. " alt="" coords="209,299,423,406"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1common_1_1GHistIndexBlockMatrix.html" title="{xgboost::common::GHistIndex\lBlockMatrix\n||+ Init()\l+ operator[]()\l+ GetNumBlock()\l}" alt="" coords="447,292,646,413"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1common_1_1HistCutMatrix.html" title="cut configuration for all the features " alt="" coords="661,5,838,141"/>
+<area shape="rect" id="node10" href="$structxgboost_1_1common_1_1GHistIndexMatrix.html" title="preprocessed global index matrix, in CSR format Transform floating values to integer index in histogr..." alt="" coords="767,277,966,428"/>
+<area shape="rect" id="node6" href="$structxgboost_1_1tree_1_1TrainParam.html" title="training parameters for regression tree " alt="" coords="991,204,1225,501"/>
+<area shape="rect" id="node8" href="$structxgboost_1_1tree_1_1FastHistParam.html" title="training parameters for histogram&#45;based training " alt="" coords="1249,285,1484,421"/>
+</map>

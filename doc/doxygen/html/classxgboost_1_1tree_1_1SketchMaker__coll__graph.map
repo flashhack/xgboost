@@ -1,0 +1,5 @@
+<map id="xgboost::tree::SketchMaker" name="xgboost::tree::SketchMaker">
+<area shape="rect" id="node2" href="$classxgboost_1_1tree_1_1BaseMaker.html" title="base tree maker class that defines common operation needed in tree making " alt="" coords="67,492,258,775"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="5,213,184,349"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1tree_1_1TrainParam.html" title="training parameters for regression tree " alt="" coords="208,132,443,429"/>
+</map>

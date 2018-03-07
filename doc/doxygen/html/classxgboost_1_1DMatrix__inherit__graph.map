@@ -1,0 +1,4 @@
+<map id="xgboost::DMatrix" name="xgboost::DMatrix">
+<area shape="rect" id="node2" href="$classxgboost_1_1data_1_1SimpleDMatrix.html" title="{xgboost::data::SimpleDMatrix\n||+ SimpleDMatrix()\l+ info()\l+ info()\l+ RowIterator()\l+ HaveColAccess()\l+ buffered_rowset()\l+ GetColSize()\l+ GetColDensity()\l+ ColIterator()\l+ ColIterator()\l+ InitColAccess()\l+ SingleColBlock()\l}" alt="" coords="5,380,200,619"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1data_1_1SparsePageDMatrix.html" title="{xgboost::data::SparsePage\lDMatrix\n|+ kPageSize\l+ kMaxRowPerBatch\l|+ SparsePageDMatrix()\l+ info()\l+ info()\l+ RowIterator()\l+ HaveColAccess()\l+ buffered_rowset()\l+ GetColSize()\l+ GetColDensity()\l+ SingleColBlock()\l+ ColIterator()\l+ ColIterator()\l+ InitColAccess()\l}" alt="" coords="225,365,405,633"/>
+</map>

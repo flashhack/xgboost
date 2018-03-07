@@ -1,0 +1,8 @@
+<map id="src/data/simple_dmatrix.cc" name="src/data/simple_dmatrix.cc">
+<area shape="rect" id="node2" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="277,229,385,256"/>
+<area shape="rect" id="node15" href="$simple__dmatrix_8h.html" title="In&#45;memory version of DMatrix. " alt="" coords="425,80,554,107"/>
+<area shape="rect" id="node21" href="$random_8h.html" title="Utility related to random. " alt="" coords="105,80,247,107"/>
+<area shape="rect" id="node23" href="$group__data_8h.html" title="this file defines utils to group data by integer keys Input: given input sequence (key..." alt="" coords="759,80,921,107"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="204,304,273,331"/>
+<area shape="rect" id="node17" href="$sparse__batch__page_8h.html" title="./sparse_batch_page.h" alt="" coords="591,155,745,181"/>
+</map>

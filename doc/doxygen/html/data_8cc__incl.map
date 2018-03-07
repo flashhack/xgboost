@@ -1,0 +1,10 @@
+<map id="src/data/data.cc" name="src/data/data.cc">
+<area shape="rect" id="node2" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="217,229,325,256"/>
+<area shape="rect" id="node16" href="$sparse__batch__page_8h.html" title="./sparse_batch_page.h" alt="" coords="595,155,749,181"/>
+<area shape="rect" id="node21" href="$simple__dmatrix_8h.html" title="In&#45;memory version of DMatrix. " alt="" coords="462,80,591,107"/>
+<area shape="rect" id="node22" href="$simple__csr__source_8h.html" title="The simplest form of data source, can be used to create DMatrix. This is an in&#45;memory data structure ..." alt="" coords="287,155,438,181"/>
+<area shape="rect" id="node23" href="$common_8h.html" title="Common utilities. " alt="" coords="1064,229,1213,256"/>
+<area shape="rect" id="node25" href="$io_8h.html" title="general stream interface for serialization, I/O " alt="" coords="955,155,1064,181"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="89,304,159,331"/>
+<area shape="rect" id="node26" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="1288,229,1357,256"/>
+</map>

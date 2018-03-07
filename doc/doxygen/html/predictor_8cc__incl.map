@@ -1,0 +1,9 @@
+<map id="src/predictor/predictor.cc" name="src/predictor/predictor.cc">
+<area shape="rect" id="node3" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="381,80,515,107"/>
+<area shape="rect" id="node4" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="99,393,210,420"/>
+<area shape="rect" id="node9" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="245,319,353,345"/>
+<area shape="rect" id="node17" href="$gbtree__model_8h.html" title="../../src/gbm/gbtree\l_model.h" alt="" coords="761,155,895,196"/>
+<area shape="rect" id="node27" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="1403,155,1549,196"/>
+<area shape="rect" id="node20" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="755,244,901,271"/>
+<area shape="rect" id="node26" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="529,319,641,345"/>
+</map>

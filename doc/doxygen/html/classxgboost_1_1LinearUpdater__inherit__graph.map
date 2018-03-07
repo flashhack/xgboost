@@ -1,0 +1,4 @@
+<map id="xgboost::LinearUpdater" name="xgboost::LinearUpdater">
+<area shape="rect" id="node2" href="$classxgboost_1_1linear_1_1CoordinateUpdater.html" title="Coordinate descent algorithm that updates one feature per iteration. " alt="" coords="5,175,183,325"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1linear_1_1ShotgunUpdater.html" title="{xgboost::linear::Shotgun\lUpdater\n|+ param\l|+ Init()\l+ Update()\l}" alt="" coords="207,197,370,303"/>
+</map>

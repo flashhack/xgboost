@@ -1,0 +1,6 @@
+<map id="xgboost::tree::GlobalProposalHistMaker&lt; TStats &gt;" name="xgboost::tree::GlobalProposalHistMaker&lt; TStats &gt;">
+<area shape="rect" id="node2" href="$classxgboost_1_1tree_1_1CQHistMaker.html" title="{xgboost::tree::CQHistMaker\l\&lt; TStats \&gt;\n|# cache_dmatrix_\l# feat_helper\l# feat2workindex\l# work_set\l# fsplit_set\l# thread_sketch\l# thread_stats\l# thread_hist\l# node_stats\l# summary_array\l# sreducer\l# sketchs\l|+ CQHistMaker()\l# InitWorkSet()\l# CreateHist()\l# ResetPositionAfterSplit()\l# ResetPosAndPropose()\l# UpdateHistCol()\l# UpdateSketchCol()\l}" alt="" coords="11,777,195,1119"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1tree_1_1HistMaker.html" title="{xgboost::tree::HistMaker\l\&lt; TStats \&gt;\n|# wspace\l# histred\l# fwork_set\l|+ Update()\l# Update()\l# ResetPosAndPropose()\l# InitWorkSet()\l# ResetPositionAfterSplit()\l# CreateHist()\l}" alt="" coords="15,535,190,729"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1tree_1_1BaseMaker.html" title="base tree maker class that defines common operation needed in tree making " alt="" coords="7,189,198,487"/>
+<area shape="rect" id="node5" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="13,5,192,141"/>
+</map>

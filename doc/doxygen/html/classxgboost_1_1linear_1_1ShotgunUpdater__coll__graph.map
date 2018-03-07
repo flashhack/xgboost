@@ -1,0 +1,4 @@
+<map id="xgboost::linear::ShotgunUpdater" name="xgboost::linear::ShotgunUpdater">
+<area shape="rect" id="node2" href="$classxgboost_1_1LinearUpdater.html" title="interface of linear updater " alt="" coords="5,147,161,268"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1linear_1_1ShotgunTrainParam.html" title="{xgboost::linear::Shotgun\lTrainParam\n|+ learning_rate\l+ reg_lambda\l+ reg_alpha\l|+ DMLC_DECLARE_PARAMETER()\l}" alt="" coords="186,147,421,268"/>
+</map>

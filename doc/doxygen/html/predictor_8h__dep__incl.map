@@ -1,0 +1,5 @@
+<map id="include/xgboost/predictor.h" name="include/xgboost/predictor.h">
+<area shape="rect" id="node2" href="$gbtree_8cc.html" title="gradient boosted tree implementation. " alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$cpu__predictor_8cc.html" title="src/predictor/cpu_predictor.cc" alt="" coords="157,80,351,107"/>
+<area shape="rect" id="node4" href="$predictor_8cc.html" title="src/predictor/predictor.cc" alt="" coords="376,80,543,107"/>
+</map>

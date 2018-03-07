@@ -1,0 +1,13 @@
+<map id="src/c_api/c_api.cc" name="src/c_api/c_api.cc">
+<area shape="rect" id="node2" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="523,326,631,353"/>
+<area shape="rect" id="node13" href="$learner_8h.html" title="Learner interface that integrates objective, gbm and evaluation together. This is the user facing XGB..." alt="" coords="1061,80,1184,107"/>
+<area shape="rect" id="node26" href="$c__api_8h.html" title="C API of XGBoost, used for interfacing to other languages. " alt="" coords="1987,155,2101,181"/>
+<area shape="rect" id="node33" href="$c__api__error_8h.html" title="Error handling for C API. " alt="" coords="1806,80,1911,107"/>
+<area shape="rect" id="node35" href="$simple__csr__source_8h.html" title="The simplest form of data source, can be used to create DMatrix. This is an in&#45;memory data structure ..." alt="" coords="195,229,322,271"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="397,408,467,435"/>
+<area shape="rect" id="node16" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="943,155,1009,181"/>
+<area shape="rect" id="node19" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="813,237,904,263"/>
+<area shape="rect" id="node25" href="$metric_8h.html" title="interface of evaluation metric function supported in xgboost. " alt="" coords="1084,237,1161,263"/>
+<area shape="rect" id="node20" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="707,319,853,360"/>
+<area shape="rect" id="node23" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="1517,326,1629,353"/>
+</map>

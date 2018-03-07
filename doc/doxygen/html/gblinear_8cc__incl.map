@@ -1,0 +1,11 @@
+<map id="src/gbm/gblinear.cc" name="src/gbm/gblinear.cc">
+<area shape="rect" id="node4" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="636,80,744,107"/>
+<area shape="rect" id="node25" href="$linear__updater_8h.html" title="xgboost/linear_updater.h" alt="" coords="920,155,1084,181"/>
+<area shape="rect" id="node30" href="$timer_8h.html" title="../common/timer.h" alt="" coords="1648,237,1776,263"/>
+<area shape="rect" id="node11" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="602,319,672,345"/>
+<area shape="rect" id="node15" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="333,237,400,263"/>
+<area shape="rect" id="node18" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="604,155,694,181"/>
+<area shape="rect" id="node19" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="112,229,258,271"/>
+<area shape="rect" id="node22" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="1258,237,1370,263"/>
+<area shape="rect" id="node26" href="$gblinear__model_8h.html" title="../../src/gbm/gblinear\l_model.h" alt="" coords="1091,229,1234,271"/>
+</map>

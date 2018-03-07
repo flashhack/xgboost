@@ -1,0 +1,8 @@
+<map id="src/gbm/gbm.cc" name="src/gbm/gbm.cc">
+<area shape="rect" id="node2" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="418,80,526,107"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="103,319,172,345"/>
+<area shape="rect" id="node14" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="311,237,377,263"/>
+<area shape="rect" id="node17" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="381,155,472,181"/>
+<area shape="rect" id="node18" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="452,229,599,271"/>
+<area shape="rect" id="node21" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="908,237,1020,263"/>
+</map>

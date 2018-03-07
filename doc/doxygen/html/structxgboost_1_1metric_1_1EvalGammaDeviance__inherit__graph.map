@@ -1,0 +1,4 @@
+<map id="xgboost::metric::EvalGammaDeviance" name="xgboost::metric::EvalGammaDeviance">
+<area shape="rect" id="node2" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="{xgboost::metric::EvalEWise\lBase\&lt; EvalGammaDeviance \&gt;\n||+ Eval()\l+ EvalRow()\l+ GetFinal()\l}" alt="" coords="5,175,204,296"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1Metric.html" title="interface of evaluation metric used to evaluate model performance. This has nothing to do with traini..." alt="" coords="49,5,161,127"/>
+</map>

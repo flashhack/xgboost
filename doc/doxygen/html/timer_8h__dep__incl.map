@@ -1,0 +1,6 @@
+<map id="src/common/timer.h" name="src/common/timer.h">
+<area shape="rect" id="node2" href="$gblinear_8cc.html" title="Implementation of Linear booster, with L1/L2 regularization: Elastic Net the update rule is parallel ..." alt="" coords="5,87,141,114"/>
+<area shape="rect" id="node3" href="$gbtree_8cc.html" title="gradient boosted tree implementation. " alt="" coords="166,87,293,114"/>
+<area shape="rect" id="node4" href="$learner_8cc.html" title="Implementation of learning algorithm. " alt="" coords="317,87,419,114"/>
+<area shape="rect" id="node5" href="$updater__coordinate_8cc.html" title="src/linear/updater\l_coordinate.cc" alt="" coords="443,80,565,121"/>
+</map>

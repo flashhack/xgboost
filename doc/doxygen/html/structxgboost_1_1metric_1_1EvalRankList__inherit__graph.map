@@ -1,0 +1,6 @@
+<map id="xgboost::metric::EvalRankList" name="xgboost::metric::EvalRankList">
+<area shape="rect" id="node3" href="$structxgboost_1_1metric_1_1EvalMAP.html" title="Mean Average Precision at N, for both classification and rank. " alt="" coords="5,381,179,473"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1metric_1_1EvalNDCG.html" title="NDCG: Normalized Discounted Cumulative Gain at N. " alt="" coords="203,373,384,480"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1metric_1_1EvalPrecision.html" title="Precision at N, for both classification and rank. " alt="" coords="409,381,607,473"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1Metric.html" title="interface of evaluation metric used to evaluate model performance. This has nothing to do with traini..." alt="" coords="237,5,349,127"/>
+</map>

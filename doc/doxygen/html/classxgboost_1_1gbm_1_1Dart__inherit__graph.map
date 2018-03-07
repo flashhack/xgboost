@@ -1,0 +1,4 @@
+<map id="xgboost::gbm::Dart" name="xgboost::gbm::Dart">
+<area shape="rect" id="node2" href="$classxgboost_1_1gbm_1_1GBTree.html" title="{xgboost::gbm::GBTree\n|# model_\l# tparam\l# cfg\l# updaters\l# cache_\l# predictor\l# monitor\l|+ GBTree()\l+ InitCache()\l+ Configure()\l+ Load()\l+ Save()\l+ AllowLazyCheckPoint()\l+ DoBoost()\l+ PredictBatch()\l+ PredictInstance()\l+ PredictLeaf()\l+ PredictContribution()\l+ PredictInteractionContributions()\l+ DumpModel()\l# InitUpdater()\l# BoostNewTrees()\l# CommitModel()\l}" alt="" coords="5,321,224,707"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1GradientBooster.html" title="interface of gradient boosting model. " alt="" coords="5,5,224,273"/>
+</map>

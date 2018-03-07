@@ -1,0 +1,4 @@
+<map id="xgboost::metric::EvalLogLoss" name="xgboost::metric::EvalLogLoss">
+<area shape="rect" id="node2" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="{xgboost::metric::EvalEWise\lBase\&lt; EvalLogLoss \&gt;\n||+ Eval()\l+ EvalRow()\l+ GetFinal()\l}" alt="" coords="11,175,193,296"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1Metric.html" title="interface of evaluation metric used to evaluate model performance. This has nothing to do with traini..." alt="" coords="46,5,158,127"/>
+</map>

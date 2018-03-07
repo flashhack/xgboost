@@ -1,0 +1,4 @@
+<map id="xgboost::metric::EvalPrecision" name="xgboost::metric::EvalPrecision">
+<area shape="rect" id="node2" href="$structxgboost_1_1metric_1_1EvalRankList.html" title="Evaluate rank list. " alt="" coords="7,175,202,325"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1Metric.html" title="interface of evaluation metric used to evaluate model performance. This has nothing to do with traini..." alt="" coords="49,5,161,127"/>
+</map>

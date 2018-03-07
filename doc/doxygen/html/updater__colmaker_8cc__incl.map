@@ -1,0 +1,12 @@
+<map id="src/tree/updater_colmaker.cc" name="src/tree/updater_colmaker.cc">
+<area shape="rect" id="node2" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="845,80,1000,107"/>
+<area shape="rect" id="node29" href="$param_8h.html" title="training parameters, statistics used to support tree construction. " alt="" coords="1121,162,1198,189"/>
+<area shape="rect" id="node30" href="$random_8h.html" title="Utility related to random. " alt="" coords="1418,80,1560,107"/>
+<area shape="rect" id="node32" href="$bitmap_8h.html" title="a simple implement of bitmap NOTE: bitmap is only threadsafe per word access, remember this when usin..." alt="" coords="1569,244,1708,271"/>
+<area shape="rect" id="node33" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="1834,80,1960,107"/>
+<area shape="rect" id="node8" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="680,319,749,345"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="794,244,861,271"/>
+<area shape="rect" id="node17" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="524,162,630,189"/>
+<area shape="rect" id="node26" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="1222,155,1369,196"/>
+<area shape="rect" id="node25" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="176,244,288,271"/>
+</map>

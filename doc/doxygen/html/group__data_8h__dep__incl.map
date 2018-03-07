@@ -1,0 +1,5 @@
+<map id="src/common/group_data.h" name="src/common/group_data.h">
+<area shape="rect" id="node2" href="$simple__dmatrix_8cc.html" title="the input data structure for gradient boosting " alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node3" href="$updater__histmaker_8cc.html" title="use histogram counting to construct a tree " alt="" coords="208,80,403,107"/>
+<area shape="rect" id="node4" href="$updater__skmaker_8cc.html" title="use approximation sketch to construct a tree, a refresh is needed to make the statistics exactly corr..." alt="" coords="427,80,615,107"/>
+</map>

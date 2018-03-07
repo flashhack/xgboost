@@ -1,0 +1,4 @@
+<map id="XGBAPIThreadLocalEntry" name="XGBAPIThreadLocalEntry">
+<area shape="rect" id="node2" href="$classxgboost_1_1HostDeviceVector.html" title="{xgboost::HostDeviceVector\l\&lt; bst_gpair \&gt;\n||+ HostDeviceVector()\l+ HostDeviceVector()\l+ HostDeviceVector()\l+ HostDeviceVector()\l+ HostDeviceVector()\l+ ~HostDeviceVector()\l+ operator=()\l+ operator=()\l+ size()\l+ device()\l+ ptr_d()\l+ ptr_h()\l+ data_h()\l+ resize()\l}" alt="" coords="5,5,184,288"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1HostDeviceVector.html" title="{xgboost::HostDeviceVector\l\&lt; bst_float \&gt;\n||+ HostDeviceVector()\l+ HostDeviceVector()\l+ HostDeviceVector()\l+ HostDeviceVector()\l+ HostDeviceVector()\l+ ~HostDeviceVector()\l+ operator=()\l+ operator=()\l+ size()\l+ device()\l+ ptr_d()\l+ ptr_h()\l+ data_h()\l+ resize()\l}" alt="" coords="208,5,387,288"/>
+</map>

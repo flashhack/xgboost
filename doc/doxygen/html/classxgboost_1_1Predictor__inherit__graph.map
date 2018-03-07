@@ -1,0 +1,3 @@
+<map id="xgboost::Predictor" name="xgboost::Predictor">
+<area shape="rect" id="node2" href="$classxgboost_1_1predictor_1_1CPUPredictor.html" title="{xgboost::predictor\l::CPUPredictor\n|+ thread_temp\l|+ PredictBatch()\l+ UpdatePredictionCache()\l+ PredictInstance()\l+ PredictLeaf()\l+ PredictContribution()\l+ PredictInteractionContributions()\l# InitThreadTemp()\l# PredLoopSpecalize()\l# PredLoopInternal()\l# PredictFromCache()\l# InitOutPredictions()\l# PredValue()\l}" alt="" coords="5,248,224,501"/>
+</map>

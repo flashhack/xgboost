@@ -1,0 +1,6 @@
+<map id="src/gbm/gbtree_model.h" name="src/gbm/gbtree_model.h">
+<area shape="rect" id="node2" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="150,80,329,107"/>
+<area shape="rect" id="node3" href="$gbtree_8cc.html" title="gradient boosted tree implementation. " alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node4" href="$cpu__predictor_8cc.html" title="src/predictor/cpu_predictor.cc" alt="" coords="157,155,351,181"/>
+<area shape="rect" id="node5" href="$predictor_8cc.html" title="src/predictor/predictor.cc" alt="" coords="376,155,543,181"/>
+</map>

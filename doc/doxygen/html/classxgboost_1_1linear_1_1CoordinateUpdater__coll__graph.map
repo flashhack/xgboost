@@ -1,0 +1,6 @@
+<map id="xgboost::linear::CoordinateUpdater" name="xgboost::linear::CoordinateUpdater">
+<area shape="rect" id="node2" href="$classxgboost_1_1LinearUpdater.html" title="interface of linear updater " alt="" coords="5,270,161,391"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1common_1_1Monitor.html" title="Timing utility used to measure total method execution time over the lifetime of the containing object..." alt="" coords="185,233,363,428"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1common_1_1Timer.html" title="{xgboost::common::Timer\n|+ start\l+ elapsed\l|+ Timer()\l+ Reset()\l+ Start()\l+ Stop()\l+ ElapsedSeconds()\l+ PrintElapsed()\l}" alt="" coords="191,5,357,171"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1linear_1_1CoordinateTrainParam.html" title="{xgboost::linear::Coordinate\lTrainParam\n|+ learning_rate\l+ reg_lambda\l+ reg_alpha\l+ feature_selector\l+ maximum_weight\l+ debug_verbose\l|+ DMLC_DECLARE_PARAMETER()\l}" alt="" coords="387,248,622,413"/>
+</map>

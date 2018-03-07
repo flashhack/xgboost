@@ -1,0 +1,10 @@
+<map id="xgboost::gbm::Dart" name="xgboost::gbm::Dart">
+<area shape="rect" id="node2" href="$classxgboost_1_1gbm_1_1GBTree.html" title="{xgboost::gbm::GBTree\n|# cfg\l# updaters\l# cache_\l# predictor\l|+ GBTree()\l+ InitCache()\l+ Configure()\l+ Load()\l+ Save()\l+ AllowLazyCheckPoint()\l+ DoBoost()\l+ PredictBatch()\l+ PredictInstance()\l+ PredictLeaf()\l+ PredictContribution()\l+ PredictInteractionContributions()\l+ DumpModel()\l# InitUpdater()\l# BoostNewTrees()\l# CommitModel()\l}" alt="" coords="459,749,677,1091"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1GradientBooster.html" title="interface of gradient boosting model. " alt="" coords="5,419,224,687"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1common_1_1Monitor.html" title="Timing utility used to measure total method execution time over the lifetime of the containing object..." alt="" coords="249,455,426,650"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1common_1_1Timer.html" title="{xgboost::common::Timer\n|+ start\l+ elapsed\l|+ Timer()\l+ Reset()\l+ Start()\l+ Stop()\l+ ElapsedSeconds()\l+ PrintElapsed()\l}" alt="" coords="254,169,421,334"/>
+<area shape="rect" id="node6" href="$structxgboost_1_1gbm_1_1GBTreeTrainParam.html" title="training parameters " alt="" coords="451,477,685,628"/>
+<area shape="rect" id="node8" href="$structxgboost_1_1gbm_1_1GBTreeModel.html" title="{xgboost::gbm::GBTreeModel\n|+ base_margin\l+ trees\l+ trees_to_update\l+ tree_info\l|+ GBTreeModel()\l+ Configure()\l+ InitTreesToUpdate()\l+ Load()\l+ Save()\l+ DumpModel()\l+ CommitModel()\l}" alt="" coords="710,448,898,657"/>
+<area shape="rect" id="node9" href="$structxgboost_1_1gbm_1_1GBTreeModelParam.html" title="model parameters " alt="" coords="691,147,925,356"/>
+<area shape="rect" id="node11" href="$structxgboost_1_1gbm_1_1DartTrainParam.html" title="training parameters " alt="" coords="799,837,1033,1003"/>
+</map>

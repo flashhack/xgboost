@@ -1,0 +1,4 @@
+<map id="xgboost::obj::LambdaRankObjMAP" name="xgboost::obj::LambdaRankObjMAP">
+<area shape="rect" id="node2" href="$classxgboost_1_1obj_1_1LambdaRankObj.html" title="{xgboost::obj::LambdaRankObj\n||+ Configure()\l+ GetGradient()\l+ DefaultEvalMetric()\l# GetLambdaWeight()\l}" alt="" coords="5,248,203,369"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1ObjFunction.html" title="interface of objective function " alt="" coords="31,5,177,200"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="src/gbm/gbtree.cc" name="src/gbm/gbtree.cc">
+<area shape="rect" id="node6" href="$gbm_8h.html" title="Interface of gradient booster, that learns through gradient statistics. " alt="" coords="825,80,933,107"/>
+<area shape="rect" id="node21" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="397,244,544,285"/>
+<area shape="rect" id="node26" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="381,80,515,107"/>
+<area shape="rect" id="node27" href="$gbtree__model_8h.html" title="../../src/gbm/gbtree\l_model.h" alt="" coords="1632,155,1765,196"/>
+<area shape="rect" id="node34" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="979,162,1133,189"/>
+<area shape="rect" id="node35" href="$common_8h.html" title="Common utilities. " alt="" coords="2256,333,2405,360"/>
+<area shape="rect" id="node37" href="$random_8h.html" title="Utility related to random. " alt="" coords="2445,80,2587,107"/>
+<area shape="rect" id="node39" href="$timer_8h.html" title="../common/timer.h" alt="" coords="2429,333,2557,360"/>
+<area shape="rect" id="node13" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="495,408,564,435"/>
+<area shape="rect" id="node17" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="693,333,760,360"/>
+<area shape="rect" id="node20" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="789,162,880,189"/>
+<area shape="rect" id="node24" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="1189,333,1301,360"/>
+<area shape="rect" id="node29" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="1539,251,1685,278"/>
+</map>

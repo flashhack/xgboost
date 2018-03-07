@@ -1,0 +1,4 @@
+<map id="xgboost::tree::SketchMaker" name="xgboost::tree::SketchMaker">
+<area shape="rect" id="node2" href="$classxgboost_1_1tree_1_1BaseMaker.html" title="base tree maker class that defines common operation needed in tree making " alt="" coords="5,189,196,487"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="11,5,190,141"/>
+</map>

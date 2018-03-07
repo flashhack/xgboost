@@ -1,0 +1,7 @@
+<map id="src/tree/tree_model.cc" name="src/tree/tree_model.cc">
+<area shape="rect" id="node2" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="595,80,741,107"/>
+<area shape="rect" id="node23" href="$param_8h.html" title="training parameters, statistics used to support tree construction. " alt="" coords="201,80,279,107"/>
+<area shape="rect" id="node11" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="396,229,465,256"/>
+<area shape="rect" id="node16" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="85,155,152,181"/>
+<area shape="rect" id="node21" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="933,155,1045,181"/>
+</map>

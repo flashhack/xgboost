@@ -1,0 +1,9 @@
+<map id="src/data/sparse_batch_page.h" name="src/data/sparse_batch_page.h">
+<area shape="rect" id="node2" href="$data_8cc.html" title="src/data/data.cc" alt="" coords="5,184,121,211"/>
+<area shape="rect" id="node3" href="$simple__dmatrix_8h.html" title="In&#45;memory version of DMatrix. " alt="" coords="101,102,273,129"/>
+<area shape="rect" id="node5" href="$sparse__page__dmatrix_8h.html" title="External&#45;memory version of DMatrix. " alt="" coords="298,95,445,136"/>
+<area shape="rect" id="node6" href="$sparse__page__raw__format_8cc.html" title="src/data/sparse_page\l_raw_format.cc" alt="" coords="469,95,615,136"/>
+<area shape="rect" id="node7" href="$sparse__page__source_8h.html" title="src/data/sparse_page\l_source.h" alt="" coords="639,95,786,136"/>
+<area shape="rect" id="node8" href="$sparse__page__writer_8cc.html" title="src/data/sparse_page\l_writer.cc" alt="" coords="810,95,957,136"/>
+<area shape="rect" id="node4" href="$simple__dmatrix_8cc.html" title="the input data structure for gradient boosting " alt="" coords="146,184,325,211"/>
+</map>

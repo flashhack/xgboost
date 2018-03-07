@@ -1,0 +1,9 @@
+<map id="src/objective/rank_obj.cc" name="src/objective/rank_obj.cc">
+<area shape="rect" id="node4" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="453,95,587,121"/>
+<area shape="rect" id="node22" href="$math_8h.html" title="additional math utils " alt="" coords="836,95,964,121"/>
+<area shape="rect" id="node24" href="$random_8h.html" title="Utility related to random. " alt="" coords="1294,95,1437,121"/>
+<area shape="rect" id="node10" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="649,177,716,203"/>
+<area shape="rect" id="node15" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="760,259,829,285"/>
+<area shape="rect" id="node18" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="41,169,188,211"/>
+<area shape="rect" id="node23" href="$avx__helpers_8h.html" title="avx_helpers.h" alt="" coords="919,177,1020,203"/>
+</map>

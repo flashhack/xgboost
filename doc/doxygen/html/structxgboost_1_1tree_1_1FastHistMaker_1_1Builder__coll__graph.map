@@ -1,0 +1,11 @@
+<map id="xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;::Builder" name="xgboost::tree::FastHistMaker&lt; TStats, TConstraint &gt;::Builder">
+<area shape="rect" id="node2" href="$classxgboost_1_1RegTree.html" title="define regression tree to be the most common tree model. This is the data structure used in xgboost&#39;s..." alt="" coords="16,802,229,982"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1TreeModel.html" title="{xgboost::TreeModel\l\&lt; bst_float, RTreeNodeStat \&gt;\n|# nodes\l# deleted_nodes\l# stats\l# leaf_vector\l|+ ChangeToLeaf()\l+ CollapseToLeaf()\l+ TreeModel()\l+ operator[]()\l+ operator[]()\l+ GetNodes()\l+ stat()\l+ stat()\l+ leafvec()\l+ leafvec()\land 9 more...\l# AllocNode()\l# DeleteNode()\l}" alt="" coords="27,375,218,687"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1TreeParam.html" title="meta parameters of the tree " alt="" coords="5,132,240,312"/>
+<area shape="rect" id="node6" href="$classxgboost_1_1common_1_1RowSetCollection.html" title="collection of rowset " alt="" coords="254,817,490,967"/>
+<area shape="rect" id="node7" href="$classxgboost_1_1DMatrix.html" title="Internal data structured used by XGBoost during training. There are two ways to create a customized D..." alt="" coords="515,736,651,1048"/>
+<area shape="rect" id="node8" href="$structxgboost_1_1tree_1_1TrainParam.html" title="training parameters for regression tree " alt="" coords="675,743,909,1041"/>
+<area shape="rect" id="node10" href="$classxgboost_1_1common_1_1HistCollection.html" title="histogram of gradient statistics for multiple nodes " alt="" coords="934,831,1149,953"/>
+<area shape="rect" id="node11" href="$structxgboost_1_1tree_1_1FastHistParam.html" title="training parameters for histogram&#45;based training " alt="" coords="1173,824,1408,960"/>
+<area shape="rect" id="node13" href="$classxgboost_1_1common_1_1GHistBuilder.html" title="builder for histograms of gradient statistics " alt="" coords="1433,831,1639,953"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="src/tree/updater_histmaker.cc" name="src/tree/updater_histmaker.cc">
+<area shape="rect" id="node2" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="1906,408,2017,435"/>
+<area shape="rect" id="node7" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="579,169,733,196"/>
+<area shape="rect" id="node29" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="2229,251,2355,278"/>
+<area shape="rect" id="node31" href="$quantile_8h.html" title="util to compute quantiles " alt="" coords="1833,251,1977,278"/>
+<area shape="rect" id="node33" href="$group__data_8h.html" title="this file defines utils to group data by integer keys Input: given input sequence (key..." alt="" coords="345,87,508,114"/>
+<area shape="rect" id="node34" href="$updater__basemaker-inl_8h.html" title="implement a common tree constructor " alt="" coords="1491,80,1635,121"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="1124,333,1191,360"/>
+<area shape="rect" id="node17" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="1105,251,1210,278"/>
+<area shape="rect" id="node26" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="241,244,388,285"/>
+<area shape="rect" id="node25" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="988,333,1100,360"/>
+<area shape="rect" id="node35" href="$param_8h.html" title="training parameters, statistics used to support tree construction. " alt="" coords="1339,251,1416,278"/>
+<area shape="rect" id="node36" href="$io_8h.html" title="general stream interface for serialization, I/O " alt="" coords="1659,169,1768,196"/>
+<area shape="rect" id="node37" href="$random_8h.html" title="Utility related to random. " alt="" coords="1491,169,1634,196"/>
+</map>

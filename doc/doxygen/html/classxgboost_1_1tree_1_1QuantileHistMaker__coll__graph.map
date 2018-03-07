@@ -1,0 +1,7 @@
+<map id="xgboost::tree::QuantileHistMaker&lt; TStats &gt;" name="xgboost::tree::QuantileHistMaker&lt; TStats &gt;">
+<area shape="rect" id="node2" href="$classxgboost_1_1tree_1_1HistMaker.html" title="{xgboost::tree::HistMaker\l\&lt; TStats \&gt;\n|# histred\l# fwork_set\l|+ Update()\l# Update()\l# ResetPosAndPropose()\l# InitWorkSet()\l# ResetPositionAfterSplit()\l# CreateHist()\l}" alt="" coords="186,837,361,1017"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1tree_1_1BaseMaker.html" title="base tree maker class that defines common operation needed in tree making " alt="" coords="21,492,211,775"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="5,213,184,349"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1tree_1_1TrainParam.html" title="training parameters for regression tree " alt="" coords="208,132,443,429"/>
+<area shape="rect" id="node7" href="$structxgboost_1_1tree_1_1HistMaker_1_1ThreadWSpace.html" title="{xgboost::tree::HistMaker\l\&lt; TStats \&gt;::ThreadWSpace\n|+ rptr\l+ cut\l+ hset\l|+ Init()\l+ Aggregate()\l+ Clear()\l+ Size()\l}" alt="" coords="236,551,417,716"/>
+</map>

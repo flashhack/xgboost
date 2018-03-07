@@ -1,0 +1,4 @@
+<map id="xgboost::obj::RegLossObj&lt; Loss &gt;" name="xgboost::obj::RegLossObj&lt; Loss &gt;">
+<area shape="rect" id="node2" href="$classxgboost_1_1ObjFunction.html" title="interface of objective function " alt="" coords="5,147,152,341"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1obj_1_1RegLossParam.html" title="{xgboost::obj::RegLossParam\n|+ scale_pos_weight\l|+ DMLC_DECLARE_PARAMETER()\l}" alt="" coords="176,205,411,283"/>
+</map>

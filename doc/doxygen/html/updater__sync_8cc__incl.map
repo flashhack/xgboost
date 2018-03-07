@@ -1,0 +1,10 @@
+<map id="src/tree/updater_sync.cc" name="src/tree/updater_sync.cc">
+<area shape="rect" id="node2" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="402,80,556,107"/>
+<area shape="rect" id="node29" href="$sync_8h.html" title="the synchronization module of rabit redirects to rabit header " alt="" coords="1584,244,1710,271"/>
+<area shape="rect" id="node31" href="$io_8h.html" title="general stream interface for serialization, I/O " alt="" coords="1390,162,1499,189"/>
+<area shape="rect" id="node8" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="484,319,554,345"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="348,244,415,271"/>
+<area shape="rect" id="node17" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="808,162,913,189"/>
+<area shape="rect" id="node26" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="52,155,199,196"/>
+<area shape="rect" id="node25" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="540,244,652,271"/>
+</map>

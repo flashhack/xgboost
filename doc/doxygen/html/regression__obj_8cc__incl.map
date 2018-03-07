@@ -1,0 +1,9 @@
+<map id="src/objective/regression_obj.cc" name="src/objective/regression_obj.cc">
+<area shape="rect" id="node4" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="425,169,558,196"/>
+<area shape="rect" id="node22" href="$math_8h.html" title="additional math utils " alt="" coords="914,169,1042,196"/>
+<area shape="rect" id="node23" href="$avx__helpers_8h.html" title="avx_helpers.h" alt="" coords="839,251,941,278"/>
+<area shape="rect" id="node24" href="$regression__loss_8h.html" title="./regression_loss.h" alt="" coords="1112,95,1244,121"/>
+<area shape="rect" id="node10" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="621,251,687,278"/>
+<area shape="rect" id="node15" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="855,333,925,360"/>
+<area shape="rect" id="node18" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="13,244,159,285"/>
+</map>

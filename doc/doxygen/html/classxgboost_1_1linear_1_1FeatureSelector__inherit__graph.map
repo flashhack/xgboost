@@ -1,0 +1,5 @@
+<map id="xgboost::linear::FeatureSelector" name="xgboost::linear::FeatureSelector">
+<area shape="rect" id="node2" href="$classxgboost_1_1linear_1_1CyclicFeatureSelector.html" title="Deterministic selection by cycling through coordinates one at a time. " alt="" coords="5,175,200,267"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1linear_1_1GreedyFeatureSelector.html" title="Select coordinate with the greatest gradient magnitude. " alt="" coords="225,175,426,267"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1linear_1_1RandomFeatureSelector.html" title="A random coordinate selector. " alt="" coords="450,175,657,267"/>
+</map>

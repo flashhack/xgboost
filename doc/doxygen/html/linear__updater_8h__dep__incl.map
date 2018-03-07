@@ -1,0 +1,6 @@
+<map id="include/xgboost/linear_updater.h" name="include/xgboost/linear_updater.h">
+<area shape="rect" id="node2" href="$gblinear_8cc.html" title="Implementation of Linear booster, with L1/L2 regularization: Elastic Net the update rule is parallel ..." alt="" coords="5,102,141,129"/>
+<area shape="rect" id="node3" href="$linear__updater_8cc.html" title="src/linear/linear_updater.cc" alt="" coords="165,102,344,129"/>
+<area shape="rect" id="node4" href="$updater__coordinate_8cc.html" title="src/linear/updater\l_coordinate.cc" alt="" coords="368,95,491,136"/>
+<area shape="rect" id="node5" href="$updater__shotgun_8cc.html" title="src/linear/updater\l_shotgun.cc" alt="" coords="515,95,637,136"/>
+</map>

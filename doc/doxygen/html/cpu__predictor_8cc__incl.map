@@ -1,0 +1,10 @@
+<map id="src/predictor/cpu_predictor.cc" name="src/predictor/cpu_predictor.cc">
+<area shape="rect" id="node2" href="$predictor_8h.html" title="Interface of predictor, performs predictions for a gradient booster. " alt="" coords="911,80,1044,107"/>
+<area shape="rect" id="node19" href="$tree__model_8h.html" title="model structure for tree " alt="" coords="559,251,705,278"/>
+<area shape="rect" id="node26" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="1592,244,1739,285"/>
+<area shape="rect" id="node29" href="$tree__updater_8h.html" title="General primitive for tree learning, Updating a collection of trees given the information. " alt="" coords="756,162,911,189"/>
+<area shape="rect" id="node3" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="45,408,155,435"/>
+<area shape="rect" id="node8" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="214,333,322,360"/>
+<area shape="rect" id="node16" href="$gbtree__model_8h.html" title="../../src/gbm/gbtree\l_model.h" alt="" coords="1065,155,1199,196"/>
+<area shape="rect" id="node25" href="$feature__map_8h.html" title="Feature map data structure to help visualization and model dump. " alt="" coords="1008,333,1120,360"/>
+</map>

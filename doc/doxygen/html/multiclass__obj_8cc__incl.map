@@ -1,0 +1,8 @@
+<map id="src/objective/multiclass_obj.cc" name="src/objective/multiclass_obj.cc">
+<area shape="rect" id="node5" href="$objective_8h.html" title="interface of objective function used by xgboost. " alt="" coords="416,95,549,121"/>
+<area shape="rect" id="node23" href="$math_8h.html" title="additional math utils " alt="" coords="817,95,945,121"/>
+<area shape="rect" id="node11" href="$data_8h.html" title="The input data structure of xgboost. " alt="" coords="612,177,678,203"/>
+<area shape="rect" id="node16" href="$base_8h.html" title="defines configuration macros of xgboost. " alt="" coords="828,259,897,285"/>
+<area shape="rect" id="node19" href="$host__device__vector_8h.html" title="A device&#45;and&#45;host vector abstraction layer. " alt="" coords="54,169,201,211"/>
+<area shape="rect" id="node24" href="$avx__helpers_8h.html" title="avx_helpers.h" alt="" coords="881,177,982,203"/>
+</map>

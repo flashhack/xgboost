@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classxgboost_1_1Predictor.html" title="Performs prediction on individual training instances or batches of instances for GBTree. The predictor also manages a prediction cache associated with input matrices. If possible, it will use previously calculated predictions instead of calculating new predictions. Prediction functions all take a GBTreeModel and a DMatrix as input and output a vector of predictions. The predictor does not modify any state of the model itself. " alt="" coords="5,13,133,39"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1predictor_1_1CPUPredictor.html" title="xgboost::predictor\l::CPUPredictor" alt="" coords="181,5,308,47"/>
+</map>

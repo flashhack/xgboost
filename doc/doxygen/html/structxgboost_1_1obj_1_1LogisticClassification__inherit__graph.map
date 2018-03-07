@@ -1,0 +1,3 @@
+<map id="xgboost::obj::LogisticClassification" name="xgboost::obj::LogisticClassification">
+<area shape="rect" id="node2" href="$structxgboost_1_1obj_1_1LogisticRegression.html" title="{xgboost::obj::LogisticRegression\n||+ PredTransform()\l+ CheckLabel()\l+ FirstOrderGradient()\l+ SecondOrderGradient()\l+ PredTransform()\l+ FirstOrderGradient()\l+ SecondOrderGradient()\l+ ProbToMargin()\l+ LabelErrorMsg()\l+ DefaultEvalMetric()\l}" alt="" coords="11,5,222,215"/>
+</map>

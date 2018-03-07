@@ -1,0 +1,15 @@
+<map id="xgboost::TreeUpdater" name="xgboost::TreeUpdater">
+<area shape="rect" id="node2" href="$classxgboost_1_1tree_1_1BaseMaker.html" title="base tree maker class that defines common operation needed in tree making " alt="" coords="313,189,503,487"/>
+<area shape="rect" id="node8" href="$classxgboost_1_1tree_1_1ColMaker.html" title="column&#45;wise update to construct a tree " alt="" coords="531,285,693,391"/>
+<area shape="rect" id="node10" href="$classxgboost_1_1tree_1_1FastHistMaker.html" title="construct a tree using quantized feature values " alt="" coords="717,219,907,457"/>
+<area shape="rect" id="node11" href="$classxgboost_1_1tree_1_1TreePruner.html" title="pruner that prunes a tree after growing finishes " alt="" coords="931,285,1101,391"/>
+<area shape="rect" id="node12" href="$classxgboost_1_1tree_1_1TreeRefresher.html" title="pruner that prunes a tree after growing finishs " alt="" coords="1125,285,1312,391"/>
+<area shape="rect" id="node13" href="$classxgboost_1_1tree_1_1TreeSyncher.html" title="syncher that synchronize the tree in all distributed nodes can implement various strategies, so far it is always set to node 0&#39;s tree " alt="" coords="1336,292,1515,384"/>
+<area shape="rect" id="node14" href="$classxgboost_1_1tree_1_1TreeUpdaterSwitch.html" title="{xgboost::tree::TreeUpdater\lSwitch\n||+ TreeUpdaterSwitch()\l+ Init()\l+ Update()\l}" alt="" coords="1539,277,1715,399"/>
+<area shape="rect" id="node3" href="$classxgboost_1_1tree_1_1HistMaker.html" title="{xgboost::tree::HistMaker\l\&lt; TStats \&gt;\n|# wspace\l# histred\l# fwork_set\l|+ Update()\l# Update()\l# ResetPosAndPropose()\l# InitWorkSet()\l# ResetPositionAfterSplit()\l# CreateHist()\l}" alt="" coords="118,535,293,729"/>
+<area shape="rect" id="node7" href="$classxgboost_1_1tree_1_1SketchMaker.html" title="{xgboost::tree::SketchMaker\n||+ Update()\l# Update()\l}" alt="" coords="317,586,499,678"/>
+<area shape="rect" id="node4" href="$classxgboost_1_1tree_1_1CQHistMaker.html" title="{xgboost::tree::CQHistMaker\l\&lt; TStats \&gt;\n|# cache_dmatrix_\l# feat_helper\l# feat2workindex\l# work_set\l# fsplit_set\l# thread_sketch\l# thread_stats\l# thread_hist\l# node_stats\l# summary_array\l# sreducer\l# sketchs\l|+ CQHistMaker()\l# InitWorkSet()\l# CreateHist()\l# ResetPositionAfterSplit()\l# ResetPosAndPropose()\l# UpdateHistCol()\l# UpdateSketchCol()\l}" alt="" coords="11,777,195,1119"/>
+<area shape="rect" id="node6" href="$classxgboost_1_1tree_1_1QuantileHistMaker.html" title="{xgboost::tree::QuantileHist\lMaker\&lt; TStats \&gt;\n||# ResetPosAndPropose()\l}" alt="" coords="219,902,397,994"/>
+<area shape="rect" id="node5" href="$classxgboost_1_1tree_1_1GlobalProposalHistMaker.html" title="{xgboost::tree::GlobalProposal\lHistMaker\&lt; TStats \&gt;\n|# cached_rptr_\l# cached_cut_\l|# ResetPosAndPropose()\l# CreateHist()\l}" alt="" coords="5,1167,200,1288"/>
+<area shape="rect" id="node9" href="$classxgboost_1_1tree_1_1DistColMaker.html" title="{xgboost::tree::DistColMaker\l\&lt; TStats, TConstraint \&gt;\n||+ DistColMaker()\l+ Init()\l+ Update()\l}" alt="" coords="524,571,708,693"/>
+</map>

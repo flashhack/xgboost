@@ -1,0 +1,32 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classxgboost_1_1Metric.html" title="interface of evaluation metric used to evaluate model performance. This has nothing to do with traini..." alt="" coords="5,503,117,530"/>
+<area shape="rect" id="node2" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalError \&gt;" alt="" coords="178,5,361,47"/>
+<area shape="rect" id="node4" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalGammaDeviance \&gt;" alt="" coords="170,71,369,112"/>
+<area shape="rect" id="node6" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalGammaNLogLik \&gt;" alt="" coords="173,136,366,177"/>
+<area shape="rect" id="node8" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalLogLoss \&gt;" alt="" coords="178,201,361,243"/>
+<area shape="rect" id="node10" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalMAE \&gt;" alt="" coords="178,267,361,308"/>
+<area shape="rect" id="node12" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalPoissonNegLogLik \&gt;" alt="" coords="165,332,373,373"/>
+<area shape="rect" id="node14" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalRMSE \&gt;" alt="" coords="178,397,361,439"/>
+<area shape="rect" id="node16" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="xgboost::metric::EvalEWise\lBase\&lt; EvalTweedieNLogLik \&gt;" alt="" coords="172,463,367,504"/>
+<area shape="rect" id="node18" href="$structxgboost_1_1metric_1_1EvalMClassBase.html" title="xgboost::metric::EvalMClass\lBase\&lt; EvalMatchError \&gt;" alt="" coords="175,528,363,569"/>
+<area shape="rect" id="node20" href="$structxgboost_1_1metric_1_1EvalMClassBase.html" title="xgboost::metric::EvalMClass\lBase\&lt; EvalMultiLogLoss \&gt;" alt="" coords="175,593,363,635"/>
+<area shape="rect" id="node22" href="$structxgboost_1_1metric_1_1EvalAMS.html" title="AMS: also records best threshold. " alt="" coords="183,659,356,686"/>
+<area shape="rect" id="node23" href="$structxgboost_1_1metric_1_1EvalAuc.html" title="Area Under Curve, for both classification and rank. " alt="" coords="186,710,353,737"/>
+<area shape="rect" id="node24" href="$structxgboost_1_1metric_1_1EvalCox.html" title="Cox: Partial likelihood of the Cox proportional hazards model. " alt="" coords="186,761,353,787"/>
+<area shape="rect" id="node25" href="$structxgboost_1_1metric_1_1EvalEWiseBase.html" title="base class of element&#45;wise evaluation " alt="" coords="178,812,361,853"/>
+<area shape="rect" id="node26" href="$structxgboost_1_1metric_1_1EvalMClassBase.html" title="base class of multi&#45;class evaluation " alt="" coords="175,877,363,919"/>
+<area shape="rect" id="node27" href="$structxgboost_1_1metric_1_1EvalRankList.html" title="Evaluate rank list. " alt="" coords="172,943,367,970"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1metric_1_1EvalError.html" title="xgboost::metric::EvalError" alt="" coords="435,13,607,39"/>
+<area shape="rect" id="node5" href="$structxgboost_1_1metric_1_1EvalGammaDeviance.html" title="xgboost::metric::EvalGamma\lDeviance" alt="" coords="425,71,616,112"/>
+<area shape="rect" id="node7" href="$structxgboost_1_1metric_1_1EvalGammaNLogLik.html" title="xgboost::metric::EvalGamma\lNLogLik" alt="" coords="425,136,616,177"/>
+<area shape="rect" id="node9" href="$structxgboost_1_1metric_1_1EvalLogLoss.html" title="xgboost::metric::EvalLogLoss" alt="" coords="424,209,617,235"/>
+<area shape="rect" id="node11" href="$structxgboost_1_1metric_1_1EvalMAE.html" title="xgboost::metric::EvalMAE" alt="" coords="434,274,607,301"/>
+<area shape="rect" id="node13" href="$structxgboost_1_1metric_1_1EvalPoissonNegLogLik.html" title="xgboost::metric::EvalPoisson\lNegLogLik" alt="" coords="425,332,616,373"/>
+<area shape="rect" id="node15" href="$structxgboost_1_1metric_1_1EvalRMSE.html" title="xgboost::metric::EvalRMSE" alt="" coords="429,405,612,431"/>
+<area shape="rect" id="node17" href="$structxgboost_1_1metric_1_1EvalTweedieNLogLik.html" title="xgboost::metric::EvalTweedie\lNLogLik" alt="" coords="425,463,616,504"/>
+<area shape="rect" id="node19" href="$structxgboost_1_1metric_1_1EvalMatchError.html" title="match error " alt="" coords="431,528,611,569"/>
+<area shape="rect" id="node21" href="$structxgboost_1_1metric_1_1EvalMultiLogLoss.html" title="match error " alt="" coords="435,593,607,635"/>
+<area shape="rect" id="node28" href="$structxgboost_1_1metric_1_1EvalMAP.html" title="Mean Average Precision at N, for both classification and rank. " alt="" coords="434,893,607,919"/>
+<area shape="rect" id="node29" href="$structxgboost_1_1metric_1_1EvalNDCG.html" title="NDCG: Normalized Discounted Cumulative Gain at N. " alt="" coords="430,943,611,970"/>
+<area shape="rect" id="node30" href="$structxgboost_1_1metric_1_1EvalPrecision.html" title="Precision at N, for both classification and rank. " alt="" coords="421,994,620,1021"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;" name="xgboost::tree::ColMaker&lt; TStats, TConstraint &gt;">
+<area shape="rect" id="node3" href="$classxgboost_1_1tree_1_1DistColMaker.html" title="{xgboost::tree::DistColMaker\l\&lt; TStats, TConstraint \&gt;\n||+ DistColMaker()\l+ Init()\l+ Update()\l}" alt="" coords="5,344,189,465"/>
+<area shape="rect" id="node2" href="$classxgboost_1_1TreeUpdater.html" title="interface of tree update module, that performs update of a tree. " alt="" coords="8,5,187,141"/>
+</map>

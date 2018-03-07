@@ -1,0 +1,6 @@
+<map id="src/tree/fast_hist_param.h" name="src/tree/fast_hist_param.h">
+<area shape="rect" id="node2" href="$hist__util_8h.html" title="Utilities to store histograms. " alt="" coords="65,95,219,121"/>
+<area shape="rect" id="node3" href="$column__matrix_8h.html" title="Utility for fast column&#45;wise access. " alt="" coords="169,169,363,196"/>
+<area shape="rect" id="node5" href="$updater__fast__hist_8cc.html" title="use quantized feature values to construct a tree " alt="" coords="195,244,337,285"/>
+<area shape="rect" id="node4" href="$hist__util_8cc.html" title="src/common/hist_util.cc" alt="" coords="5,251,167,278"/>
+</map>

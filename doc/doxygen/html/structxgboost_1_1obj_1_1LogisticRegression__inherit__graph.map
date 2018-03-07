@@ -1,0 +1,4 @@
+<map id="xgboost::obj::LogisticRegression" name="xgboost::obj::LogisticRegression">
+<area shape="rect" id="node2" href="$structxgboost_1_1obj_1_1LogisticClassification.html" title="{xgboost::obj::LogisticClassification\n||+ DefaultEvalMetric()\l}" alt="" coords="5,307,228,384"/>
+<area shape="rect" id="node3" href="$structxgboost_1_1obj_1_1LogisticRaw.html" title="{xgboost::obj::LogisticRaw\n||+ PredTransform()\l+ FirstOrderGradient()\l+ SecondOrderGradient()\l+ PredTransform()\l+ FirstOrderGradient()\l+ SecondOrderGradient()\l+ DefaultEvalMetric()\l}" alt="" coords="253,263,423,428"/>
+</map>

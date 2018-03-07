@@ -1,0 +1,9 @@
+<map id="src/common/math.h" name="src/common/math.h">
+<area shape="rect" id="node2" href="$elementwise__metric_8cc.html" title="evaluation metrics for elementwise binary or regression. " alt="" coords="5,80,161,121"/>
+<area shape="rect" id="node3" href="$multiclass__metric_8cc.html" title="evaluation metrics for multiclass classification. " alt="" coords="185,80,328,121"/>
+<area shape="rect" id="node4" href="$rank__metric_8cc.html" title="prediction rank based metrics. " alt="" coords="353,87,523,114"/>
+<area shape="rect" id="node5" href="$multiclass__obj_8cc.html" title="src/objective/multiclass\l_obj.cc" alt="" coords="547,80,705,121"/>
+<area shape="rect" id="node6" href="$rank__obj_8cc.html" title="src/objective/rank\l_obj.cc" alt="" coords="729,80,851,121"/>
+<area shape="rect" id="node7" href="$regression__loss_8h.html" title="src/objective/regression\l_loss.h" alt="" coords="876,80,1035,121"/>
+<area shape="rect" id="node8" href="$regression__obj_8cc.html" title="Definition of single&#45;value regression and classification objectives. " alt="" coords="935,169,1093,211"/>
+</map>
